@@ -1,4 +1,4 @@
-baseurl = "http://carette.xyz/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Free the malloc"
 theme = "ghostwriter"
