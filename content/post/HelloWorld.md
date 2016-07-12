@@ -7,4 +7,4 @@ title = "HelloWorld"
 
 +++
 
-Bonjour le monde!
+As we say in French: "Bonjour le monde!"
