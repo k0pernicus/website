@@ -1,3 +1,42 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://carette.xyz/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Free the malloc"
+theme = "ghostwriter"
+copyright = "Antonin Carette"
+
+[Author]
+	name = "Antonin Carette"
+
+[Taxonomies]
+	tag = "computer science"
+
+[Params]
+    intro = true
+    headline = "French. Hacker. Student."
+    description = "Personal blog and website."
+    github = "https://github.com/k0pernicus"
+    linkedin = "https://linkedin.com/in/antonin-carette-792bbb82"
+    twitter = "https://twitter.com/k0pernicus"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4
