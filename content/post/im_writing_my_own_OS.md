@@ -7,10 +7,10 @@ title = "I am writing my own OS"
 
 +++
 
-My fascination with computers turn faster as an obsession.
+My fascination with computers turned faster as an obsession.
 
-I'm verry obsessed with my machine.  
-No trick, I'm not feeling all right if I don't clean up my machine physically
+I'm obsessed with my machine.  
+Really, I'm not feeling all right if I don't clean up my machine physically
 every week, and if I don't reinstall a new clean operating system each 6 months.  
 Obviously, before each _clean install_, I overwrite my entire hard drive with 
 zeros... which takes me a full day for a 1 TB hard drive.
