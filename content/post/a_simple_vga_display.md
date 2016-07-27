@@ -18,7 +18,7 @@ our characters, one by one...
 So, actually, to display a simple "Hello world" in color green on backscreen black, the code is `0x026c026c02650248026f`.  
 Ugly? Yes!
 
-A solution proposed by Steve is to implement a macro which take as parameter a string and display on the screen that one.
+A solution proposed by Steve is to implement a macro which take as parameter a string and will save each character in the VGA's buffer.
 
 Let's try!
 
@@ -56,7 +56,7 @@ So, we will use `static`.
 Instead of `const`, `static` can be mutable - the advantage of this solution 
 is to have only one instance of this memory address, and a fixed location in memory.
 
-`static VGA: u64 = 0xb8000;`
+`static mut VGA: u64 = 0xb8000;`
 
 Also, I want to store the color of the text and the background to display on screen.
 
