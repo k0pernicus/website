@@ -72,7 +72,7 @@ To re-evaluate your results and your way to do something is essential, don't for
 Don't forget that focusing on your subject in your project is the most important thing you will have to do during your internship.  
 For me, this is my principle weakness, and it's **really** difficult for me to do just one thing at a time.
 
-_Finally_, if you're still interesting in working in research, I recommend you to read the following posts posts, wrote by two members of Inria's SPIRALS research group:
+_Finally_, if you're still interesting in working in research, I recommend you to read the following posts, wrote by two members of Inria's SPIRALS research group:
 
 *	"[The Skills You Learn in Research](http://www.monperrus.net/martin/research-skills)", by Martin Monperrus,
 *	"[Ongoing Research](http://www.lifl.fr/~rouvoy/research/index.html)", by Romain Rouvoy.
