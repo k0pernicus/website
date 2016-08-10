@@ -7,7 +7,9 @@ title = "Is Tay just a modern teen?"
 
 +++
 
+<center>
 ![Tay](/is_tay_just_a_modern_teen.jpeg)
+</center>
 
 ## Abstract
 

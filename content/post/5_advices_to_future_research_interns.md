@@ -7,6 +7,10 @@ title = "5 advices to future research interns"
 
 +++
 
+<center>
+![Post cover](/5_advices_to_future_research_interns_cover.jpg)
+</center>
+
 During undergraduate school, I completed 4 research internships and one research project.
 I learned a lot during those, especially how to reason in order to resolve a science problem.
 Most of my friends are continuing in PhD. I don't. Not because I'm fed up but unfortunately for personal motives.

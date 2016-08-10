@@ -7,7 +7,9 @@ title = "Choose the one"
 
 +++
 
+<center>
 ![Post cover](/choose_the_one_cover.jpeg)
+</center>
 
 ## Abstract
 

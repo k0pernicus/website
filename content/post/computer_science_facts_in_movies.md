@@ -7,7 +7,9 @@ title = "Computer science facts, in movies"
 
 +++
 
+<center>
 ![C++ code](/computer_science_facts_in_movies.png)
+</center>
 
 I love watching movies.
 I see almost four of five movies per week, without any subject restriction.  
