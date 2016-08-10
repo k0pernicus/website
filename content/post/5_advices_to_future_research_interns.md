@@ -7,9 +7,9 @@ title = "5 advices to future research interns"
 
 +++
 
-During my university years, I made 4 research internships and one research project.
-I learned a lot during these internships, especially how to reason to resolve a science problem.
-Most of my friends continue in PhD. I don't, for personal motive.
+During undergraduate school, I completed 4 research internships and one research project.
+I learned a lot during those, especially how to reason in order to resolve a science problem.
+Most of my friends are continuing in PhD. I don't. Not because I'm fed up but unfortunately for personal motives.
 
 Research projects are great for major things like: diversity, creativity, no pressure to develop a working prototype, to be part of the dynamic and awesome scientist community...  
 Really guys, **research is awesome**.
