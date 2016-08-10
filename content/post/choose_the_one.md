@@ -1,7 +1,7 @@
 +++
 author = "Antonin"
 date = "2016-03-30T01:40:25-04:00"
-description = "A post about programming languages..."
+description = "Brainfuck > ALL"
 tags = []
 title = "Choose the one"
 
