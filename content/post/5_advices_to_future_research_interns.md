@@ -64,17 +64,18 @@ Don't be afraid to make a mistake and to propose your ideas!
 Some important historical discoveries have been made by mistake.  
 Also, don't be afraid to discuss with some research people, especially in english to improve yourself in listening and speaking the language.
 
+Quoting Theodore Roosevelt, "*The only man who never makes a mistake is the man who never does anything*".
+
 ## Am I interesting in solving problems ?
 
 The last but **not the least**...
 
-Personaly, I love resolve problem and, when I just resolved it and have some results, I discuss about them and I make sure that I don't made any mistakes.
-
+Personaly, I love resolve problem and, when I just resolved it and have some results, I discuss about them and I make sure that I don't made any mistakes.  
 You just have some good results and made sure that there is no bugs in your program? So, your results _can be_ interesting, but they are fully truth (except if you can strongly prove it).  
 To re-evaluate your results and your way to do something is essential, don't forget it!
 
 Don't forget that focusing on your subject in your project is the most important thing you will have to do during your internship.  
-For me, this is my principle weakness, and it's **really** difficult for me to do just one thing at a time.
+For me, focusing on just one thing is my principle weakness.
 
 _Finally_, if you're still interesting in working in research, I recommend you to read the following posts, wrote by two members of Inria's SPIRALS research group:
 
