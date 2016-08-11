@@ -45,9 +45,11 @@ If you are afraid to read english papers, or if you find that read research pape
 Research is not for you.
 
 If your english is not so good but you are interesting in reading papers about interesting subjects or new fields, you can practice and improve yourself during this one.  
-My english is really poor, but I am persistent in improving myself everyday!
+My english is poor, but I am persistent in improving myself everyday!
 
-Reading papers and new proposals takes part of our (research people) daily life, and it has to be a pleasure to discover new things and make your own critical analysis of a subject.
+Reading papers and new proposals takes part of our (research people) daily life, and it has to be a pleasure to discover new things and make your own critical analysis of a subject.  
+Also, be warned about the possibility to write yourself a research paper.
+**Glory** and **suffering**...
 
 ## Am I interesting in working hard, harder and harder again... ?
 
