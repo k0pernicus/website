@@ -35,10 +35,8 @@ The research proposal is the first thing to check, and you have to ask yourself 
 *	Is this research domain totally new, the "new sexy" or already closed ?
 *	Am I interesting in working on a problem and, maybe, not found a solution in resolving it ?
 
-Also, if the research internship is in a foreign country, don't forget that can be hard to not see and your family and your friends during this one - really important.
-
-You can ask also if you have to work with an other intern on this project - teamwork can be cool, but also very painfull and can break your concentration and your motivation (_trust me_).
-
+If the research internship is in a foreign country, don't forget it can be difficult to be far away from your family and your friends.  
+You can ask also if you have to work with an other intern on this project - teamwork can be cool, but also very painfull and can break your concentration and your motivation (_trust me_).  
 Oh, and don't trust some research teams that can tell you during the internship interview: "Come on, you can be the next Steve Jobs!". You will not improve your commercial skills ;-)
 
 ## Do I have a good english level ?
@@ -54,7 +52,7 @@ Reading papers and new proposals takes part of our (research people) daily life,
 ## Am I interesting in working hard, harder and harder again... ?
 
 I remember the time that I worked 12 to 14 hours a day during the 3 last weeks of an internship to finish a research paper, collaborating with a PhD on it.  
-It was really hard, but I don't drop!
+It was really hard, but I didn't give up, especially because the subject was really interesting and the research team I worked with was cool!
 
 You **have** to be persistent and not be satisfied with the first best explanation!
 
@@ -70,7 +68,7 @@ Quoting Theodore Roosevelt, "*The only man who never makes a mistake is the man 
 
 The last but **not the least**...
 
-Personaly, I love resolve problem and, when I just resolved it and have some results, I discuss about them and I make sure that I don't made any mistakes.  
+Personally, I like solving problems and, when I just resolved it and have some results, I discuss about them and I make sure that I don't made any mistakes.  
 You just have some good results and made sure that there is no bugs in your program? So, your results _can be_ interesting, but they are fully truth (except if you can strongly prove it).  
 To re-evaluate your results and your way to do something is essential, don't forget it!
 
