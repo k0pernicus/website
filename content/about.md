@@ -16,8 +16,7 @@ You can download my resume in [French](/CV_Carette_Antonin_FR.pdf) and in [Engli
 
 /!\ Please notice that I'm in Montreal until September 2016 /!\\
 
-Few interesting links:
-
+### Few interesting links
 * [The Hacker's Manifesto](https://www.usc.edu/~douglast/202/lecture23/manifesto.html)
 * [Youtube - The Internet's Own Boy](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 * [Podcast - L'écho des Gnous](http://ludovic.grossard.fr/feed/podcast/lecho-des-gnous)
