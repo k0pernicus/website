@@ -13,7 +13,7 @@ title = "projects"
 
 # Internship & Presentations
 
-*	2016, Eco-design methods for Android's applications, [Latece team](http://www.latece.uqam.ca), UQAM (Canada)
+*	2016, [Eco-design of Android applications](/m2-mocad-internship.pdf), [Latece team](http://www.latece.uqam.ca), UQAM (Canada)
 *	2016, [State of art about energy consumption models, for mobile devices](/m2-mocad-projet.pdf), [Emeraude team](http://www.lifl.fr/emeraude/), IRCICA (France)
 *	2015, [Software development to study bugs propagation in Java applications](https://github.com/k0pernicus/PropL), [SequeL team](https://sequel.lille.inria.fr), INRIA (France)
 *	2015, [Serious-game development, based on distributed artificial intelligence](https://github.com/k0pernicus/PJI2015/blob/master/rapport/Rapport.pdf), [SMAC team](https://www.cristal.univ-lille.fr/?rubrique29&eid=17), CRIStAL (France)
