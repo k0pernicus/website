@@ -6,7 +6,7 @@ tags = ["android", "internship", "hotpepper", "hot", "pepper"]
 title = "The Hot-Pepper approach"
 
 +++
-_Note: These observations are reported in my research report [here](/m2-mocad/internship.pdf), and a research paper is currently drafted on this._
+_Note: These observations are reported in my research report [here](/m2-mocad-internship.pdf), and a research paper is currently drafted on this._
 
 During my final internship at [LATECE](http://www.latece.uqam.ca) in Montreal, I developed an approach, supported by a Python framework, to evaluate the energy consumption of Android bad practices, using the source code of the app.
 This approach is called _**Hot-Pepper**_.  
