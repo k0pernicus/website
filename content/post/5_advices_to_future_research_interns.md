@@ -3,7 +3,7 @@ author = "Antonin"
 date = "2016-08-10T10:36:51-04:00"
 description = "Welcome to the jungle"
 tags = ["research", "internship"]
-title = "5 advices to future research interns"
+title = "Five advices to future research interns"
 
 +++
 
