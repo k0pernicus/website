@@ -42,6 +42,6 @@ The second thing is that my demand to implement the framework with a new languag
 Also, I tried to develop a tool, called _**Ghost Pepper**_, which develop automatically interesting scenarios using user events, for a given Android app.  
 The development of this tool has been more problematic than previously thought, especially to maintain a good ratio between the exploitation and the exploration of the app (the tool uses a genetic algorithm to create a new scenario), and has not been fully tested to use _**Hot-Pepper**_ on selected apps.
 
-_**Hot-Pepper**_ takes me more less than 4 months to have some accurate and repeatable results.
+_**Hot-Pepper**_ takes me less than 4 months to have some accurate and repeatable results.
 
 Even if it works well, the approach may be improved, and I hope Android developers will use this approach to care about the energy consumption of their apps.
