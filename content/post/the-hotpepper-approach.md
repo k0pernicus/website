@@ -13,12 +13,16 @@ This approach is called _**Hot-Pepper**_.
 _**Hot-Pepper**_ helped us to find that 3 popular Android code smells may be considered as energy code smells: _HashMap Usage_, _Internal Getter/Setter_ and _Member Ignoring Method_.
 Also, it permits to evaluate picture practices, in terms of energy consumption, like formats (PNG vs JPEG), picture size (original JPEG and compressed JPEG, without degrading the quality of the picture) and picture bitmap formats to use (ARGB\_8888 vs RGB\_565).
 
+Using this approach, we improved the energy consumption of 5 popular Android apps.
+
 The approach is automated and really easy to use.  
-It requires:
+It required:
 
 * the original Android source code of the app,
 * a smartphone plugged to a measuring device (ammeter, voltmeter, ...),
 * a scenario based on user events ([Calabash](http://calaba.sh), [Robotium](http://robotium.com), ...).
+
+The output of this approach is the source code of the most energy-efficient Android app, and the associated APK to deploy it immediatly in popular app stores.
 
 _**Hot-Pepper**_ consists in 3 steps:
 
