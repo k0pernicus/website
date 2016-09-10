@@ -1,9 +1,9 @@
 +++
 description = "Beware trolls..."
 author = "Antonin"
-tags = ["personal", "os", "programming"]
-title = "why_i_cant_back_to_gnulinux_again"
-date = "2016-09-04T03:20:49+02:00"
+tags = ["personal", "os", "programming", "macos", "gnu", "linux"]
+title = "Why I can't back to a GNU/Linux distribution again"
+date = "2016-09-10T03:20:49+02:00"
 
 +++
 
@@ -16,6 +16,7 @@ I use _The Evil_ (little tribute to trolls...) everyday: a beautiful early-2013 
 And, you know what? I. LOVE. IT.
 
 Sometimes, people (mostly trolls) are screwing on me to use macOS instead of a GNU/Linux distribution, or just want to troll with this kind of thinking:
+
 >	C'mon on dude, you're a fucking programmer, you use bearded programs everyday...
 >	Why you're not on a GNU/Linux computer, eh!?
 >	Shame on you, loser...
@@ -23,10 +24,16 @@ Sometimes, people (mostly trolls) are screwing on me to use macOS instead of a G
 In fact, I used many GNU/Linux computers before.
 A lot of times, in many computers (laptops and PC).
 But, now, I can't back to a GNU/Linux distribution.  
-Before using the awesome machine, I was using for 10 years the following GNU/Linux distributions: Kubuntu (1 year - my first distribution), Debian (3 years), ArchLinux (5 years) and ElementaryOS (1 year).  
+Before using the awesome machine, I was using for 10 years the following GNU/Linux distributions:
+
+1.	Kubuntu (1 year - my first distribution),
+2.	Debian (3 years),
+3.	ArchLinux (5 years),
+4.	ElementaryOS (1 year).
+
 I think the evolution of those distributions shows that I was really fed-up using the console everyday to do simple stuff on ArchLinux, and I think that ElementaryOS is the best choice to use a GNU/Linux distribution with the friendliness of macOS.
 
-Based on those 4 GNU/Linux distributions, I can formulate 4 reasons that I can't switch back to GNU/Linux.
+Based on those 5 GNU/Linux distributions, I can formulate 4 reasons that I can't switch back to GNU/Linux.
 
 *	A GNU/Linux distribution is not as simple as macOS (even ElementaryOS),
 *	updates can kill easily your distribution (trust me, and it's really complicated to reinstall an OS 2 days before your final exam...),
