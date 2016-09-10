@@ -34,8 +34,8 @@ Based on those 4 GNU/Linux distributions, I can formulate 4 reasons that I can't
 *	the community is great, but not as great than the macOS community, according to the choosen distribution,
 *	the common use to work with macOS softwares, and the material (especially the battery life of Macbooks).
 
-So yeah, I choose to use macOS in daily life and program on it.
-It's ok, no problems using tools and the OS is great (I didn't reboot my machine since maybe 2 weeks now...).
-I'm not an Apple fanboy.
+So yeah, I choose to use macOS in daily life and program on it, and it's not a big deal - even Linus Torvalds, the leader and principal developer of the Linux kernel uses a Macbook air everyday!  
+I have no problems using some usefull softwares, and the OS is great (I didn't reboot my machine since maybe 2 weeks now...).
+Alos, I'm not an Apple fanboy.
 Really.
-But I just don't want to buy some expensive ultrabooks by Lenovo or Asus just to use 80% of the hardware correctly.
+But I just don't want to buy some expensive ultrabooks by Lenovo (like the Carbon X1) or Asus just to use 80% of the hardware correctly.
