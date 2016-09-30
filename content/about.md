@@ -11,7 +11,7 @@ title = "about"
 
 I'm <em>Antonin Carette</em>, a French computer developer, living in Lille.  
 I'm specialized in <em>machine learning</em>, <em>big data</em> and <em>optimization algorithms</em>.  
-I write code <em>[Rust](https://www.rust-lang.org)</em>, <em>[Golang](https://golang.org)</em>, <em>[Ocaml](http://ocaml.org/)</em> and (a few) <em>[Elixir](http://elixir-lang.org/)</em> code.  
+I write <em>[Rust](https://www.rust-lang.org)</em>, <em>[Golang](https://golang.org)</em>, <em>[Ocaml](http://ocaml.org/)</em> and (a few) <em>[Elixir](http://elixir-lang.org/)</em> code.  
 You can download my resume in [French](/CV_Carette_Antonin_FR.pdf) and in [English](/CV_Carette_Antonin_EN.pdf).  
 Also, you can contact me at _antonin[at]carette[dot]xyz_.
 

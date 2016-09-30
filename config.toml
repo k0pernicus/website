@@ -21,8 +21,8 @@ copyright = "Antonin Carette"
     post = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Blog"
+    url = "/"
     weight = 1
 
 [[menu.main]]
@@ -31,6 +31,6 @@ copyright = "Antonin Carette"
     weight = 2
 
 [[menu.main]]
-    name = "Blog"
-    url = "/post/"
+    name = "About"
+    url = "/about/"
     weight = 3
