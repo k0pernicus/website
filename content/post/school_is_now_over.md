@@ -47,6 +47,6 @@ To sum up, just scared to move off the research world I contributed on during al
 The positive thing here is that I am confident in my desire to make good things, the better as possible, and I'm sure that those scary _things_ will disappear at the end of the first week. :-) 
 
 So, my job starts Monday morning, and I will channel all my energie in developing strong and innovative things for the company. :-)  
-Also, I will use this opportunity to develop new relations with people, organize some events, propose to participat at meetups (I'm working on organizing the first Rust meetup in Lille), do sport (where are my rollerblades...?), see a lot of movies in theatre (just god my illimited card to go to the theatre :-p) and develop a personal project that can be really awesome next!
+Also, I will use this opportunity to develop new relations with people, organize some events, propose to participat at meetups (I'm working on organizing the first Rust meetup in Lille), do sport (where are my rollerblades...?), watch 3 movies per week at the movie theatre (just got my unlimited card :-p) and develop a personal project that can be really awesome next!
 
 Finaly, I think that the most appropriate title for this post must be: "_The Legend of k0pernicus: A New Exciting Adventure_"!
