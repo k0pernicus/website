@@ -10,6 +10,7 @@ title = "Projects and publications"
 # Papers
 
 *	2015, [A Learning Algorithm for Change Impact Prediction: Experimentation on 7 Java Applications](https://hal.inria.fr/hal-01279620) - [RAISE 2016](http://promisedata.org/raise/2016/)
+* 2016, Investigating the Energy Impact of Android Smells - _not published yet_
 
 # Internship & Presentations
 
