@@ -10,10 +10,11 @@ title = "Projects and publications"
 # Papers
 
 *	2015, [A Learning Algorithm for Change Impact Prediction: Experimentation on 7 Java Applications](https://hal.inria.fr/hal-01279620) - [RAISE 2016](http://promisedata.org/raise/2016/)
-* 2016, Investigating the Energy Impact of Android Smells - _submitted to [SANER 2017](http://saner.aau.at)_
+*   2016, Investigating the Energy Impact of Android Smells - _accepted to [SANER 2017](http://saner.aau.at)_
 
 # Internship & Presentations
 
+*   2016, [Why you should take a look at Rust](/rust_talk_derniercri_1412.pdf), [Dernier Cri](http://www.derniercri.io), Lille (France)  
 *	2016, [Eco-design of Android applications](/m2-mocad-internship.pdf), [Latece team](http://www.latece.uqam.ca), UQAM (Canada)
 *	2016, [State of art about energy consumption models, for mobile devices](/m2-mocad-projet.pdf), [Emeraude team](http://www.lifl.fr/emeraude/), IRCICA (France)
 *	2015, [Software development to study bugs propagation in Java applications](https://github.com/k0pernicus/PropL), [SequeL team](https://sequel.lille.inria.fr), INRIA (France)
