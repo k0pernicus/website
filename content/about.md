@@ -11,7 +11,8 @@ title = "about"
 
 I'm <em>Antonin Carette</em>, a French R&D engineer, working at the <b>awesome</b> startup <a href="http://derniercri.io">Dernier Cri</a> in <a href="https://fr.wikipedia.org/wiki/Lille">Lille</a>.  
 I'm specialized in <em>machine learning</em>, <em>big data</em> and <em>optimization algorithms</em>.  
-I write <em>[Rust](https://www.rust-lang.org)</em>, <em>[Ocaml](http://ocaml.org/)</em> and (a few) <em>[Elixir](http://elixir-lang.org/)</em> code.  
+I write <em>[Rust](https://www.rust-lang.org)</em>, <em>[Ocaml](http://ocaml.org/)</em> and (a few) <em>[Elixir](http://elixir-lang.org/)</em> code.
+Also, my main programming language (not my favorite) is <em>[Python](https://www.python.org/)</em>, and I try to make some "data science stuff" using <em>[Julia](http://julialang.org/)</em>.
 You can download my resume in [French](/CV_Carette_Antonin_FR.pdf) and in [English](/CV_Carette_Antonin_EN.pdf).  
 Also, you can contact me at _antonin[at]carette[dot]xyz_.
 
