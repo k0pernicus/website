@@ -2,7 +2,7 @@
 author = "k0pernicus"
 date = "2017-01-02T19:32:13+01:00"
 description = "current_year += 1;"
-title = "My new years resolutions"
+title = "My new year's resolutions"
 
 +++
 
