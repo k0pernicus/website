@@ -20,7 +20,7 @@ The both first distributions are known in the GNU/Linux universe - I think that 
 Otherwise, the last two are: an helper distribution to install easily an ArchLinux distribution, and a lightweight OS designed for providing infrastructure to clustered deployments.
 
 I am interesting about running containers on my desktop since I read some [blog posts from Jessie Frazelle](https://blog.jessfraz.com/), a software engineer at Google, and a maintainer of Docker.  
-Unfortunately, I do not feel really comfortable with the idea to use an OS that runs **only** Docker containers...
+Unfortunately, I do not feel really comfortable with the idea to use an OS that runs **only** Docker containers...  
 So, I tested AntergOS and... It works **really** great :-)
 
 I think actually that GNOME is a good desktop solution - I had some problems using KDE a few years, and it seems that Plasma is not stable yet.  
