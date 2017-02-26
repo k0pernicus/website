@@ -14,7 +14,8 @@ title = "Projects and publications"
 
 # Internship & Presentations
 
-*   2016, [Why you should take a look at Rust](/rust_talk_derniercri_1412.pdf), [Dernier Cri](http://www.derniercri.io), Lille (France)  
+* 2017, [Why you should take a look at Rust - LilleFP](/lillefp_rust_2302.pdf), [LilleFP Meetup](https://www.meetup.com/fr-FR/Lille-FP/events/237497716/), Lille (France)
+* 2016, [Why you should take a look at Rust](/rust_talk_derniercri_1412.pdf), [Dernier Cri](http://www.derniercri.io), Lille (France)  
 *	2016, [Eco-design of Android applications](/m2-mocad-internship.pdf), [Latece team](http://www.latece.uqam.ca), UQAM (Canada)
 *	2016, [State of art about energy consumption models, for mobile devices](/m2-mocad-projet.pdf), [Emeraude team](http://www.lifl.fr/emeraude/), IRCICA (France)
 *	2015, [Software development to study bugs propagation in Java applications](https://github.com/k0pernicus/PropL), [SequeL team](https://sequel.lille.inria.fr), INRIA (France)
