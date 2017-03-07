@@ -14,8 +14,10 @@ I'm specialized in <em>machine learning</em>, <em>big data</em> and <em>optimiza
 I write <em>[Rust](https://www.rust-lang.org)</em>, <em>[Ocaml](http://ocaml.org/)</em> and (a few) <em>[Elixir](http://elixir-lang.org/)</em> code.
 Also, my main programming language (not my favorite) is <em>[Python](https://www.python.org/)</em>, and I try to make some "data science stuff" using <em>[Julia](http://julialang.org/)</em>.  
 You can download my resume in [French](/CV_Carette_Antonin_FR.pdf) and in [English](/CV_Carette_Antonin_EN.pdf).  
-Also, you can contact me at _antonin[at]carette[dot]xyz_. My public PGP key is
-available [here](/antonin@carette.xyz.key).
+
+You can contact me at _antonin[at]carette[dot]xyz_.  
+My public <i>PGP key</i> is available [here](/antonin@carette.xyz.key).  
+Also, you can add me on <i>Keybase</i> [here](https://keybase.io/k0pernicus).
 
 ### Few interesting links
 * [The Hacker's Manifesto](https://www.usc.edu/~douglast/202/lecture23/manifesto.html)
