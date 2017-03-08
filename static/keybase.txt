@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/k0pernicus
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://carette.xyz
+  * I am k0pernicus (https://keybase.io/k0pernicus) on keybase.
+  * I have a public key ASAO3ib5aSTO6dEB9PNdicfOf3H-6gR2kWAjuIaTOXkUZwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01200ede26f96924cee9d101f4f35d89c7ce7f71feea0476916023b88693397914670a",
+            "host": "keybase.io",
+            "kid": "01200ede26f96924cee9d101f4f35d89c7ce7f71feea0476916023b88693397914670a",
+            "uid": "40944863ff49e5de66a994d4afbde219",
+            "username": "k0pernicus"
+        },
+        "service": {
+            "hostname": "carette.xyz",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1489016770,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1489016726,
+        "hash": "c1b4ba2bf344d7fa9851a60429584620f24568f10b4c38818bbd3242b773ed4d6e34db12b1102052855d0c5fc2449769f9ae93be8cca3eb4fac2c2b09fe7774b",
+        "seqno": 947357
+    },
+    "prev": "de2d133c26f0758e3639fa29fd9d39800491d6c85ad47143b1983dfc6762c921",
+    "seqno": 41,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgDt4m+WkkzunRAfTzXYnHzn9x/uoEdpFgI7iGkzl5FGcKp3BheWxvYWTFAvZ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMGVkZTI2Zjk2OTI0Y2VlOWQxMDFmNGYzNWQ4OWM3Y2U3ZjcxZmVlYTA0NzY5MTYwMjNiODg2OTMzOTc5MTQ2NzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMGVkZTI2Zjk2OTI0Y2VlOWQxMDFmNGYzNWQ4OWM3Y2U3ZjcxZmVlYTA0NzY5MTYwMjNiODg2OTMzOTc5MTQ2NzBhIiwidWlkIjoiNDA5NDQ4NjNmZjQ5ZTVkZTY2YTk5NGQ0YWZiZGUyMTkiLCJ1c2VybmFtZSI6ImswcGVybmljdXMifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImNhcmV0dGUueHl6IiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODkwMTY3NzAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4OTAxNjcyNiwiaGFzaCI6ImMxYjRiYTJiZjM0NGQ3ZmE5ODUxYTYwNDI5NTg0NjIwZjI0NTY4ZjEwYjRjMzg4MThiYmQzMjQyYjc3M2VkNGQ2ZTM0ZGIxMmIxMTAyMDUyODU1ZDBjNWZjMjQ0OTc2OWY5YWU5M2JlOGNjYTNlYjRmYWMyYzJiMDlmZTc3NzRiIiwic2Vxbm8iOjk0NzM1N30sInByZXYiOiJkZTJkMTMzYzI2ZjA3NThlMzYzOWZhMjlmZDlkMzk4MDA0OTFkNmM4NWFkNDcxNDNiMTk4M2RmYzY3NjJjOTIxIiwic2Vxbm8iOjQxLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQLleDKTy4RtllCGYckXguohuQ3cOsAkXecGe60iliVzvlJD25l9n8ZWTGJoxaDabFgrkmDWjVR3/ZyhZDlmAxA6oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCdF4Scf3Lt9lB4wR/XczGUNqE5ldcFfFIUA2N4GuPPU6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/k0pernicus
+
+==================================================================
+
