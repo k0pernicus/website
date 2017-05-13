@@ -9,8 +9,7 @@ title = "about"
 
 ## Hi!
 
-I am <em>Antonin Carette</em>, a French R&D engineer, working at the <b>awesome</b> startup [DernierCri](http://derniercri.io) in [Lille](https://fr.wikipedia.org/wiki/Lille).  
-Also, I am starting a PhD in Machine Learning and Software Engineering at the [SnT center of the University of Luxembourg](http://wwwen.uni.lu/snt), under the direction of Dr. [Jacques Klein](https://sites.google.com/site/jacqueskleinwebpage/) and Dr. [Tegawendé F. Bissyande](http://www.fasolabs.org/perso/bissyand/about.html).  
+I am <em>Antonin Carette</em>, a PhD student, in automatic classification of documents, at the [SnT center of the University of Luxembourg](http://wwwen.uni.lu/snt), under the direction of Dr. [Jacques Klein](https://sites.google.com/site/jacqueskleinwebpage/) and Dr. [Tegawendé F. Bissyande](http://www.fasolabs.org/perso/bissyand/about.html).  
 I am specialized in <em>machine learning</em>, <em>big data</em> and <em>optimization algorithms</em>.  
 I write <em>[Rust](https://www.rust-lang.org)</em>, <em>[Go](https://www.golang.org)</em> and <em>[Python](https://www.python.org)</em> code.  
 My resume is available in [French](/CV_Carette_Antonin_FR.pdf) and in [English](/CV_Carette_Antonin_EN.pdf).  
