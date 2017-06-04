@@ -9,7 +9,7 @@ title = "Projects and publications"
 
 # Books
 
-*   2017, [Mastering Rust, Vesa Kaihlavirta (PACKT)](https://www.packtpub.com/application-development/mastering-rust) - reviewer
+*   2017, [Mastering Rust, Vesa Kaihlavirta (PACKT)](https://www.packtpub.com/application-development/mastering-rust) - official reviewer
 
 # Research papers
 
