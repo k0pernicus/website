@@ -8,11 +8,11 @@ copyright = "Antonin Carette"
 	name = "Antonin Carette"
 
 [Taxonomies]
-	tag = "computer science"
+	tag = "computer science phd machine learning"
 
 [Params]
     intro = true
-    headline = "French. Hacker. Developer."
+    headline = "French. Hacker. PhD student."
     github = "https://github.com/k0pernicus"
     linkedin = "https://linkedin.com/in/antonin-carette-792bbb82"
     twitter = "https://twitter.com/k0pernicus"
@@ -26,7 +26,7 @@ copyright = "Antonin Carette"
     weight = 1
 
 [[menu.main]]
-    name = "Projects and publications"
+    name = "Projects/publications"
     url = "/projects_publications/"
     weight = 2
 
