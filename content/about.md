@@ -13,6 +13,7 @@ I am <em>Antonin Carette</em>, PhD student in automatic classification of docume
 I obtained my Master degree in <em>Machine Learning</em>, <em>Big Data</em> and <em>Optimization Algorithms</em>, in 2016 - University of Lille.
 
 Currently, I use...
+
 *   <em>[Rust](https://www.rust-lang.org)</em> (my favorite programming language),
 *   and <em>[Python](https://www.python.org)</em> (especially to design prototypes).
 
