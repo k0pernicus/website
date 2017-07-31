@@ -28,4 +28,4 @@ title = "Projects and publications"
 
 # Personal projects
 
-To see my personal projects, please to take a look at my [Github account](https://github.com/k0pernicus).
+Please to check my [Github account](https://github.com/k0pernicus).
