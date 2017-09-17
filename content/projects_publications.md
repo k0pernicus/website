@@ -11,6 +11,10 @@ title = "Projects and publications"
 
 *   2017, [Mastering Rust, Vesa Kaihlavirta (PACKT)](https://www.packtpub.com/application-development/mastering-rust) - official reviewer
 
+# Teaching Assistant
+
+*   2017/2018, Big Data courses, at University of Luxembourg. 
+
 # Research papers
 
 *   2016, [Investigating the Energy Impact of Android Smells](https://hal.inria.fr/hal-01403485) - _accepted to [SANER 2017](http://saner.aau.at)_
@@ -18,7 +22,7 @@ title = "Projects and publications"
 
 # Internship & Presentations
 
-*   2017, [Why you should take a look at Rust - LilleFP](/lillefp_rust_2302.pdf), [LilleFP Meetup](https://www.meetup.com/fr-FR/Lille-FP/events/237497716/), Lille (France)
+*   2017, [Why you should take a look at Rust](/lillefp_rust_2302.pdf), [LilleFP Meetup](https://www.meetup.com/fr-FR/Lille-FP/events/237497716/), Lille (France)
 *   2016, [Why you should take a look at Rust](/rust_talk_derniercri_1412.pdf), [Dernier Cri](http://www.derniercri.io), Lille (France)  
 *	2016, [Eco-design of Android applications](/m2-mocad-internship.pdf), [Latece team](http://www.latece.uqam.ca), UQAM (Canada)
 *	2016, [State of art about energy consumption models, for mobile devices](/m2-mocad-projet.pdf), [Emeraude team](http://www.lifl.fr/emeraude/), IRCICA (France)
