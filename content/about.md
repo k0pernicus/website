@@ -24,5 +24,6 @@ You can contact me at _antonin[at]carette[dot]xyz_.
 ## Interesting resources
 * [**[Manifesto]** - The Hacker's Manifesto](https://www.usc.edu/~douglast/202/lecture23/manifesto.html)
 * [**[Podcast]** - L'écho des Gnous (for French guys)](http://ludovic.grossard.fr/feed/podcast/lecho-des-gnous)
+* [**[Programming]** - Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
 * [**[Youtube]** - The Internet's Own Boy](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 * [**[Youtube]** - Russ Olsen, To The Moon!](https://www.youtube.com/watch?v=4Sso4HtvJsw)
