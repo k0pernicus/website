@@ -9,13 +9,19 @@ copyright = "Antonin Carette"
 
 [Taxonomies]
 	tag = "computer science phd machine learning"
+	category = "categories"
 
 [Params]
     intro = true
-    headline = "French. Hacker. PhD student."
+    headline = "French. PhD student. Hacker."
     github = "https://github.com/k0pernicus"
     linkedin = "https://linkedin.com/in/antonin-carette-792bbb82"
     twitter = "https://twitter.com/k0pernicus"
+    email = "antonin@carette.xyz"
+    shareTwitter = true
+    shareFacebook = false
+    shareLinkedin = true
+    shareGooglePlus = false
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
@@ -26,7 +32,7 @@ copyright = "Antonin Carette"
     weight = 1
 
 [[menu.main]]
-    name = "Projects/publications"
+    name = "Projects & Publications"
     url = "/projects_publications/"
     weight = 2
 
