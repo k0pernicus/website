@@ -13,25 +13,24 @@ Actually, the real complexity of C++ striked me when I took a look, weeks after,
 Discussing with engineers when I contributed to FirefoxOS, they told me that Mozilla was working on a new programming language, with the aim to replace C++. Its name: **Rust**.
 
 I gave up Rust a first time, **beginning of 2015**, when I tried to program a library to have fun with genetic algorithms.
-Coding with Rust was fun (sometimes harshest due to the lack of documentation, or "stabilized" libraries), but it was not fun when, a few days after coding the library, the new version of Rust was released... and a lot of changes (even types/functions names) has been made.  
-I was very disappointed with those changes, and I dropped.
-However, I have promised myself to take a look at this language, as soon that it reached his first stable version.
+Coding with Rust was fun (sometimes harshest due to the lack of documentation, or "stabilized" libraries), but it was not fun when, a few days after coding the library, the new version of Rust was released... and breaking changes (even types/functions names) have been made.  
+I was very disappointed with those changes, so I dropped.
+However, I have promised myself to take a look at this language, as soon as it reached his first stable version.
 
-Then in **May 2015**, came the first stable version of Rust.
+Then, in **May 2015**, came the first stable version of Rust.
 I was excited, but did not have any real project to work with...
 Three months after, I began my final year of my Master degree, in optimization algorithms, big data and machine learning.
 As a "final" project, my collegues and I, we had to program a complex software to predict and manage accurately flight plans, in order to reduce the cost of the plane on the tarmac after landing, and to increase the profit of the airport.  
 For this exercise, we hadn't get the chance to use third-parties libraries, only the standard library of the programming language we chosed.  
 The vast majority of my colleagues choosed Java, and the others Python.
 
-Java and Python for all.  
-Except five poor guys.  
+All the others, except five guys.  
 Two guys choosed Scala.  
 One choosed C++.  
 Another choosed C.  
 And the last one choosed Rust.
 
-I was this last guy.  
+_Spoiler_: I was this guy.  
 And, **Hell, it was really fun.**
 
 So, **during three months**, I cranked out code to understand the complex mecanisms of Rust, in order to create the most efficient code as possible.  
