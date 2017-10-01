@@ -21,7 +21,7 @@ I discussed, drink beers, and eat (expensive) burgers, with incredible guys from
 To me, this first day of RustFest was more than a talks day, it was an epiphany.
 *Rust brings us more than just incredible technology, it brings us a family*.  
 Thanks to this event, I remembered why I love Rust, and why this programming language is, actually, my favorite one.
-After updating [Zou](https://github.com/k0pernicus/zou), I plan to begin to contribute to a big "Rust product": [Servo](https://servo.org/), thanks to Simon Sapin.
+After making [Zou](https://github.com/k0pernicus/zou) awesome, I plan to begin to contribute to a big "Rust product": [Servo](https://servo.org/), thanks to Simon Sapin.
 
 Also, Zürich is such a beautiful place to host this kind of event.
 
