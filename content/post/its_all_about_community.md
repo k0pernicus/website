@@ -3,15 +3,12 @@ author: ""
 date: 2018-01-15T00:00:00+02:00
 tags: ["rust", "community"]
 title: "It's all about community"
+description: "People are everything"
 ---
-
-<center>
-![Post cover](/psebastien.jpg)
-</center>
 
 It's on - my first blog post for 2018!
   
-All my best wishes for this new year, about love, health, and love (because, quoting Patrick Sebastien, "_love is everything_").  
+All my best wishes for this new year, about love, health, and love (quoting Patrick Sebastien, "_love is everything_").  
 
 Ok, let's talk about something more serious...  
 Today, I want to talk about *Rust*. Yes, *Rust*, again. But this time it's not about something I discovered, implemented or anything along the lines...  
@@ -22,14 +19,13 @@ Do note that, sometimes, I use the word "*we*" to design the *Rust* community, a
 
 ## People are all equal
 
-The first thing I noticed initially when starting with *Rust* is: One does not needs to be a *Rust* wizard to propose an idea.  
-In the *Rust* community, there is an essential rule to respect to be part of the *Rust* family - which is: *respect your fellows, and don't be toxic*.  
-The *Rust* community doesn't try to reduce the efforts of a certain developer because he/she is of different age, gender, religion or sexual orientation, from other developers.
-This simple rule is the core of the current community, because it encourages people to never be afraid posting something, or to ask for help in a problem that they think is dumb (**remember, no question is stupid**).
+The first thing I noticed initially when starting with *Rust* is how the community is mature.
+I think that the maturity came because: 1) the community is pretty small, 2) every member shares the idea that **people are all equal**.
+The strongest rule of the community is that *every member of the community must respects the other ones, and don't be toxic to each other*. This is, I think, the core of the current community, and it encourages people to never be afraid posting something, or to ask for help in a problem that they think is dumb (**remember that no question is stupid - no one**).
 
 ## People are everything
 
-Some developers are unhappy that the Mozilla Foundation is sponsoring *Rust*, because they think that its future will only focus on what Mozilla products need, and not on what *Rust* developers need.  
+Some developers are unhappy that the Mozilla Foundation is sponsoring *Rust*, because they think that its future will only focus on what Mozilla products need, and not on what *Rust* developers need.
 It is true that this kind of incidents happen (actually, it had happened in the past and continues to happen even now), but, here, it's totally different.  
 Some of the *Rust* maintainers are hired by Mozilla but, every day, those persons are listening to your needs and your ideas (via public RFCs), asking what you wanna do with *Rust*, how to help you with your daily issues, or how can they improve the language for your projects.
 *This* is making the difference, because benefits happen in both directions: you, as a developer, feel integrated into the community, and the language can evolve and become even richer for everyone. 
@@ -43,10 +39,11 @@ Just to compare with another Open Source programming language, 985 persons have 
 ## Freedom and excitement of exchanges
 
 Each week, I see on Twitter, Slack and IRC *Rust* developers posting blog articles, the crate(s) they are developing, or the couple of issues they are/were working on (and some hints to solve them).  
-For this part, I just want to expose the idea of whatever you want to share, you should **not** be afraid to share something!
-To be afraid to post something on the Internet is actually the most common barrier of freedom - so, please, feel free to share whatever you want!  
+Do note that you don't need to be a Rust wizard to propose an idea, and you should **not** be afraid to share something!
+Being afraid to post something on the Internet is actually the most common barrier to freedom - so, please, feel free to share whatever you want!  
 Also, some *Rust* projects have become important now, because of the community's support.
 
-So, to conclude: feel free join us to discuss, share your thoughts or ideas to improve this fantastic project, and be part of the *Rust* family :-)
+So, to conclude: feel free to join us, to discuss and to share your thoughts or ideas!  
+We want to hear you to improve this fantastic project, because we strongly believe you can! :-)
 
 _Thanks to Alexandre and Sankalp for the English review, and a special thanks to Xavier for pushing me (every week) in writing blog posts._
