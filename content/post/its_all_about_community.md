@@ -27,20 +27,20 @@ In the *Rust* community, there is an essential rule to respect to be part of the
 The *Rust* community doesn't try to reduce the efforts of a certain developer because he/she is of different age, gender, religion or sexual orientation, from other developers.
 This simple rule is the core of the current community, because it encourages people to never be afraid posting something, or to ask for help in a problem that they think is dumb (**remember, no question is stupid**).
 
-### People are everything
+## People are everything
 
 Some developers are unhappy that the Mozilla Foundation is sponsoring *Rust*, because they think that its future will only focus on what Mozilla products need, and not on what *Rust* developers need.  
 It is true that this kind of incidents happen (actually, it had happened in the past and continues to happen even now), but, here, it's totally different.  
 Some of the *Rust* maintainers are hired by Mozilla but, every day, those persons are listening to your needs and your ideas (via public RFCs), asking what you wanna do with *Rust*, how to help you with your daily issues, or how can they improve the language for your projects.
 *This* is making the difference, because benefits happen in both directions: you, as a developer, feel integrated into the community, and the language can evolve and become even richer for everyone. 
 
-### A perfect place to learn
+## A perfect place to learn
 
 The *Rust* community strongly encourages the "newbies" to learn Rust, and we (members of the community) are here to help them in order to build and deploy in the most simplest possible way their project(s), simply because **we believe in people**.  
 At this moment, 1,985 people have already contributed to the *Rust* compiler on [github](https://github.com/rust-lang/rust), for 50 releases and 73,379 commits, which is a huge success for an Open Source project.
 Just to compare with another Open Source programming language, 985 persons have contributed to the Go compiler, for 202 releases and 35,115 commits.
 
-### Freedom and excitement of exchanges
+## Freedom and excitement of exchanges
 
 Each week, I see on Twitter, Slack and IRC *Rust* developers posting blog articles, the crate(s) they are developing, or the couple of issues they are/were working on (and some hints to solve them).  
 For this part, I just want to expose the idea of whatever you want to share, you should **not** be afraid to share something!
