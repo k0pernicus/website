@@ -2,7 +2,7 @@
 author = ""
 date = "2016-07-11T23:50:13-04:00"
 description = ""
-tags = []
+tags = ["project", "publication", "video", "talks", "github"]
 title = "Projects and publications"
 
 +++
@@ -22,7 +22,7 @@ title = "Projects and publications"
 
 # Internship & Presentations
 
-* 2018, Why you should take a look at Rust - from 2016 to 2018, [FOSDEM](https://fosdem.org/2018/), Belgium
+* 2018, [Why you should take a look at Rust - an easy introduction to the Rust programming language](https://www.youtube.com/watch?v=Fn0TZCt_Fno), [FOSDEM](https://fosdem.org/2018/), Bruxelles (Belgium)
 * 2017, [Why you should take a look at Rust](/lillefp_rust_2302.pdf), [LilleFP Meetup](https://www.meetup.com/fr-FR/Lille-FP/events/237497716/), Lille (France)
 * 2016, [Why you should take a look at Rust](/rust_talk_derniercri_1412.pdf), [Dernier Cri](http://www.derniercri.io), Lille (France)  
 * 2016, [Eco-design of Android applications](/m2-mocad-internship.pdf), [Latece team](http://www.latece.uqam.ca), UQAM (Canada)
