@@ -9,21 +9,26 @@ title = "about"
 
 ## Hi!
 
-I am <em>Antonin Carette</em>, PhD student at the [SnT center of the University of Luxembourg](http://wwwen.uni.lu/snt), under the direction of Dr. [Jacques Klein](https://sites.google.com/site/jacqueskleinwebpage/) and Dr. [Tegawendé F. Bissyandé](http://www.fasolabs.org/perso/bissyand/about.html).  
-The main topic of my PhD is to search and implement, at [Luxembourg Stock Exchange](https://www.bourse.lu/home), automated ways to classify and extract efficiently informations from multi-types and multi-lingual electronic documents.
+I am <em>Antonin Carette</em>, a <em>software developer</em> @ [DernierCri](https://derniercri.io), in Lille (France).
+
+I am interested in many fields of Computer Science like:
+
+*   <em>artificial intelligence</em> (machine learning & multi-agents systems),
+*   <em>video game engines</em>,
+*   <em>operating systems</em>.
 
 Currently, my main programming languages are:
 
 *   <em>[Python](https://www.python.org)</em> (to design my prototypes, and to deal easily with DS/ML problems),  
-*   <em>[Nim](https://nim-lang.org)</em> (a well-trade C/Python programming language),  
-*   <em>[Rust](https://rust-lang.org)</em> (the next C++).
+*   <em>[Rust](https://rust-lang.org)</em> (to develop my ready-to-push-in-production builds).
 
-My resume is available [here](/CV_Carette_Antonin_EN.pdf).  
-You can contact me at _antonin[at]carette[dot]xyz_.
+You can find my resume [in English](/CV_Carette_Antonin_EN.pdf) and [in French](/CV_Carette_Antonin_FR.pdf).  
+Also, you can contact me at _antonin[at]carette[dot]xyz_.
 
 ## Interesting resources
+* [**[Blog Post]** - Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
+* [**[Blog Post]** - Jeff Dean's Numbers Everyone Should Know](http://highscalability.com/numbers-everyone-should-know)
 * [**[Manifesto]** - The Hacker's Manifesto](https://www.usc.edu/~douglast/202/lecture23/manifesto.html)
 * [**[Podcast]** - L'écho des Gnous (for French guys)](http://ludovic.grossard.fr/feed/podcast/lecho-des-gnous)
-* [**[Programming]** - Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
 * [**[Youtube]** - The Internet's Own Boy](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 * [**[Youtube]** - Russ Olsen, To The Moon!](https://www.youtube.com/watch?v=4Sso4HtvJsw)
