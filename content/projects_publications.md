@@ -13,7 +13,7 @@ title = "Projects and publications"
 
 # Teaching Assistant
 
-* 2017/2018, Big Data courses, at University of Luxembourg. 
+* 2017/2018, Big Data courses, [University of Luxembourg](https://uni.lu), Luxembourg 
 
 # Research papers
 
