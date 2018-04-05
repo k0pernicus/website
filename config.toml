@@ -1,8 +1,9 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "Free the malloc"
-theme = "ghostwriter"
 copyright = "Antonin Carette"
+languageCode = "en-us"
+theme = "after-dark"
+title = "Free the malloc"
+toc = true
 
 [Author]
 	name = "Antonin Carette"
@@ -10,6 +11,10 @@ copyright = "Antonin Carette"
 [Taxonomies]
 	tag = "computer science phd machine learning"
 	category = "categories"
+
+[blackfriday]
+    hrefTargetBlank = true
+    fractions = true
 
 [Params]
     intro = true
@@ -27,16 +32,19 @@ copyright = "Antonin Carette"
     post = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
+    identifier = "blog"
     name = "Blog"
     url = "/"
     weight = 1
 
 [[menu.main]]
+    identifier = "projects"
     name = "Projects & Publications"
     url = "/projects_publications/"
     weight = 2
 
 [[menu.main]]
+    identifier = "about"
     name = "About"
     url = "/about/"
     weight = 3
