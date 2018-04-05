@@ -16,7 +16,7 @@ _Narrator_: It was not 100% the case.
 One year ago, I imagined my PhD as a giant sandbox where you can experiment and discuss with guru to finally find a/some solution(s) to the problem you are working on, and publish it/them.  
 _Narrator_: It was *definitly* not the case.
 
-Today, I am really disappointed about my research projects *and* Research, and I just stopped my PhD to go back at <em>DernierCri</em>.
+Today, I am really disappointed about my research project *and* Research, and I just stopped my PhD to go back at <em>DernierCri</em>.
 
 I did not want to create a blog post about my bad experience only.  
 Actually, if you have the opportunity to do a PhD: go for it!
@@ -27,8 +27,8 @@ To help you avoiding them, I have attached some tips below.
 
 ## Do not accept a random subject
 
-As I told you before, I really wanted to be an expert in ML/NLP, and I wanted to do _something_ related to ML/NLP.  
-This is the first (and maybe the biggest) mistake I made during this PhD: just accept a subject because it's related to the subfield I wanted to work on.  
+As I told you before, I really wanted to be an expert in ML/NLP, and I wanted to make _something_ related with ML/NLP.  
+To accept a subject just because it's related to an interesting field/subfield is the first (and maybe the biggest) mistake I made about this PhD.
 
 ## Abstract your work
 
@@ -49,7 +49,7 @@ Also, I found sometimes that it was difficult to discuss with them about their r
 As a personal though, since the subjects are very competitive at the moment, I think my colleagues were not inclined to share their ideas, to have a chance to join the podium in various conferences or workshops.  
 In this situation, I was alone, with the promess that a graduated PhD student will be hired as soon as possible to help me in my research project.
 
-Today, no graduated PhD has been hired on this project, and loneliness ultimately wins over my motivation.
+Today, no graduated PhD has been hired to work on this project, and loneliness ultimately wins over my motivation.
 
 ## Check if your thesis supervisors are available...
 
@@ -60,11 +60,8 @@ However, it is better for you to move in an environment that is more likely to h
 
 ## Other researchers might don't care about you and your work, they care only about your publications
 
-You are not evaluated by your code, your project, the publication of an innovative technical project, ...
-Nop.
-Nothing.
-
-Your "rank" is computed using the papers you wrote and published (and where you published).
+As a PhD student, you will be evaluated by your supervisors (do not forget that you are a <em>student</em>).
+This evaluation will not be directly related to your code, the publication of your famous and innovative technical project, but to the papers you wrote and published (and where you published) during your PhD.
 
 Also, as I've seen everywhere else, do not be surprised to find people you don't know as co-authors on your paper - they are just short of papers for their "annual evaluation"...
 
