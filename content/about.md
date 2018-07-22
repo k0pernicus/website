@@ -14,7 +14,7 @@ I am <em>Antonin Carette</em>, <em>data scientist</em> and <em>software develope
 I am interested in many fields of Computer Science like:
 
 * <em>artificial intelligence</em> (machine learning & multi-agents systems),
-* <em>video game engines</em>,
+* <em>video games engines</em>,
 * <em>operating systems</em>.
 
 Currently, my main programming languages are:
