@@ -8,7 +8,7 @@ title = "Choose the one"
 +++
 
 <center>
-![Post cover](/choose_the_one_cover.jpeg)
+<img src="/bpg/choose_the_one_cover.bpg" alt="Cover" width="500" height="500">
 </center>
 
 ## Abstract

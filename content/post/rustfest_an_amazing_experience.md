@@ -9,7 +9,9 @@ title: "Rustfest, an amazing experience"
 [RustFest](http://zurich.rustfest.eu/) is an European event to attempt general talks about Rust, and to meet people from the Rust community.    
 I was able to buy my ticket a few weeks ago, just before writing [my post about why I stopped writing my projects in Rust](https://carette.xyz/2017/09/19/see_you_rust/).
 
-![My badge](/rustfest-badge.jpg)
+<center>
+<img src="/bpg/rustfest-badge.bpg" alt="My RustFest badge" width="340" height="500">
+</center>
 
 *RustFest* is a two-days event.  
 The first day is a series of talks from the Rust team (in Mozilla) and, predominantly, the Rust community about: the past and the future of the programming language, POCs, how to deal with macros, awesome new projects like 3D games, a gently introduction for developing 2D games (and how easy is it), why a company choosed to move their tech stack to Rust, etc.  
@@ -25,15 +27,15 @@ After making [Zou](https://github.com/k0pernicus/zou) awesome, I plan to begin t
 
 Also, Zürich is such a beautiful place to host this kind of event.
 
-![Zürich Lake](/zurich-lake.jpg)
-
 Thanks a lot to the awesome speakers: Felix Klock, Élisabeth Henry, Geoffroy Couprie (your love for macros is insane man! :-)), Alex Burka, Mohammed Makhlouf, Thomas Wickham, Igor Matuszewski, Niklas Adolfsson, Andrea Lattuada, Jorge Aparicio (aka "the-awesome-japaric"), Pierre Krieger, Andre "the poet" Bogus, Lisa, Fedor Logachev, and Anselm Eickhoff, thanks for the RustFest crew (I don't have your names, but I love you guys <3), the sponsors and all the people and institutions who helped in creating, promoting, and maintaining the event.
 
 Don't change, you're awesome 😘
 
 In Rust, We Trust 🤘
 
-![RustFest](/rustfest.jpeg)
+<center>
+<img src="/bpg/rustfest.bpg" alt="RustFest participants" width="500" height="500">
+</center>
 
 _Credits for this picture: the RustFest team_  
 [Original tweet here](https://twitter.com/RustFest/status/914073968235163648)

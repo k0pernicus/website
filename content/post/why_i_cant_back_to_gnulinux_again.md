@@ -8,7 +8,7 @@ date = "2016-09-10T03:20:49+02:00"
 +++
 
 <center>
-![Post cover](/macbook_air_picture.jpeg)
+<img src="/bpg/macbook_air_picture.bpg" alt="Cover" width="500" height="500">
 </center>
 
 I'm a programmer.

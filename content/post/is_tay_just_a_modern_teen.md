@@ -8,7 +8,7 @@ title = "Is Tay just a modern teen?"
 +++
 
 <center>
-![Tay](/is_tay_just_a_modern_teen.jpeg)
+<img src="/bpg/is_tay_just_a_modern_teen.bpg" alt="Cover" width="500" height="500">
 </center>
 
 ## Abstract

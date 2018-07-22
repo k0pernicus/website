@@ -2,7 +2,7 @@ baseurl = "/"
 copyright = "Antonin Carette"
 languageCode = "en-us"
 theme = "after-dark"
-title = "Free the malloc"
+title = "impl fmt::Display for Blog"
 toc = true
 
 [Author]

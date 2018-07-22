@@ -8,6 +8,10 @@ categories = ["programming"]
 tags = ["pyenv", "python", "dev", "tool", "package", "manager"]
 +++
 
+<center>
+<img src="/bpg/pyenv_cover.bpg" alt="XKCD - Python Environment" width="500" height="500">
+</center>
+
 I write Python code each day, for personal and professional projects.  
 As I am working on multiple Python projects, old and fresh ones, I have to use different Python versions for those projects, from `2.7.2` to `3.7.0`.  
 Also, I want to switch the Python version of my projects very easily and quickly, in case of we have to upgrade the Python version of the software.

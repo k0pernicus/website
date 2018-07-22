@@ -8,7 +8,7 @@ title = "Computer science facts, in movies"
 +++
 
 <center>
-![C++ code](/computer_science_facts_in_movies.png)
+<img src="/bpg/computer_science_facts_in_movies.bpg" alt="Cover" width="500" height="500">
 </center>
 
 I love watching movies.

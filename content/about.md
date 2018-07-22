@@ -22,7 +22,7 @@ Currently, my main programming languages are:
 * <em>[Python](https://www.python.org)</em> (to design my prototypes, and to deal easily with DS/ML problems),  
 * <em>[Rust](https://rust-lang.org)</em> (to develop my ready-to-push-in-production builds).
 
-You can find my resume [in English](/CV_Carette_Antonin_EN.pdf) and [in French](/CV_Carette_Antonin_FR.pdf).  
+You can find my resume [in English](/CARETTE_EN_cv.pdf) and [in French](/CARETTE_FR_cv.pdf).  
 Also, you can contact me at _antonin[at]carette[dot]xyz_.
 
 ## Interesting resources

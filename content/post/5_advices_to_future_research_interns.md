@@ -8,7 +8,7 @@ title = "Five advices to future research interns"
 +++
 
 <center>
-![Post cover](/5_advices_to_future_research_interns_cover.jpg)
+<img src="/bpg/5_advices_to_future_research_interns_cover.bpg" alt="Cover" width="500" height="500">
 </center>
 
 During undergraduate school, I completed 4 research internships and one research project.
