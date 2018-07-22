@@ -9,7 +9,7 @@ title = "about"
 
 ## Hi!
 
-I am <em>Antonin Carette</em>, a <em>software developer</em> @ [DernierCri](https://derniercri.io), in Lille (France).
+I am <em>Antonin Carette</em>, <em>data scientist</em> and <em>software developer</em> @ [DernierCri](https://derniercri.io), in Lille (France).
 
 I am interested in many fields of Computer Science like:
 
