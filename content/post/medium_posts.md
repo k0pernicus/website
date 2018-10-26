@@ -2,7 +2,7 @@
 title = "Medium_posts"
 date = 2018-10-27T01:23:11+02:00
 description = ""
-draft = true
+draft = false
 toc = false
 categories = ["blog", "technology"]
 +++
