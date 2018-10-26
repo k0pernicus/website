@@ -45,7 +45,7 @@ Ok - now, `pyenv` is installed on the system...but there is no interpreter on yo
 
 ## Promises
 
-### Install a toolchain
+## Install a toolchain
 
 First, you have to install a given Python ecosystem version (interpreter, and associated tools) on your system.  
 If you check first the versions you have installed, using `pyenv versions`, the output is empty.
@@ -99,7 +99,7 @@ So, `pyenv` was asking to specify the minor version of the major version we aske
 
 _**Note**_: If you look more closely at the error message, you can see that you can install multiple versions of `anaconda` via `pyenv` - so, *the tool is not exclusive to Python builds but the Python ecosystem*.
 
-### Global usage of a toolchain
+## Global usage of a toolchain
 
 If you have more than 50% of your Python projects that are using the same specific version of Python, maybe you want to use this version as a global one on your system.  
 `pyenv` can override the *default* Python version of your projects using the `global` option.
@@ -131,7 +131,7 @@ Using this configuration, if you launch `python`, it will be the `3.4.8` toolcha
 2.7.15 (set by /Users/acarette/.pyenv/version)
 ```
 
-### Local usage of a toolchain
+## Local usage of a toolchain
 
 The previous section explains how to define *defaults* toolchains in the entire system.  
 Now, what if you want to work using different toolchains, on different projects?
@@ -157,7 +157,7 @@ Ok, let's try:
 
 _**NOTE**_: like the `global` option, multiple Python versions: `pyenv local 2.7.15 3.4.8`, with the same priorities than before.
 
-### Interactive usage of a toolchain
+## Interactive usage of a toolchain
 
 Python is a dynamic and interactive programming language and, sometimes, you just want to check _something_ in the standard library, or just try to hack _something_ on the interpreter.
 

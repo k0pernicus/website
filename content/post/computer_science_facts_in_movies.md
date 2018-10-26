@@ -30,7 +30,7 @@ Most part of hackers are white hats, and do the things right (remember that, if 
 Today, in movies, hackers are representated as bad guys dressed in black, have some social problems, type some (bad) _C_/_C++_ code in an unknown interface (in maybe just 10 seconds - world record!) and drink a lot of soda.
 Movies talking about "hackers" as black hats are, to me, pretty bad movies (even if the visual and scenario is great).
 
-### **LOL**.
+## **LOL**.
 
 Very funny to see that movies screenwriters and directors thinks again with stereotypes, and don't make some researchs before...  
 This is **zero sense**.  
@@ -43,7 +43,7 @@ Also, I invite you to take a look at [_The Animatrix_](http://www.imdb.com/titl
 
 There are not many good movies talking about IA and force you to think about the place of the machine today. We can cite for example [_2001, a Space Odyssey_](http://www.imdb.com/title/tt0062622/?ref_=nv_sr_1), _Wargames_, _Ex Machina_, [_Ghost in the Shell_](http://www.imdb.com/title/tt0113568/?ref_=fn_al_tt_2) (the original movie and [_the original sequel_](http://www.imdb.com/title/tt0347246/?ref_=fn_al_tt_5)), [_Blade Runner_](http://www.imdb.com/title/tt0083658/?ref_=nv_sr_1), [_Her_](http://www.imdb.com/title/tt1798709/?ref_=fn_al_tt_1),...
 
-### Fiction is just Fiction
+## Fiction is just Fiction
 
 To finish, there is the bad good idea that we can just adapt the story of a great figure of the computer science domain at theatre.  
 In rare occasions ([_The Imitation Game_](http://www.imdb.com/title/tt2084970/?ref_=fn_al_tt_1)), don't forget that these movies are **fiction** movies!  
@@ -51,7 +51,7 @@ You can find some historic facts in these movies, but the truth is not there!
 You will not learn some things about [Julian Assange](https://en.wikipedia.org/wiki/Julian_Assange) watching _The Fifth Estate_, the truth about the relation between Jobs and Gates in [_Pirates of Silicon Valley_](http://www.imdb.com/title/tt0168122/?ref_=fn_al_tt_1) and, as the [video trailer](https://www.youtube.com/watch?v=9KyltHXrxVk) shows, *Snowden* will not be as credible as the reality to tell the story of the Snowden's leaks...  
 You have to be warn before to watch these movies, and do not hesitate to ask or to search by yourself about the truth in the (pseudo) tech' movie you are watching ([Reddit](https://reddit.com) is really useful for that).
 
-### What else?
+## What else?
 
 Ok, so now you want to watch some movies about tech' but you don't know which?  
 This is a short list of movies, documentaries and TV-Show to watch:

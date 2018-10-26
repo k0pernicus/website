@@ -54,7 +54,7 @@ Efficiency can be interpreted in different ways:
 
 This is a lot of tasks you have to take in care, but this list contains some basic things a computer developer have to ask himself before to code. Don't be afraid. After practice, answers will obviously come to you.
 
-### The platform
+## The platform
 
 Generally, modern programming languages are independant to the platform you're programming.
 But, you can be drift along to choose a programming language instead of an other, perhaps more convenient for the platform you want to launch your computer program.
@@ -65,13 +65,13 @@ Also, if you don't have the specific operating system on which your code failed,
 This example works with low-level programming languages like _C_ or _C++_. Also, some programming languages can be specific to a platform.
 For example, Windows and the _C#_ programming language, even if some developers and companies are releasing their programming languages source code, to move them on new platforms (like _Swift_ or _.Net_).
 
-### Goal of the program
+## Goal of the program
 
 You will not code a piece of program in a low-level programming language (like _C_) to write a textual game, right? If you don't have some sadomasochistic ideas, you will choose a more high-level programming language to not torture yourself with buffer overflow.
 Also, don't hesitate to use some frameworks, especially web frameworks.  
 For example, if you have to create a simple website and if you're not good with _PHP_ as well as _Python_, do not hesitate to take a look at [Django](https://www.djangoproject.com/).
 
-### Libraries you have to use
+## Libraries you have to use
 
 Be decent with yourself: you will **NOT** only use your code in your program (except if the code is really simple, or if you are a programming language developer).
 You're trying to write a game without graphic libraries? You're kidding me, right...? You're trying to write a program like [CryptoCat](https://crypto.cat/) without using Maths libs? You're kidding me, right...? You're trying to write a program without standard libraries? OMFG, YOU'RE KIDDING ME, RIGHT!?  
@@ -79,7 +79,7 @@ Hand on heart that 99.9% programs you will code or contribute will contains libr
 If they are not good, not well documented or not efficient, you're screwed!
 So, to choose a programming language by available efficient libraries is a very good point.
 
-### Your ability to program with a programming language you already know
+## Your ability to program with a programming language you already know
 
 Let me give you an example: It's Sunday, 22h32, and you forgot you have to send your programming homework (a basic shell for example...) to your teacher until midnight.
 Suddenly, you decide to learn a new programming language, and to program the shell with this programming language!
@@ -94,7 +94,7 @@ Also, I support you to participate to open source and free softwares, or simply
 This simple task can makes you better programmer than ever.  
 Last thing: if the task is really simple, don't forget to choose a programming language easy to use (please to see my example with _Django_ overhead).
 
-### The programming paradigm
+## The programming paradigm
 
 The programming paradigm is one of the important thing to take on board.
 To write a simulator zoo without take care of objects programming can be really hard to maintain over time.
@@ -103,7 +103,7 @@ Also, famous programming language merge now many programming paradigms, like _Sc
 The programming paradigm is also important if you free your source code.
 Many programmers today use the objects oriented programming, and your project can be better understand and better known if you choose this one.
 
-### Global performance of the programming language
+## Global performance of the programming language
 
 Today, programmers search about performs programming languages for heavy or redundant tasks.  
 In the book "[In the plex](http://books.simonandschuster.com/In-The-Plex/Steven-Levy/9781416596585)", [Steven Levy](https://en.wikipedia.org/wiki/Steven_Levy) give an example while explaining that the first web server wrote by [Larry Page](https://en.wikipedia.org/wiki/Larry_Page) and [Sergey Brin](https://en.wikipedia.org/wiki/Sergey_Brin), the founders of Google, used the _Python_ programming language.
