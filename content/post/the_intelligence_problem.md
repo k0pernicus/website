@@ -2,7 +2,7 @@
 title = "The 'intelligence' problem in 'artificial intelligence'"
 date = 2018-09-22T13:38:34+02:00
 description = "Too dumb for you."
-draft = true
+draft = false
 toc = false
 categories = ["humors", "artificial intelligence", "machine learning"]
 tags = ["machine learning", "artificial intelligence", "humors"]
