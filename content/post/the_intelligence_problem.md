@@ -13,7 +13,7 @@ tags = ["machine learning", "artificial intelligence", "humors"]
 </center>
 
 The more I listen AI enthousiastic people, the more I can differenciate them in '10' very different groups:  
-* people who think that AI is a synonym of "strong black magic",  
+* people who think that AI is a synonym of "strong black magic";  
 * people who are amazed by AI because "come on dude... it's just maths!".
 
 There is something wrong with "Artificial Intelligence"...  
