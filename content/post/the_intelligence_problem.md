@@ -9,7 +9,7 @@ tags = ["machine learning", "artificial intelligence", "humors"]
 +++
 
 <center>
-<img src="/bpg/intelligence_problem.bpg" alt="XKCD - Artificial Intelligence" width="400" height="00">
+<img src="/bpg/intelligence_problem.bpg" alt="XKCD - Artificial Intelligence" width="400">
 </center>
 
 The more I listen AI enthousiastic people, the more I can differenciate them in '10' very different groups:  
