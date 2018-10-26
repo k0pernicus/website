@@ -9,7 +9,7 @@ title = "about"
 
 ## Hi!
 
-I am <em>Antonin Carette</em>, <em>data scientist</em> and <em>software developer</em> @ [DernierCri](https://derniercri.io), in Lille (France).
+I am <em>Antonin Carette</em>, <em>machine learning engineer</em>.
 
 I am interested in many fields of Computer Science like:
 
@@ -20,9 +20,10 @@ I am interested in many fields of Computer Science like:
 Currently, my main programming languages are:
 
 * <em>[Python](https://www.python.org)</em> (to design my prototypes, and to deal easily with DS/ML problems),  
-* <em>[Rust](https://rust-lang.org)</em> (to develop my ready-to-push-in-production builds).
+* <em>[Rust](https://rust-lang.org)</em> (to develop my ready-to-push-in-production builds),
+* <em>[Go](https://golang.org)</em> (easy to use, easy to develop with, between Python and Rust to develop with).
 
-You can find my resume [in English](/CARETTE_EN_cv.pdf) and [in French](/CARETTE_FR_cv.pdf).  
+You can find my resume [in English](/CARETTE_EN_cv.pdf).  
 Also, you can contact me at _antonin[at]carette[dot]xyz_.
 
 ## Interesting resources
