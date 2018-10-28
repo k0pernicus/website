@@ -1,5 +1,5 @@
 +++
-title = "The Go build constraints"
+title = "The `go build` constraints"
 date = 2018-10-26T18:56:18+02:00
 description = "Or how to make your program OS agnostic... at compile time"
 draft = false
