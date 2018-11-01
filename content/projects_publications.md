@@ -20,7 +20,7 @@ title = "Projects and publications"
 * 2016, [Investigating the Energy Impact of Android Smells](https://hal.inria.fr/hal-01403485) - _accepted to [SANER 2017](http://saner.aau.at)_
 * 2015, [A Learning Algorithm for Change Impact Prediction: Experimentation on 7 Java Applications](https://hal.inria.fr/hal-01279620) - [RAISE 2016](http://promisedata.org/raise/2016/)
 
-## Internship & Presentations
+## Talks & Public presentations
 
 * 2018, [L'apprentissage automatique, c'est pas automatique (Machine Learning is not magic)](https://www.youtube.com/watch?v=TJsPCI81Kzo), [TakeOff Talks](http://takeoff.rocks/past-events/2018-05-15-lille/), Lille (France)  
 * 2018, [Why you should take a look at Rust - an easy introduction to the Rust programming language](https://www.youtube.com/watch?v=Fn0TZCt_Fno), [FOSDEM](https://fosdem.org/2018/), Bruxelles (Belgium)
