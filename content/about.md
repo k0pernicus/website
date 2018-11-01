@@ -24,7 +24,7 @@ Currently, my main programming languages are:
 * <em>[Go](https://golang.org)</em> (easy to use, easy to develop with, between Python and Rust to develop with).
 
 You can find my resume [in English](/CARETTE_EN_cv.pdf).  
-Also, you can contact me at _antonin[at]carette[dot]xyz_.
+Also, you can contact me at _antonin[at]carette[dot]xyz_ [PGP public key](/antonin@carette.xyz.asc).
 
 ## Interesting resources
 * [**[Blog Post]** - Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
