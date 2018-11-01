@@ -9,7 +9,7 @@ toc = true
 	name = "Antonin Carette"
 
 [Taxonomies]
-	tag = "computer science phd machine learning"
+	tag = "computer science machine learning"
 	category = "categories"
 
 [blackfriday]
