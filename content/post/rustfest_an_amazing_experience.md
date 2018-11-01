@@ -7,7 +7,6 @@ title: "Rustfest, an amazing experience"
 ---
 
 [RustFest](http://zurich.rustfest.eu/) is an European event to attempt general talks about Rust, and to meet people from the Rust community.    
-I was able to buy my ticket a few weeks ago, just before writing [my post about why I stopped writing my projects in Rust](https://carette.xyz/2017/09/19/see_you_rust/).
 
 <center>
 <img src="/bpg/rustfest-badge.bpg" alt="My RustFest badge" width="340" height="500">
