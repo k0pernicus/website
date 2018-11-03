@@ -4,8 +4,8 @@ date = 2018-11-03T20:04:54+01:00
 description = "A simple example of how to use Go modules"
 draft = false
 toc = false
-categories = ["go", "module", "package software"]
-tags = ["go", "software development"]
+categories = ["go", "module", "feature", "versioning"]
+tags = ["go", "module", "feature", "versioning"]
 +++
 
 Generally, when you want to package your go app, you are creating different 
