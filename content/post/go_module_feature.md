@@ -154,7 +154,7 @@ go: downloading github.com/mattn/go-colorable v0.0.9
 ```
 
 If you want to see where are stored those dependencies, you can list the files in
-the go mod cache, in `$GOPATH/pkg/mod/`.  
+the go mod cache, in `$GOPATH/pkg/mod/`, and *are postfixed with the dep version*.  
 In you are wondering why `go mod` is using is own cache, you can check the answer 
 from Ross Cox in [this article from Dave Cheney](https://dave.cheney.net/2018/07/14/taking-go-modules-for-a-spin).
 
