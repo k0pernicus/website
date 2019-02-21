@@ -2,7 +2,7 @@
 title = "2019, as minimalistic"
 date = 2019-02-20T10:11:49+01:00
 description = "So."
-draft = true
+draft = false
 toc = false
 categories = ["minimalistic", "technology"]
 tags = ["minimalistic", "thinking", "technology"]
