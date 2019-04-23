@@ -1,11 +1,11 @@
 +++
-title = "Unmarshal complex JSON objects, in Go"
+title = "(Un)marshal complex JSON objects, in Go"
 date = 2019-04-16T20:03:16+02:00
 description = "Deep dive into the Hell of Unmarshalling..."
-draft = true
+draft = false
 toc = false
 categories = ["go"]
-tags = ["go", "unmarshalling", "json"]
+tags = ["go", "marshalling", "unmarshalling", "json"]
 +++
 
 If you work a lot with APIs in Go, it may happen you have to work with complex
