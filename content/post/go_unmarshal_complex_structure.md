@@ -3,7 +3,6 @@ title = "(Un)marshal complex JSON objects, in Go"
 date = 2019-04-16T20:03:16+02:00
 description = "Deep dive into the Hell of Unmarshalling..."
 draft = false
-toc = false
 categories = ["go"]
 tags = ["go", "marshalling", "unmarshalling", "json"]
 +++
@@ -51,7 +50,7 @@ For now, everything is ok, and we imagine the JSON response like
 }
 ```
 
-Unfortunately, the response does not look like this.  
+Unfortunately, the response does not look like this.
 *At all*
 
 In contrast, the data in JSON looks like this:
@@ -64,23 +63,23 @@ In contrast, the data in JSON looks like this:
 }
 ```
 
-There is (at least) three big issues in our previous Go code.  
+There is (at least) three big issues in our previous Go code.
 Let's decompose what (and where) are the problems, and how to solve them one by
 one.
 
 ## Handle the missed data
 
-As you may already noticed, we miss a data in the JSON response: the `dog` object.  
+As you may already noticed, we miss a data in the JSON response: the `dog` object.
 
 A basic solution to this is to implement a structure *if* the dog JSON object
-is present, or *if* the dog JSON object is not present...  
+is present, or *if* the dog JSON object is not present...
 Spoiler: this is a ***very bad*** solution.
 
 When you are (un)marshalling a JSON object in Go, you can omit some fields *if*
 the field is empty (consider empty as NULL, or just the default type value, like
-an empty string for string type, or a 0 value for a default integer value).  
+an empty string for string type, or a 0 value for a default integer value).
 Usually, this solution is really simple to use, because you just have to append
-the `omitempty` tag in the Go struct tags you wrote before, for the field you want omit.  
+the `omitempty` tag in the Go struct tags you wrote before, for the field you want omit.
 Using it permits also to reduce the payload if you want to send little data
 structure compared to your big (and complex) Go data structure.
 
@@ -106,7 +105,7 @@ Unmarshalling the previous JSON structure throws the following error: `json: can
 string into Go struct field Person.age of type int`.
 
 The second issue is that the `age` field is not an integer, but a string *that
-represents* an integer.  
+represents* an integer.
 Unmarshalling this kind of thing does not work at all... without an extra tag
 again!
 
@@ -129,14 +128,14 @@ type Dog struct {
 The `string` tag informs that the unmarshalling behaviour has to convert
 explicitly the string type to the type in the Go structure.
 
-Unfortunately, magic can disappear really quickly...  
+Unfortunately, magic can disappear really quickly...
 But we will explore this black magic of Go in the last section of this blog post.
 
 ## Handle the wrong datetime format
 
 The Go `time` library [does handle multiple time
-formats](https://golang.org/pkg/time/).  
-Unfortunately, the format of the date returned in the response does not 
+formats](https://golang.org/pkg/time/).
+Unfortunately, the format of the date returned in the response does not
 correspond to a supported time format, in the Go standard library.
 
 You can try to check another Go library that handles this format (I doubt about
@@ -184,15 +183,15 @@ Nice!
 For this last issue, I don't think there is a "good" solution...
 
 Imagine now that an error happened in the back side, and overrides the `age` value by an empty string
-(or something other than an integer) in the JSON response.  
+(or something other than an integer) in the JSON response.
 If you have this type of response, an error will be thrown: `json: invalid use of ,string struct tag,
 trying to unmarshal "" into int`.
 
 We can't be angry with the `UnmarshalJSON` function, because this error is terribly logic.
 
-Do not forget that unmarshalling a string into an int, using the `string` tag, 
-will *convert* the data type into another one.  
-In the case of converting a string type value into an integer, the function can explicitly call `strconv.Atoi`.  
+Do not forget that unmarshalling a string into an int, using the `string` tag,
+will *convert* the data type into another one.
+In the case of converting a string type value into an integer, the function can explicitly call `strconv.Atoi`.
 If you already used this function, you know that the function returns an
 integer, or an error if the string does not represents an integer.
 Like an empty string.
@@ -204,10 +203,10 @@ Unmarshal process for our structure, or... using two different structures.
 
 Like we did for our custom Date format, we can wrap the `Age` field into a custom
 Go data structure (for example, `PersonAge`), and write a custom `MarshalJSON`
-and `UnmarshalJSON` methods for this Go structure.  
+and `UnmarshalJSON` methods for this Go structure.
 However, if you plan in the future to create concrete type for each integer
 values in the `Person` Go structure, and if you have to manage later different
-integer values, you will have to create as much custom Go structure than 
+integer values, you will have to create as much custom Go structure than
 integer values in the JSON response...
 
 ### 2nd solution: separate the JSON structure and the final Go data structure
@@ -215,15 +214,15 @@ integer values in the JSON response...
 The purpose of this solution is to handle and unmarshal the JSON structure in a
 Go structure that contains all its values as string types, and create a function
 to convert this structure into another that contains the required `Person`
-types, using reflection.  
+types, using reflection.
 This solution can be generic, in order to convert all the data structures you
 want into another (using `interface{}` parameters), but can be complicated if
 you just want to solve this issue for this field issue *only*.
 
 As I said previously, **there is no best advice** for this, because it depends
-of the kind of response you will have in real world.  
+of the kind of response you will have in real world.
 If you are sure that the JSON response will not change, and you only have one
-integer (or float) field type, go for the 1st solution!  
+integer (or float) field type, go for the 1st solution!
 Otherwise, you can play with reflection in order to build a more concrete and
 durable solution, not only for this Go structure (and JSON response) but also
 for many other that share this issue.

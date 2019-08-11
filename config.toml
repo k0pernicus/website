@@ -1,11 +1,8 @@
 baseurl = "/"
 copyright = "Antonin Carette"
 languageCode = "en-us"
-paginate = 5
-theme = "solar-theme-hugo"
-pygmentsUseClassic=true
-pygmentsStyle = "solarized-light" # solarized-light, -dark or -dark256
-title = "impl fmt::Display for Blog"
+theme = "ghostwriter"
+title = "Antonin Carette"
 
 [Author]
 	name = "Antonin Carette"
@@ -15,9 +12,9 @@ title = "impl fmt::Display for Blog"
 	category = "categories"
 
 [Params]
-    scheme = "dark"
     intro = true
-    description = "French. Software. Developer."
+    headline = "French. Software. Developer."
+    description = "“Simplicity, carried to the extreme, becomes elegance.”, Jon Franklin"
     github = "https://github.com/k0pernicus"
     linkedin = "https://linkedin.com/in/antonin-carette-792bbb82"
     email = "antonin@carette.xyz"
@@ -25,24 +22,25 @@ title = "impl fmt::Display for Blog"
     shareFacebook = false
     shareLinkedin = true
     shareGooglePlus = false
+    dateFormat = "Mon, Jan 2, 2006"
+    readingTime = true
+    readingTimeText = "Estimated reading time:"
+    mainSections = ["post"]
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
-    identifier = "blog"
-    name = "Posts"
+    name = "About"
     url = "/"
     weight = 1
 
 [[menu.main]]
-    identifier = "projects"
-    name = "Projects & Publications"
-    url = "/projects_publications/"
+    name = "Blog Posts"
+    url = "/post/"
     weight = 2
 
 [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+    name = "Projects & Publications"
+    url = "/page/projects_publications/"
     weight = 3
