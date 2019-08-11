@@ -1,9 +1,11 @@
 baseurl = "/"
 copyright = "Antonin Carette"
 languageCode = "en-us"
-theme = "after-dark"
+paginate = 5
+theme = "solar-theme-hugo"
+pygmentsUseClassic=true
+pygmentsStyle = "solarized-light" # solarized-light, -dark or -dark256
 title = "impl fmt::Display for Blog"
-toc = true
 
 [Author]
 	name = "Antonin Carette"
@@ -12,16 +14,12 @@ toc = true
 	tag = "computer science machine learning"
 	category = "categories"
 
-[blackfriday]
-    hrefTargetBlank = true
-    fractions = true
-
 [Params]
+    scheme = "dark"
     intro = true
-    headline = "French. Software. Developer."
+    description = "French. Software. Developer."
     github = "https://github.com/k0pernicus"
     linkedin = "https://linkedin.com/in/antonin-carette-792bbb82"
-    twitter = "https://twitter.com/k0pernicus"
     email = "antonin@carette.xyz"
     shareTwitter = true
     shareFacebook = false
@@ -33,7 +31,7 @@ toc = true
 
 [[menu.main]]
     identifier = "blog"
-    name = "Blog"
+    name = "Posts"
     url = "/"
     weight = 1
 
