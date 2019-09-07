@@ -1,0 +1,68 @@
+baseurl = "/"
+copyright = "Antonin Carette"
+languageCode = "en-us"
+theme = "ezhil"
+title = "Antonin Carette"
+
+# Enable syntax highlighting
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[Author]
+	name = "Antonin Carette"
+
+[Taxonomies]
+	tag = "computer science machine learning"
+	category = "categories"
+
+[Params]
+    subtitle = "Machine Learning Engineer & Software Developer"
+    recentPostsCount = 5
+    # Content types which are excluded from recent posts and archive page.
+    excludedTypes = []
+	disableDisqusTypes = ["page", "about", "projects_publications"]
+	featherIconsCDN = true
+    readingTime = true
+    readingTimeText = "Estimated reading time:"
+    dateFormat = "Mon, Jan 2, 2006"
+    # mainSections = ["post"]
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+[[menu.main]]
+    name = "Projects & Publications"
+    url = "/projects_publications"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 4
+
+[[Params.social]]
+    name = "Github"
+    icon = "github"
+    url = "https://github.com/k0pernicus"
+
+[[Params.social]]
+    name = "LinkedIn"
+    icon = "linkedin"
+    url = "https://linkedin.com/in/antonin-carette-792bbb82"
+
+
+[[Params.social]]
+    name = "RSS"
+    icon = "rss"
+    url = "/index.xml"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
