@@ -58,7 +58,6 @@ pygmentscodefencesguesssyntax = true
     icon = "linkedin"
     url = "https://linkedin.com/in/antonin-carette-792bbb82"
 
-
 [[Params.social]]
     name = "RSS"
     icon = "rss"
