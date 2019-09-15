@@ -167,9 +167,26 @@ the comparison will fail at compile time, with the same compilation error messag
 
 ## But... why do we need untyped string constants?
 
-At first, it seems that untyped constants was a bad design move from the creators of Go, because you can use them to escape from Go's strong type system, which allows you to make some comparison mistakes if you don't pay enough attention.
+At first, it seems that untyped constants was a bad design move from the creators of Go, because you can use them to escape from Go's strong type system, which allows you to make some comparison mistakes if you don't pay enough attention, or even worst:
 
-**Spoiler**: it's not a bad move, it's a clever one.
+```golang
+package main
+
+import (
+	"fmt"
+)
+
+type myString string
+
+const y = "world"
+
+func main() {
+	x := make([]myString, 0, 2)
+	x = append(x, myString("Hello")) // Append a myString "Hello"
+	x = append(x, y) // As y is untyped, we can append y here - no compilation error
+	fmt.Printf("%s\n", x) // Print "[Hello world]" here
+}
+```
 
 Of course, the previous examples paid attention to untyped string constants, but you can obviously hack with untyped int constants, untyped float constants, and so on...
 
@@ -192,4 +209,4 @@ Inference of constants values **is different** than inference of variables value
 
 Untypes constants provide flexibility, and escape from Go's strong type system.
 
-Be careful about untyped constant - they might be useful in certain cases, but I strongly recommend to restrict first the type of your constants, and to remove them later if you really need more flexibility in your code.
+Be careful about untyped constant - **they might be useful in certain cases**, but I strongly recommend to restrict first the type of your constants, and to remove them later if you really need more flexibility in your code.
