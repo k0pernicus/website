@@ -1,7 +1,7 @@
 +++
 title = "A strange strings comparison problem, in Go"
 date = 2019-09-15T02:00:00+02:00
-draft = true
+draft = false
 categories = ["go"]
 description = "Let's talk about untyped string constants"
 tags = ["go", "typing", "implicit typing"]
