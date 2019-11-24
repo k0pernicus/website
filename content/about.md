@@ -9,7 +9,8 @@ title = "About"
 
 ### Hi,
 
-I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), machine learning engineer at [Tadaweb](https://tadaweb.com).
+I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), Machine Learning engineer at [Tadaweb](https://tadaweb.com).  
+You can contact me at [k0pernicus@0xc0ff33.me](mailto:k0pernicus@0xc0ff33.me).
 
 #### I am interested in:
 
