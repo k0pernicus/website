@@ -1,7 +1,7 @@
 +++
 title = "Dealing everyday with anxiety, impostor syndrome, and mental depression"
 date = 2020-01-24T20:00:00+02:00
-draft = true
+draft = false
 categories = ["personal thoughts", "depression", "impostor syndrome", "hack life"]
 description = "Hidden 21th Pain Century"
 tags = ["hack life", "impostor syndrome", "depression", "personal"]
