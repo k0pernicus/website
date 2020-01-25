@@ -13,15 +13,15 @@ This is for sure the most intimate blog post I ever made on this website, and th
 Since I was in middle school, I suffered a few years from anxiety, mental depression, but also impostor syndrome.
 The path was hard, but thanks to my family and my friends, I am feeling a lot better now.
 
-Recently, after talking with people in real life or in the internet, reading blog posts, or simply scrolling on Twitter, I do feel that anxiety, 
-depression and impostor syndrome is taking more and more place in our society, with this sentiment that all of those belong to what 
+Recently, after talking with people in real life or in the internet, reading blog posts, or simply scrolling on Twitter, I do feel that anxiety,
+depression and impostor syndrome is taking more and more place in our society, with this sentiment that all of those belong to what
 I will call in this post "the pain of the century".
 
 Indeed, anxiety and depression makes you think that emotional states are a prison for your mind, that you are just trapped by your sentiments,
 which is actually a fake actor in this situation.  
 At the other hand, impostor syndrome lets you think that you will never belong to a real group of people, and make you lose your self-esteem.
 
-I wanted to write down my own opinions about this pain that is ravaging more and more people, and the different methods I tried to deal with all 
+I wanted to write down my own opinions about this pain that is ravaging more and more people, and the different methods I tried to deal with all
 of those issues, in order to help you to live with them.
 
 ## Investigate on yourself
@@ -43,7 +43,7 @@ Another technique is to write down on paper your different thoughts, and to thro
 This method seems very dumb, but to write down your feelings and destroy them can help you to realize that sentiments can just be words on paper,
 and that you are not trapped by your feelings.
 
-Remember that dealing with weaknesses and hiding them are two very different aspects, and **hiding feelings are more painful in the long term than 
+Remember that dealing with weaknesses and hiding them are two very different aspects, and **hiding feelings are more painful in the long term than
 understanding and accepting them**.
 
 ## You are free to make mistakes
@@ -52,7 +52,7 @@ I do think that impostor syndrome, or fraud syndrome, is very hard to deal with 
 
 When I was in college, I remember to sit down on my student chair, looking at the other students around me, and almost got a panic attack because I
 had the sentiment that I was not good enought to feel part of this big group of students.
-However, after discussing with some of them about my feelings - remember that **you have to accept your feelings, not hiding them** -, I realized 
+However, after discussing with some of them about my feelings - remember that **you have to accept your feelings, not hiding them** -, I realized
 that the other students I talked to had *exactly* the same psychological pattern.  
 I understood at this time that **impostor syndrome was not a personal feeling, but a society problem**, and that I was not alone with this group of students.
 
@@ -60,7 +60,7 @@ I understood at this time that **impostor syndrome was not a personal feeling, b
 The most difficult thing in this part is to discover on what you are good at.
 Difficult, but **definitly not impossible**.
 
-When you are suffering from impostor syndrome, one of the worst thing we have to handle is sentiments from our environment, 
+When you are suffering from impostor syndrome, one of the worst thing we have to handle is sentiments from our environment,
 like your colleagues, your family, or someone else.
 Dealing with people -and their sentiments- is a common issue for people that live with fraud syndrome,
 especially when they found their exact opposite: people who have the sentiment to know **everything** even if they only scratched the surface of a field, subject, or a technique.
@@ -80,7 +80,7 @@ I did not found yet the sport that attracts me yet, so I don't practice physical
 
 Personal hobbies will help you to assimilate that **you are not your thoughts**, and think about something else than daily problems
 
-To help you with this part, I recommend you to listen this Q/A session from [Jonathan Blow](https://en.wikipedia.org/wiki/Jonathan_Blow), an independant 
+To help you with this part, I recommend you to listen this Q/A session from [Jonathan Blow](https://en.wikipedia.org/wiki/Jonathan_Blow), an independant
 game developer and designer, about [techniques to deal with lack of motivation, malaise, and depression](https://www.youtube.com/watch?v=i7kh8pNRWOo).
 
 ## Listen to yourself, and BREATHE
@@ -105,7 +105,7 @@ assimilate them: feel yourself, and f**k off for the others. Also, don't be scar
 Next, **we are humans, not machines**, and knowledge is not innate. We have to learn, understand, and make mistakes to grow up.  
 To relax, find an hobbie, or maybe a place to relax, in order to release all the anxiety and social pressure on your shoulders as soon as you can.
 **Just breathe a few minutes, relax, and take time for yourself**.  
-Finally, **listen to yourself, listen your body, and breathe, breathe, and breathe**. If you are not feeling great with something, just step back and 
+Finally, **listen to yourself, listen your body, and breathe, breathe, and breathe**. If you are not feeling great with something, just step back and
 meditate on this. Remember that, again, there is no shame to drop something to feel better.
 
 Good luck my friend.
