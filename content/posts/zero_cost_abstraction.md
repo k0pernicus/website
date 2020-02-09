@@ -48,7 +48,7 @@ In Rust, zero-cost abstractions is a core principle for:
 * iterators,
 * etc.
 
-This can explain why [Diesel](https://diesel.rs/), a famour Rust ORM, [was 30% faster than the raw postgres solution for Rust](https://www.reddit.com/r/Rust/comments/5hmya5/diesel_is_30_faster_than_Rustpostgres_in/), using more abstractions.
+This can explain why [Diesel](https://diesel.rs/), a famous Rust ORM, [was 30% faster than the raw postgres solution for Rust](https://www.reddit.com/r/Rust/comments/5hmya5/diesel_is_30_faster_than_Rustpostgres_in/), using more abstractions.
 
 ## Example
 
