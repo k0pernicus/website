@@ -145,3 +145,5 @@ If you take a look at the compile time of each versions below, you can observe t
 
 Do not hesitate to include abstractions in your code when you need them - in Rust, you should never think about hand-written optimizations first, but think about abstractions, software design, and code readibility, **even if you care about runtime performances**.  
 Unfortunaly, this has a (heavy) cost at compile time.
+
+Thanks to Robert Syme [for his contribution](https://github.com/k0pernicus/website/pull/1).
