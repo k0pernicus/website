@@ -28,3 +28,4 @@ You can contact me at [k0pernicus@0xc0ff33.me](mailto:k0pernicus@0xc0ff33.me).
 * [Podcast - L'écho des Gnous (for French guys)](https://ludovic.grossard.fr/feed/podcast/lecho-des-gnous)
 * [Youtube - The Internet's Own Boy](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 * [Youtube - Russ Olsen, To The Moon!](https://www.youtube.com/watch?v=4Sso4HtvJsw)
+* [Youtube - AlphaGo](https://www.youtube.com/watch?v=WXuK6gekU1Y)
