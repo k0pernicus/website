@@ -12,6 +12,8 @@ title = "About"
 I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), Machine Learning engineer at [Tadaweb](https://tadaweb.com).  
 You can contact me at [k0pernicus@0xc0ff33.me](mailto:k0pernicus@0xc0ff33.me).
 
+My curriculum vitae is available in [English](/CARETTE_EN_cv.pdf).
+
 #### I am interested in:
 
 * <em>artificial intelligence</em> (machine learning & multi-agents systems),
