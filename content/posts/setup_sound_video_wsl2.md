@@ -1,5 +1,5 @@
 +++
-title = "Set up video and sound for WSL2"
+title = "Setup video and sound for WSL2"
 date = 2020-05-05T00:00:00+02:00
 draft = false
 categories = ["wsl2", "linux", "windows", "development", "hack"]
@@ -70,7 +70,7 @@ For X410, you can follow [the official tutorial](https://x410.dev/cookbook/wsl/u
 
 ### Firewall settings
 
-To set up the firewall, we need to configure the settings of your X server via the Windows firewall settings.
+To setup the firewall, we need to configure the settings of your X server via the Windows firewall settings.
 
 Type Windows key and search for "Windows Defender Settings" app.  
 Now, click on "Advanced settings" to get the full settings (1), and click on "Inbound rules" (2).
