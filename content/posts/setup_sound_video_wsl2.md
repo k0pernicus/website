@@ -4,7 +4,7 @@ date = 2020-05-05T00:00:00+02:00
 draft = false
 categories = ["wsl2", "linux", "windows", "development", "hack"]
 tags = ["wsl", "wsl2", "linux", "windows"]
-description = "Linux... on Windows!"
+description = "Linux on Windows... natively!"
 disqus = false
 +++
 
