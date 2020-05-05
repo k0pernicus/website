@@ -34,17 +34,19 @@ Ok, let's work on it!
 ### On your distro
 
 First, we will have to get the DNS server name of your distro.
-To get this, you can run the following bash command: `=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}')`.
+To get this, you can run the following bash command: `$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}')`.
 Let's name the output `DISTRO_DNS`.
 
 To know the IP of your distro, just run `ip a` in a terminal, and check the output for `eth0`, following `inet`.
 Usually, you must have something like `172.26.XXX.XXX/YY`.  
 Let's put the content in a variable named `DISTRO_IP`.
 
-In your ~/.profile file, create the following environment variable called `DISPLAY`, and use the command to get the DNS, concatenated with `:0.0`:
+In your `~/.profile` file, create the following environment variable called `DISPLAY`, and use the command to get the DNS, concatenated with `:0.0`:
 
 ```bash
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+# You can also export the previous environment variables
+export DISTRO_DNS=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}')
 ```
 
 Don't forget to update your current environment (`source ~/.profile`), and... that's it for the moment :)
@@ -123,19 +125,19 @@ docker run -v /tmp/.X11-unix:/tmp/.X11-unix \
     jess/inkscape
 ```
 
-## Pulseaudio
+## pulseaudio
 
 For softwares like inkscape, to not have any sound is totally fine.  
 However, for softwares like Firefox, or VLC, to not have any sound associated to the video may be annoying...
 
 Let's solve this using pulseaudio, a free multi-platform sound server.
 
-### Pulseaudio on Windows
+### pulseaudio on Windows
 
 For this part, I am making updates of a [great blog post to enable pulseaudio for WSL](https://research.wmz.ninja/articles/2017/11/setting-up-wsl-with-graphics-and-audio.html) (first version), thanks to [Mianzhi Wang](https://research.wmz.ninja/index.html).
 The approach remains almost the same than WSL.
 
-First, you will need to download the pre-built binary package from the [PulseAudio website](https://www.freedesktop.org/wiki/Software/PulseAudio/Ports/Windows/Support/), **for Windows**.  
+First, you will need to download the pre-built binary package from the [pulseaudio website](https://www.freedesktop.org/wiki/Software/PulseAudio/Ports/Windows/Support/), **for Windows**.  
 Extract the archive, and make sure that you have four different directories: `bin`, `etc`, `lib` and `share`.  
 Now, edit the file `etc/default.pa`, to replace the line 61 by:
 
@@ -149,7 +151,7 @@ To finish, in `etc/daemon.conf`, replace `exit-idle-time = 20` to `exit-idle-tim
 
 You can now run the pulseaudio server launching `pulseaudio.exe`, contained in the `bin` folder.
 
-### Pulseaudio on your GNU/Linux distribution
+### pulseaudio on your distro
 
 On your distro, you can first purge the existing pulseaudio build and settings, and build & install the latest pulseaudio on your distribution like this:
 
