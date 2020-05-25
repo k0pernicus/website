@@ -8,9 +8,11 @@ categories = ["blog", "technology"]
 disqus = false
 +++
 
-I wrote a few articles for DernierCri about Big Data and Software Development [on Medium](https://blog.derniercri.io/@k0pernicus).
-If you are French (because the articles are written in French), do not hesitate to read them ;)
+I wrote a few articles for DernierCri about Big Data and Software Development [on Medium](https://blog.derniercri.io/@k0pernicus) in 2016 and 2018.
 
-For your information, I will not use Medium anymore to write blog posts.
+Those blog articles has been written in French.  
+This is the list of the blog posts I wrote:
 
-Also, I will work on blog post translation for those.
+* [Julia, le langage qui les réunifiera tous?](https://blog.derniercri.io/julia-le-langage-qui-les-reunifiera-tous/)  
+* [Déployer une app Phoenix sur Heroku, sans connaître Phoenix](https://blog.derniercri.io/deployer-une-app-phoenix-sur-heroku-sans-connaitre-phoenix/)
+* [Cinq fausses idées sur le Big Data](https://blog.derniercri.io/fausse-idees-sur-le-big-data/)
