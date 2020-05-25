@@ -20,7 +20,8 @@ My curriculum vitae is available in [English](/CARETTE_EN_cv.pdf).
 * <em>video games engines</em>,
 * <em>operating systems</em>.
 
-#### I am **not** currently looking for a job.
+If you have a job opportunity in artificial intelligence or software development in Go, Python or Rust,
+please contact me at [k0pernicus@0xc0ff33.me](mailto:k0pernicus@0xc0ff33.me).
 
 #### Some interesting links:
 
