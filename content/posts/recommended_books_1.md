@@ -1,5 +1,5 @@
 +++
-title = "Books recommendation"
+title = "Books recommendation (1/x)"
 date = 2020-07-16T00:00:00+02:00
 draft = false
 categories = ["culture"]
@@ -19,6 +19,8 @@ Unfortunately, during the lockdown since March, it was difficult to read new int
 This strange situation gave me the opportunity to read again some books I like(d), and to make a short list of books I recommend.
 
 All the books I recommend have a link to [goodreads](https://www.goodreads.com) if you want to learn more about a particular one.
+
+This is the first part of this recommendation list.
 
 ## CS related books
 
