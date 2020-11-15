@@ -29,7 +29,7 @@ production my own projects.
 Teached SQL, NoSQL, probabilties/statistics and machine learning to Bachelor students.
 
 ### Research and Development Engineer  
-#### **[Dernier Cri](https://derniercri.io)**, Lille (France) - _October 2017 > April 2017_
+#### **[Dernier Cri](https://derniercri.io)**, Lille (France) - _October 2016 > April 2017_
 Conducted R&D activities for startups and big companies (machine learning and big data), and applied research theories,
  principles, and practical models to solve R&D problems on numerical data only (using `Python` and many other 
  libraries like `scikit-lean`, `statsmodel` or `pandas`).
