@@ -8,6 +8,10 @@ description = "macOS Big Fail"
 disqus = false
 +++
 
+**EDIT (15th of November 2020)**  
+_I made a mistake in explaining that OCSP send in its request the hash binary, which is not correct, and I am sorry for that._  
+_Indeed, OCSP send out the hash of the app developer certificate, as explained [in this great blog post](https://blog.jacopo.io/en/post/apple-ocsp/)._
+
 Apple released it's new mac operating system update - macOS Big Sur - yesterday night, a version that introduces a new design, closer to the iOS / iPadOS interface, new security updates (goodbye hacky kernel extensions...), new features & apps via Catalyst and... an optimized version of macOS for Apple Silicon devices.
 
 ## First, the hype...
@@ -61,7 +65,7 @@ Apple introduced in 2012 `Gatekeeper`, a "security-first tool" to make sure that
 `Gatekeeper` has been recently updated (on macOS Sierra) to disallow the system to install software that have not been approved by Apple (downloaded from the App Store) *and* unapproved by the user manually.
 Because of this, each user has now to allow manually, in the system preferences, that he wants to run *this* specific software on its own machine.
 
-But, to check if a given software has been validated or not by Apple, `Gatekeeper` has to check the validity of the soft (a simple hash of the binary) **over the internet to Apple servers** each time you open it.  
+But, to check if a given software has been validated or not by Apple, `Gatekeeper` has to check the validity of the soft (~~a simple hash of the binary~~ a hash about the app developer certificate[2]) **over the internet to Apple servers** after a given time you opened it at first (**not each time** [2]).  
 The service daemon is called `trustd`.
 
 This means that if Apple servers are slow to answer, `Gatekeeper` will block the opening of the software until it got a response... which can take a while.
@@ -81,3 +85,5 @@ I will not blame the company for the outages, the update fail, all of this... bu
 This needs to be change, but the update pointed by Patrick Wardle does not presume anything good on this side unfortunately...
 
 [1] Screenshots to credit to [9to5mac](https://9to5mac.com) - got from this [9to5mac article](https://9to5mac.com/2020/11/12/apple-widespread-outages-big-sur-downloads-catalina-imessage/)
+
+[2] [https://blog.jacopo.io/en/post/apple-ocsp/](https://blog.jacopo.io/en/post/apple-ocsp/)
