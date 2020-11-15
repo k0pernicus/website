@@ -9,7 +9,7 @@ title = "Online résumé"
 
 ## **Work experience**
 
-### Machine Learning Engineer and Software Engineer  
+### Machine Learning Engineer & Software Engineer  
 #### **[Tadaweb](https://tadaweb.com/)**, Luxembourg - _November 2018 > Now_  
 Help to develop tools and solutions for the Machine Learning team (Vision and NLP projects), conducts researches
 for Vision projects using `PyTorch` and `FastAI`, and help production team to build, test, and deploy 
