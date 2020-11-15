@@ -49,7 +49,7 @@ pygmentscodefencesguesssyntax = true
     weight = 4
 
 [[menu.main]]
-    name = "Online resume"
+    name = "Online résumé"
     url = "/resume"
     weight = 5
 

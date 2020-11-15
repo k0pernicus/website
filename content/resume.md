@@ -1,9 +1,9 @@
 +++
 author = "Antonin"
 date = "2020-11-14T00:00:00-00:00"
-description = "Online resume"
+description = "Online résumé"
 tags = []
-title = "Online resume"
+title = "Online résumé"
 
 +++
 
