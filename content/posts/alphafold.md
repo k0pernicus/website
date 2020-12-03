@@ -81,6 +81,8 @@ _AlphaFold_ 1 has two steps in the process:
 2. a [Gradient descent optimisation](https://en.wikipedia.org/wiki/Gradient_descent) of folding the 3D structure to 
 match the distances between amino-acids in the protein.
 
+{{< figure src="/images/alphafold_1_struct.png" title="AlphaFold 1 architecture - credits to DeepMind[6]" >}}
+
 As stated by the team of _AlphaFold_, [the second version of the model may be **significantly** different from the first one](https://fortune.com/2020/12/01/lessons-from-deepminds-a-i-breakthrough-eye-on-ai/), as the first version has a (light) tendency of overfit the data.
 
 People tend to think that the second version replaced the CNNs with transformers, an [attention-based neural network](https://towardsdatascience.com/intuitive-understanding-of-attention-mechanism-in-deep-learning-6c9482aecf4f), and speculate on more accurate feature engineering 
