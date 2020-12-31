@@ -1,5 +1,5 @@
 +++
-title = "End of a decade"
+title = "The end of a decade"
 date = 2020-12-31T10:09:00+01:00
 draft = false
 categories = ["thoughts"]
