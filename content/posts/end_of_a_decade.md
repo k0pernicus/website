@@ -4,7 +4,7 @@ date = 2020-12-31T10:09:00+01:00
 draft = false
 categories = ["thoughts"]
 tags = ["thoughts"]
-description = "Desires and desillusions of the last ten years"
+description = "Desires and desillusions of the past ten years"
 disqus = false
 +++
 
@@ -44,7 +44,7 @@ Outch.
 Oh boy, take a deep breath here...
 
 _Young Me_ imagined that racism, xenophobia, and sexism would be bad memories from the previous decade.  
-Hopefully, this tends to change since the last two or three years: at least Weinstein's cases and "Black Lives Matter" movements helped for this case, but unfortunately it took some drama to finally happen...
+Hopefully, this tends to change since the past two or three years: at least Weinstein's cases and "Black Lives Matter" movements helped for this case, but unfortunately it took some drama to finally happen...
 
 _Young Me_ never imagined to become an husband and a father...  
 the most beautful things it happened to me the last decade :)
@@ -57,7 +57,7 @@ Individualism and division still reign supreme, as we can see the last year with
 People are fighting in streets to preserve their part of humanity, sometimes for good (get rid of racism and sexism, the Black Lives Matter movements, the fight for individual rights & privacy, etc...)... and sometimes for bad.  
 I want to believe it, mainly for you my son.
 
-Let's the next decade be the decade of change, and remember of the last five years as a big wrong turn.  
+Let's the next decade be the decade of change, and remember of the past five years as a big wrong turn.  
 To forget is a mistake, let's remember of this every time in order to make sure to **not repeat the same mistakes again**.
 
 As Eleanor Brown written, in _"The Weird Sisters"_:
