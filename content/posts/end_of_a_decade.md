@@ -4,7 +4,7 @@ date = 2020-12-31T10:09:00+01:00
 draft = false
 categories = ["thoughts"]
 tags = ["thoughts"]
-description = "Illusions and desillusions since the last 10 years"
+description = "Desires and desillusions of the last ten years"
 disqus = false
 +++
 
