@@ -1,33 +1,44 @@
 +++
 author = "Antonin"
-date = "2019-09-07T00:00:00-00:00"
+date = "2021-02-15T00:00:00-00:00"
 description = ""
 tags = ["project", "publication", "video", "talks", "github"]
 title = "Projects and publications"
 
 +++
 
-### Books
+### Video games
+
+#### Pico-8 cartridges
+
+{{< figure
+    src="/pico_8/galactica.p8.png"
+    alt="Galactica cartridge"
+    title="Galactica, a (basic) space shooter"
+    class="pico-8-cartridge"
+>}}
+
+### Books and research papers
+
+#### Books
 
 * 2017, [Mastering Rust, Vesa Kaihlavirta (PACKT)](https://www.packtpub.com/application-development/mastering-rust) - official reviewer
 
-### Teaching Assistant
-
-* 2017/2018, Big Data courses, [University of Luxembourg](https://uni.lu), Luxembourg
-
-### Research papers
+#### Research papers
 
 * 2016, [Investigating the Energy Impact of Android Smells](https://hal.inria.fr/hal-01403485) - _accepted to [SANER 2017](http://saner.aau.at)_
 * 2015, [A Learning Algorithm for Change Impact Prediction: Experimentation on 7 Java Applications](https://hal.inria.fr/hal-01279620) - [RAISE 2016](http://promisedata.org/raise/2016/)
 
-### Professional blog posts
+### Blog posts, talks & presentations
+
+#### Professional blog posts
 
 * 2020, [Security By Design, A Brief Introduction to Rust](https://medium.com/tadaweb/security-by-design-a-brief-introduction-to-rust-378060e45038), [Tadaweb](https://www.tadaweb.com)
 * 2017, [Julia, le langage qui les réunifiera tous ?](https://blog.derniercri.io/julia-le-langage-qui-les-r%C3%A9unifiera-tous-3a274cb8794f/), [Dernier Cri](http://www.derniercri.io)
 * 2017, [Déployer une app Phoenix sur Heroku, sans connaître Phoenix](https://blog.derniercri.io/d%C3%A9ployer-une-app-phoenix-sur-heroku-sans-conna%C3%AEtre-phoenix-29f3bfb95411/), [Dernier Cri](http://www.derniercri.io)
 * 2016, [Fausses idées sur le big data](https://blog.derniercri.io/fausse-id%C3%A9es-sur-le-big-data-777114dd763e/), [Dernier Cri](http://www.derniercri.io)
 
-### Talks & Public presentations
+#### Talks & Public presentations
 
 * 2018, [L'apprentissage automatique, c'est pas automatique (Machine Learning is not magic)](https://www.youtube.com/watch?v=TJsPCI81Kzo), [TakeOff Talks](http://takeoff.rocks/past-events/2018-05-15-lille/), Lille (France)
 * 2018, [Why you should take a look at Rust - an easy introduction to the Rust programming language](https://www.youtube.com/watch?v=Fn0TZCt_Fno), [FOSDEM](https://fosdem.org/2018/), Bruxelles (Belgium)

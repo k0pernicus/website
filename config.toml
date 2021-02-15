@@ -48,11 +48,6 @@ pygmentscodefencesguesssyntax = true
     url = "/about"
     weight = 4
 
-[[menu.main]]
-    name = "Online résumé"
-    url = "/resume"
-    weight = 5
-
 [[Params.social]]
     name = "Github"
     icon = "github"
