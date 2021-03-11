@@ -1,7 +1,7 @@
 +++
 title = "Conditional compilation and optin dependencies with Rust 'features'"
 date = 2021-10-03T12:00:00+02:00
-draft = true
+draft = false
 categories = ["rust", "programming"]
 tags = ["rust", "programming"]
 description = "The good, the bad, and the rusty"
