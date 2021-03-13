@@ -1,6 +1,6 @@
 +++
 title = "Conditional compilation and optin dependencies with Rust 'features'"
-date = 2021-11-03T21:20:00+02:00
+date = 2021-03-12T00:45:00+02:00
 draft = false
 categories = ["rust", "programming"]
 tags = ["rust", "programming"]
