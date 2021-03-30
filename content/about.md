@@ -9,7 +9,7 @@ title = "About"
 
 ### Hi,
 
-I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), Machine Learning engineer at [Tadaweb](https://tadaweb.com).  
+I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), R&D engineer on AI/ML projects at [DataThings](https://datathings.com/).  
 You can contact me at [antonin@0xc0ff33.me](mailto:antonin@0xc0ff33.me).
 
 My resume is available in [English](/CARETTE_EN_cv.pdf), but I am **not** looking for a job.
