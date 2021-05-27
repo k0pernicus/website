@@ -1,9 +1,0 @@
-.hack em:before {
-    content:"";
-  }
-.hack em:after {
-    content:"";
-}
-.hack em {
-    font-weight: bold;
-}

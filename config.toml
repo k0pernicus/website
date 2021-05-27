@@ -5,20 +5,22 @@ theme = "ezhil"
 title = "Antonin Carette"
 
 # Enable syntax highlighting
-pygmentsstyle = "vs"
+pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-[Author]
+# Number of posts to show in recent posts list
+paginate = 7
+
+[author]
 	name = "Antonin Carette"
 
-[Taxonomies]
+[taxonomies]
 	tag = "computer science machine learning"
 	category = "categories"
 
-[Params]
+[params]
     subtitle = "Machine Learning Engineer & Software Developer"
-    recentPostsCount = 5
     # Content types which are excluded from recent posts and archive page.
     excludedTypes = []
 	disableDisqusTypes = ["page", "about", "projects_publications"]
@@ -26,7 +28,8 @@ pygmentscodefencesguesssyntax = true
     readingTime = true
     readingTimeText = "Estimated reading time:"
     dateFormat = "Mon, Jan 2, 2006"
-    # mainSections = ["post"]
+    favicon = "computer_favicon.png"
+    mode = "auto" # light & dark mode automatically
 
 [[menu.main]]
     name = "Home"
@@ -34,7 +37,7 @@ pygmentscodefencesguesssyntax = true
     weight = 1
 
 [[menu.main]]
-    name = "Blog"
+    name = "Posts"
     url = "/posts/"
     weight = 2
 
@@ -48,20 +51,20 @@ pygmentscodefencesguesssyntax = true
     url = "/about"
     weight = 4
 
-[[Params.social]]
+[[params.social]]
     name = "Github"
     icon = "github"
     url = "https://github.com/k0pernicus"
 
-[[Params.social]]
+[[params.social]]
     name = "LinkedIn"
     icon = "linkedin"
     url = "https://linkedin.com/in/antonin-carette-792bbb82"
 
-[[Params.social]]
+[[params.social]]
     name = "RSS"
     icon = "rss"
     url = "/index.xml"
 
-[Permalinks]
+[permalinks]
     post = "/:year/:month/:day/:filename/"

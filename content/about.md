@@ -7,20 +7,18 @@ title = "About"
 
 +++
 
-### Hi,
-
 I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), R&D engineer on AI/ML projects at [DataThings](https://datathings.com/).  
 You can contact me at [antonin@0xc0ff33.me](mailto:antonin@0xc0ff33.me).
 
-My resume is available in [English](/CARETTE_EN_cv.pdf), but I am **not** looking for a job.
+My resume is available in [English](/CARETTE_EN_cv.pdf).
 
 #### I am interested in:
 
-* <em>artificial intelligence</em> (machine learning & multi-agents systems),
-* <em>video games engines</em>,
-* <em>operating systems</em>.
+* artificial intelligence (machine learning & multi-agents systems),
+* video games engines development,
+* and operating systems development (like [redox-os](https://www.redox-os.org/) or [serenity-os](http://serenityos.org/)).
 
-#### Some interesting links:
+#### Some web links I find interesting:
 
 * [Blog Article - Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html)
 * [Blog Article - Jeff Dean's Numbers Everyone Should Know](http://highscalability.com/numbers-everyone-should-know)
