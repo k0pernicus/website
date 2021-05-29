@@ -33,17 +33,17 @@ paginate = 7
 
 [[menu.main]]
     name = "Blog posts,"
-    url = "/posts/"
+    url = "/posts"
     weight = 1
+
+[[menu.main]]
+    name = "Blog tags,"
+    url = "/tags"
+    weight = 2
 
 [[menu.main]]
     name = "Projects and Publications,"
     url = "/projects_publications"
-    weight = 2
-
-[[menu.main]]
-    name = "Tags,"
-    url = "/tags"
     weight = 3
 
 [[menu.main]]

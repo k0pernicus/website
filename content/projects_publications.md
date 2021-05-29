@@ -1,8 +1,6 @@
 +++
 author = "Antonin"
-date = "2021-02-15T00:00:00-00:00"
-description = ""
-tags = ["project", "publication", "video", "talks", "github"]
+date = "2021-05-30T01:00:00-00:00"
 title = "Projects and publications"
 
 +++
