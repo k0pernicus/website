@@ -28,22 +28,18 @@ My resume is available in [English](/CARETTE_EN_cv.pdf).
 ### Work experience
 
 ##### R&D Engineer, **[DataThings](https://datathings.com/)**, _2021 > ..._  
-I am developing, for production, deep learning algorithms to solve problems.  
-I am working with different companies around the world in order to help them to fix their problems, and 
-deploy the projects in clients code base / cloud stack.
+I am developing machine learning algorithms to solve issues in Vision projects for different companies around the world, from prototype to production-ready (including deployment).
 
 ##### Machine Learning Engineer & Software Engineer, **[Tadaweb](https://tadaweb.com/)**, _2018 > 2021_  
-I helped to develop solutions for the Machine Learning team (Vision and NLP projects), and I conducted researches
-for Vision projects, using `PyTorch` and `FastAI`.
-In the same time, I helped the production team to build, test, and deploy microservices in k8s clusters.
+I developed researchers and developers tools for the Machine Learning team (Vision and NLP projects), and conducted researches
+on Vision projects, (using `PyTorch`).  
+I also wrote and deploy microservices in k8s clusters for our customers.
 
 ##### Data Scientist & Software Developer, **[Dernier Cri](https://derniercri.io)**, _2016 > 2018_
-I conducted R&D activities for startups and big companies (machine learning and big data), and applied research theories,
- principles, and practical models to solve R&D problems on numerical and textual data.  
-I worked in parallel also on `Django` and `React-Native` projects for startups and big companies, and pushed in 
-production my own projects.
+I applied research theories and practical AI/ML models to solve R&D problems on numerical and textual data for startups and big companies in France.  
+I also worked in parallel on web projects (fullstack), from prototype to production.
 
 ##### R&D Engineer, **[UQÀM (LATECE team)](https://latece.uqam.ca/)**, Montréal (Canada) - _2016_
-I developed tools and made several software experiments to build a strong open protocol to measure 
-the energy consumption of Android devices and evaluate code smells impact on them.  
+I developed developer tools in order to evaluate the energy consumption of Android apps code smells on mobile devices directly.  
+I also built an open protocol to measure accurately the energy comsumption of Android apps, on the device directly.  
 _First author of a research paper, submitted and accepted to **SANER 2017**_
