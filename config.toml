@@ -16,7 +16,7 @@ paginate = 7
 	name = "Antonin Carette"
 
 [taxonomies]
-	tag = "computer science machine learning"
+	tag = "tags"
 	category = "categories"
 
 [params]
@@ -32,22 +32,22 @@ paginate = 7
     mode = "auto" # light & dark mode automatically
 
 [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "Blog posts,"
+    url = "/posts/"
     weight = 1
 
 [[menu.main]]
-    name = "Posts"
-    url = "/posts/"
+    name = "Projects and Publications,"
+    url = "/projects_publications"
     weight = 2
 
 [[menu.main]]
-    name = "Projects & Publications"
-    url = "/projects_publications"
+    name = "Tags,"
+    url = "/tags"
     weight = 3
 
 [[menu.main]]
-    name = "About"
+    name = "About me"
     url = "/about"
     weight = 4
 
