@@ -1,11 +1,11 @@
 +++
 author = "Antonin"
-date = "2021-05-30T01:00:00-00:00"
+date = "2021-07-15T01:00:00-00:00"
 title = "Hi"
 
 +++
 
-I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), R&D engineer on AI/ML projects at [DataThings](https://datathings.com/).  
+I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), polyglot developer.  
 You can contact me at [antonin@0xc0ff33.me](mailto:antonin@0xc0ff33.me).
 
 My resume is available in [English](/CARETTE_EN_cv.pdf).
@@ -27,7 +27,7 @@ My resume is available in [English](/CARETTE_EN_cv.pdf).
 
 ### Work experience
 
-##### R&D Engineer, **[DataThings](https://datathings.com/)**, _2021 > ..._  
+##### R&D Engineer, **[DataThings](https://datathings.com/)**, _2021_  
 I am developing machine learning algorithms to solve issues in Vision projects for different companies around the world, from prototype to production-ready (including deployment).
 
 ##### Machine Learning Engineer & Software Engineer, **[Tadaweb](https://tadaweb.com/)**, _2018 > 2021_  
