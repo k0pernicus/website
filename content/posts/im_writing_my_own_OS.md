@@ -2,7 +2,7 @@
 author = "Antonin"
 date = "2016-07-26T00:01:00-04:00"
 description = "Kernel panic!"
-tags = ["rust", "os", "diy", "intermezzos"]
+tags = ["rust", "os", "diy", "intermezzOS"]
 title = "I am writing my own OS"
 disqus = false
 +++

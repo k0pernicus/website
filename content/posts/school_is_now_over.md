@@ -2,7 +2,7 @@
 author = "Antonin"
 date = "2016-09-25T01:37:28+02:00"
 description = "Stressed Out"
-tags = ["Personal"]
+tags = ["thoughts"]
 title = "I'm finished with you, Charlemagne!"
 disqus = false
 +++

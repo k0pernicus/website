@@ -4,8 +4,8 @@ date = 2018-10-26T18:56:18+02:00
 description = "Or how to make your program OS agnostic... at compile time"
 draft = false
 toc = false
-categories = ["go", "feature", "compilation"]
-tags = ["go", "build", "feature", "os"]
+categories = ["go", "software", "compilation"]
+tags = ["go", "feature", "os"]
 disqus = false
 +++
 

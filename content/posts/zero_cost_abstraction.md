@@ -2,8 +2,8 @@
 title = "Zero-cost abstractions in Rust"
 date = 2020-02-08T23:10:00+02:00
 draft = false
-categories = ["Rust", "zero-cost abstraction", "compiler"]
-tags = ["Rust", "zero-cost abstraction", "programming language design", "compiler"]
+categories = ["rust", "compiler"]
+tags = ["rust", "programming language design", "compiler"]
 description = "Abstractions before optimizations"
 disqus = false
 +++

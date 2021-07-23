@@ -2,7 +2,7 @@
 author = "Antonin"
 date = "2016-04-23T01:38:33-04:00"
 description = "\"The End Is Near\" #LOL"
-tags = ["artifical intelligence", "machine learning"]
+tags = ["artificial intelligence", "machine learning"]
 title = "Is Skynet on his way?"
 disqus = false
 +++

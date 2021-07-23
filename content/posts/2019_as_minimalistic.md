@@ -5,7 +5,7 @@ description = "So."
 draft = false
 toc = false
 categories = ["minimalistic", "technology"]
-tags = ["minimalistic", "thinking", "technology"]
+tags = ["minimalistic", "thoughts", "technology"]
 disqus = false
 +++
 

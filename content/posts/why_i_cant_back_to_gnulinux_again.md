@@ -1,7 +1,7 @@
 +++
 description = "Beware trolls..."
 author = "Antonin"
-tags = ["personal", "os", "programming", "macos", "gnu", "linux"]
+tags = ["thoughts", "os", "programming", "macos", "gnu", "linux"]
 title = "Why I can't back to a GNU/Linux distribution again"
 date = "2016-09-10T03:20:49+02:00"
 disqus = false

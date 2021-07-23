@@ -5,7 +5,7 @@ description = "A brief overview of a good Python package manager"
 draft = false
 toc = false
 categories = ["programming"]
-tags = ["pyenv", "python", "dev", "tool", "package", "manager"]
+tags = ["pyenv", "python", "developer", "tool", "package manager"]
 disqus = false
 +++
 

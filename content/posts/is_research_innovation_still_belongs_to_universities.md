@@ -3,7 +3,7 @@ author = "Antonin"
 date = "2017-06-24T08:02:35Z"
 title = "Is research innovation still belongs to Universities ?"
 description = ""
-tags = ["ai", "private research", "university", "personal thought"]
+tags = ["artificial intelligence", "university", "thoughts"]
 disqus = false
 +++
 

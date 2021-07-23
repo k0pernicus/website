@@ -4,8 +4,8 @@ date = 2018-09-22T13:38:34+02:00
 description = "Too dumb for you."
 draft = false
 toc = false
-categories = ["humors", "artificial intelligence", "machine learning"]
-tags = ["machine learning", "artificial intelligence", "humors"]
+categories = ["thoughts", "artificial intelligence", "machine learning"]
+tags = ["machine learning", "artificial intelligence", "thoughts"]
 disqus = false
 +++
 

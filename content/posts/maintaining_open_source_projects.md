@@ -2,7 +2,7 @@
 author = ""
 date = "2016-04-24T01:37:32-04:00"
 description = "+100EXP"
-tags = ["free", "open source", "contributing", "maintaining"]
+tags = ["free", "open source"]
 title = "Contributing in maintaining free and open source projects"
 disqus = false
 +++

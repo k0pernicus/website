@@ -3,7 +3,7 @@ title = "Books recommendation (1/x)"
 date = 2020-07-16T00:00:00+02:00
 draft = false
 categories = ["culture"]
-tags = ["book", "culture"]
+tags = ["culture"]
 description = "'r'"
 disqus = false
 +++

@@ -2,7 +2,7 @@
 author = "Antonin"
 date = "2016-05-19T01:32:21-04:00"
 description = "A post to better understand how to use list comprehension in Nim"
-tags = ["nim", "programming", "list comprehension"]
+tags = ["nim", "programming"]
 title = "List comprehension in Nim"
 disqus = false
 +++
