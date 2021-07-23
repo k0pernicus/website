@@ -1,8 +1,7 @@
 +++
 author = "Antonin"
 date = "2021-07-15T01:00:00-00:00"
-title = "Hi"
-
+title = "About"
 +++
 
 I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), polyglot developer.  
