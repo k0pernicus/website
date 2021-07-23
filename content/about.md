@@ -1,19 +1,13 @@
 +++
 author = "Antonin"
 date = "2021-07-15T01:00:00-00:00"
-title = "About"
+title = "About me"
 +++
 
 I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), polyglot developer.  
 You can contact me at [antonin@0xc0ff33.me](mailto:antonin@0xc0ff33.me).
 
 My resume is available in [English](/CARETTE_EN_cv.pdf).
-
-### I am interested in:
-
-* artificial intelligence (machine learning & multi-agents systems),
-* video games engines development,
-* and operating systems development (like [redox-os](https://www.redox-os.org/) or [serenity-os](http://serenityos.org/)).
 
 ### Some web links I find interesting:
 

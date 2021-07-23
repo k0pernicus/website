@@ -1,7 +1,7 @@
 +++
 author = "Antonin"
 date = "2021-05-30T01:00:00-00:00"
-title = "Projects & Publications"
+title = "Projects & publications"
 +++
 
 ### Video games
