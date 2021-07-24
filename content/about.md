@@ -5,7 +5,7 @@ title = "About me"
 +++
 
 I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), polyglot developer.  
-You can contact me at [antonin@0xc0ff33.me](mailto:antonin@0xc0ff33.me).
+You can contact me at [antonin@carette.xyz](mailto:antonin@carette.xyz), you can download my public GPG key [here](antonin@carette.xyz.key).
 
 My resume is available in [English](/CARETTE_EN_cv.pdf).
 
