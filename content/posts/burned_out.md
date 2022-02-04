@@ -37,10 +37,10 @@ I was considering myself as a programmer, but looking for other programmers, how
 
 This is difficult sometimes to discuss with a "3-months experienced Ruby developer" that contradicts you on real facts (how a computer runs and why his code is slow... and may crash randomly), and to listen him explaining why he will not optimize his code as "servers with 8 gigabytes of RAM is cheap now. And the entire project does not runs the fans of my macbook so... Dah.".
 
-There is no more passion, no more "Computer Science culture", nothing more than a, excuse me for that image, a code monkey.  
+There is no more passion in some of those guys, no more "Computer Science culture", nothing more than a, excuse me for that image, a code monkey.  
 A code monkey who is coding because "coding is fun" but not thinking deeply about what (s)he is doing...
 
-I don't blame those guys for "coding for fun" and not having a good "Computer Science culture", but I am blaming the famous "Industry" in not proposing them to be better at what they are doing most of the time, and blaming the "Industry" for erasing / deleting several strong components of what makes a good developer: culture, testing, and good overall engineer skills.  
+I don't blame the majority of them for "coding for fun" and not having a good "Computer Science culture", but I blame the famous "Industry" for not proposing them to become better at **programming**, and I blame the "Industry" for deleting several strong components of what makes a good developer: culture, testing, and good overall engineering skills, in order to go fast (and make things quick & dirty).  
 
 #### Second note 
 
