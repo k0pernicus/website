@@ -14,8 +14,10 @@ This post contains very toxic and negative thoughts about software and "the Indu
 
 ## Content
 
-Last week, I was "congratuled" **for having done shit**.  
-This made me very sad, and I asked myself, after several more or less good experiences as a computer developer, if I still had a future in this industry.
+Last week, I was "congratuled" **for having done shit**: making a project with a few human resources, a very very very short deadline, no tests *at all* (because **testing is failing** "lol"), and a few extra hours to spend in weekends and public holidays to "make it done".  
+The project does not run well, developers and project managers are all burned out... and this is what the company called "a success".
+
+**This** made me very sad, and I asked myself since, after several more or less good experiences as a computer developer, if I still had a future in this industry.
 
 Web development, which was a wonderful idea decades ago with a simple idea: unifying all platforms into one piece of code that can be run everywhere *if* you have a browser, is now a big pile of shitty libraries and weird pieces of code, that do nothing else than throwing powerful resources (hardware and humans) in trash, nothing more.  
 And this costs to the client thousands of euros...  
