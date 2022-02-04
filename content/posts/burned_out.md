@@ -52,4 +52,4 @@ What is the purpose of making big plans for several years if we have to stop eve
 I don't remember the days I was happy to open the lide of my computer and doing open-source for "nothing" (except spending my time)... Actually, I remember some of those now, creating stuff for the [redox-OS project](https://www.redox-os.org/), and it was a long time ago.  
 But looking at it now, I don't understand why I spent so much time on this.
 
-I am burned-out, and we are only in February 2022... Oh god.
+I am burned out, and we are only in February 2022... Oh god.
