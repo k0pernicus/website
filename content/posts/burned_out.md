@@ -1,10 +1,10 @@
 +++
 title = "Burned out"
-date = 2022-02-04T12:00:00+02:00
-draft = true
+date = 2022-02-04T15:30:00+02:00
+draft = false
 categories = ["toxic", "thoughts"]
 tags = ["toxic", "thoughts"]
-description = ""
+description = "The web of shit"
 disqus = false
 +++
 
