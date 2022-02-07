@@ -31,13 +31,13 @@ I am frustrated about everything involving computer development those days, and 
 #### Note
 
 I am making a difference between "being a programmer", and "being a developer":
-* the programmer optimizes things and can **create** very great piece of software well, that can be reusable (or not) if he desires it,  
-* the developer will uses those resources to **build** something with those, and maybe combinating those little pieces to create a good software architecture and, at the end of the process, a product.  
-I was considering myself as a programmer, but looking for other programmers, how they work and how they build incredible pieces of software from scratch, I am **just** a developer with "programmer skills" experience(s).
+* the programmer optimizes things and can **create** very great piece of software well, that can be reusable (or not) if he desires it, and understands **how** and **where** the code is running (or will learn), 
+* the developer will uses those resources to **build** something with those, and maybe combinating those little pieces to create a good software architecture and, at the end of the process, a **product**.  
+I was considering myself as a programmer, but looking for other programmers, how they work and how they build incredible pieces of software from scratch, I am _just_ a developer with a few programmer experiences.
 
-This is difficult sometimes to discuss with a "3-months experienced Ruby developer" that contradicts you on real facts (how a computer runs and why his code is slow... and may crash randomly), and to listen him explaining why he will not optimize his code as "servers with 8 gigabytes of RAM is cheap now. And the entire project does not runs the fans of my macbook so... Dah.".
+This is difficult sometimes to discuss with a "3-months experienced Ruby developer" who contradicts you (many times) on facts (how a computer runs and why his code is slow... and may crash randomly), and to listen him explaining you why he will not optimize his code as "servers with 8 gigabytes of RAM are cheap now. And the entire project does not runs the fans of my macbook so... Dah.".
 
-There is no more passion in some of those guys, no more "Computer Science culture", nothing more than a, excuse me for that image, a code monkey.  
+There is no more passion in some of those guys, no more "Computer Science culture", nothing more than, excuse me for that image, a code monkey.  
 A code monkey who is coding because "coding is fun" but not thinking deeply about what (s)he is doing...
 
 I don't blame the majority of them for "coding for fun" and not having a good "Computer Science culture", but I blame the famous "Industry" for not proposing them to become better at **programming**, and I blame the "Industry" for deleting several strong components of what makes a good developer: culture, testing, and good overall engineering skills, in order to go fast (and make things quick & dirty).  
