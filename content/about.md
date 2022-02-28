@@ -9,18 +9,25 @@ You can contact me at [antonin@carette.xyz](mailto:antonin@carette.xyz), you can
 
 My resume is available in [English](/CARETTE_EN_cv.pdf).
 
-### Some web links I find interesting:
+#### Note
+
+Please, do not contact me for whatever position that implies front-end and / or back-end with JavaScript or TypeScript
+(and I include NodeJS, of course).  
+
+### Some interesting things to read / watch:
 
 * [Blog Article - Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html)
 * [Blog Article - Jeff Dean's Numbers Everyone Should Know](http://highscalability.com/numbers-everyone-should-know)
 * [Manifesto - The Hacker's Manifesto](https://www.usc.edu/~douglast/202/lecture23/manifesto.html)
-* [Podcast - L'écho des Gnous (for French guys)](https://ludovic.grossard.fr/feed/podcast/lecho-des-gnous)
 * [Youtube - The Internet's Own Boy](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 * [Youtube - Jonathan Blow, Preventing the End of Civilization](https://www.youtube.com/watch?v=ZSRHeXYDLko)
 
 ### Work experience
 
-##### R&D Engineer, **[DataThings](https://datathings.com/)**, _2021_  
+##### Full Stack Developer, **[Dernier Cri](https://derniercri.io)**, _2021 > ..._
+Web & mobile development, front-end and back-end.
+
+##### R&D Engineer, **[DataThings](https://datathings.com/)**, _2021_
 I am developing machine learning algorithms to solve issues in Vision projects for different companies around the world, from prototype to production-ready (including deployment).
 
 ##### Machine Learning Engineer & Software Engineer, **[Tadaweb](https://tadaweb.com/)**, _2018 > 2021_  
