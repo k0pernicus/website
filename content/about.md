@@ -27,7 +27,7 @@ Please, do not contact me for whatever position that implies front-end and / or 
 ##### Full Stack Developer, **[Dernier Cri](https://derniercri.io)**, _2021 > ..._
 Web & mobile development, front-end and back-end.
 
-##### R&D Engineer, **[DataThings](https://datathings.com/)**, _2021_
+##### R&D Engineer, **[DataThings](https://datathings.com/)**, _2021 (6 months contract work)_
 I am developing machine learning algorithms to solve issues in Vision projects for different companies around the world, from prototype to production-ready (including deployment).
 
 ##### Machine Learning Engineer & Software Engineer, **[Tadaweb](https://tadaweb.com/)**, _2018 > 2021_  
