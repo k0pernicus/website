@@ -1,6 +1,6 @@
 +++
 title = "The case of OpenGL, in C++, on m1 mac"
-date = 2022-03-02T00:00:00+02:00
+date = 2022-03-05T00:00:00+02:00
 draft = true
 categories = ["programming", "c++", "computer graphics", "opengl"]
 tags = ["programming", "c++", "computer graphics", "opengl"]
@@ -8,7 +8,7 @@ description = "COMBO!"
 disqus = false
 +++
 
-Since a long time now I was interested in learning computer graphics and "do stuff" with graphics APIs.  
+Since a long time now I was interested in learning computer graphics and "do stuff" with computer graphics APIs.  
 I began to work on a very simple Game engine in Swift / Metal last year but I began to switch to a Windows machine
 a few months ago, and Swift / Metal is not compatible with Windows (and will never be I think).
 
@@ -16,6 +16,8 @@ Here, I wanted to go further in exploring OpenGL and / or Vulkan, for multi-plat
 I choosed OpenGL because I am prototyping with GameMaker Studio 2, and writing shaders for it.  
 Shaders in GMS2 use [GLSL](https://www.khronos.org/opengl/wiki/Core_Language_(GLSL), the _OpenGL Shading Language_, 
 for OpenGL.
+
+I am using modern C++ (C++17) for this project, mainly because I really like modern C++.
 
 ###  Why not Metal with C++ ?
 
@@ -41,7 +43,8 @@ OpenGL ES (outch...), and Vulkan on desktop.
 What does it means it that GLFW is a **helper** library that starts the OpenGL "context" (a running copy of OpenGL, tied to a window) for us, and talks to a lot of platforms / operating systems in the same way.  
 The current version of GLFW, writing this article, is the third: GLFW3.
 
-In homebrew, GLFW3 is not universal (so, not compatible with m1 macs).
+In homebrew, GLFW3 is not universal (so, not compatible with m1 macs).  
+An issue on Github is still opened about this: [https://github.com/patriciogonzalezvivo/glslViewer/issues/219](https://github.com/patriciogonzalezvivo/glslViewer/issues/219).
 
 #### Compile it yourself
 
@@ -143,7 +146,7 @@ Now, let's create a window, and wait for the user to close it using his prefered
 
 const size_t WIDTH = 640;
 const size_t HEIGHT = 480;
-const char *WINDOW_NAME = "Test OpenGL";
+const char* WINDOW_NAME = "Test OpenGL";
 
 /*
  * Callback to handle the "close window" event, once the user pressed the Escape key.
@@ -178,13 +181,12 @@ int main(void)
     // Makes the window context current
     glfwMakeContextCurrent(window);
 
-    // Note: Once you have a current OpenGL context, you can use OpenGL normally
-    // get version info
     const GLubyte* renderer = glGetString(GL_RENDERER);
     const GLubyte* version = glGetString(GL_VERSION);
     std::cout << "Renderer: " << renderer << std::endl;
     std::cout << "OpenGL version supported: " << version << std::endl;
 
+    // Now we have a current OpenGL context, we can use OpenGL normally
     while (!glfwWindowShouldClose(window))
     {
         // Render
@@ -206,3 +208,38 @@ On my mac, it runs flawlessly and write on the standard output:
 Renderer: Apple M1
 OpenGL version supported: 4.1 Metal - 76.3
 ```
+
+## Improve the build system
+
+In order to avoid copy/pasting complex command lines to build an executable, but also to improve our build system with system conditions (like if the OS is Microsoft Windows, if macOS, if the kernel is linux, etc...), we will need something more robust.  
+For this, we will create our own CMakeFiles.txt file, which contains all the rules to build our own executable.
+
+On macOS, you will need to install `cmake` (and make) using `brew`: `brew install cmake make`.
+
+```cmake
+cmake_minimum_required(VERSION 3.22 FATAL_ERROR)
+
+project(myproject VERSION 1.0)
+
+add_definitions(-std=c++17)
+set(CXX_FLAGS "-Wall")
+set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
+set(CMAKE_BUILD_TYPE Debug)
+
+add_executable(myapp main.cpp)
+
+find_package(glfw3 3.4 REQUIRED)
+find_package(OpenGL REQUIRED)
+
+target_include_directories(myproject PUBLIC ${OPENGL_INCLUDE_DIR})
+
+target_link_libraries(myproject "-framework Cocoa")
+target_link_libraries(myproject "-framework OpenGL")
+target_link_libraries(myproject "-framework IOKit")
+target_link_libraries(myproject glfw ${OPENGL_gl_LIBRARY})
+```
+
+Now, `cmake . && make` will produce a binary called `myapp`, which displays the same black window than before.  
+Nice!
+
+This setup will simplify a lot of things later, especially for conditional builds and testing (because, yes, we can execute some tests using `cmake`).
