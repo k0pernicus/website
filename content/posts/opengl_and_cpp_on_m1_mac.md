@@ -19,6 +19,8 @@ for OpenGL.
 
 I am using modern C++ (C++17) for this project, mainly because I really like modern C++.
 
+The goal of this (first?) part is to draw the famous RGB triangle, on the mac M1.
+
 ###  Why not Metal with C++ ?
 
 Even if [Apple Metal](https://developer.apple.com/metal/) is great (actually, the API is pretty awesome), it is unfortunately specific to Apple products, and I wanted to work on something with platforms that **do not** include _only_ Apple.  
@@ -243,3 +245,380 @@ Now, `cmake . && make` will produce a binary called `myapp`, which displays the 
 Nice!
 
 This setup will simplify a lot of things later, especially for conditional builds and testing (because, yes, we can execute some tests using `cmake`).
+
+## The shaders
+
+I will use specific features of C++17, like `optional`, in order to improve the code and avoid to throw errors / exceptions everywhere...
+
+```c++
+/* shader_utils.h */
+#ifndef SHADER_UTILS_H
+#define SHADER_UTILS_H
+
+#include <optional>
+
+namespace ShaderUtils
+{
+
+    enum Type
+    {
+        FRAGMENT_SHADER_TYPE,
+        VERTEX_SHADER_TYPE,
+    };
+
+    struct Program
+    {
+
+    private:
+        std::optional<unsigned int> vertexShader = std::nullopt;
+        std::optional<unsigned int> fragmentShader = std::nullopt;
+        std::optional<unsigned int> program = std::nullopt;
+        bool registered = false;
+
+    public:
+        Program();
+        ~Program();
+        bool registerShader(const Type shader_type, const char *shader_source);
+        bool registerProgram();
+        std::optional<unsigned int> getProgram() const;
+        bool programIsRegistered() const;
+    };
+
+}
+
+#endif /* SHADER_UTILS_H */
+```
+
+For the implementation:
+
+```c++
+/* shader_utils.cpp */
+#ifdef __APPLE__
+/* Defined before OpenGL and GLUT includes to avoid deprecation messages */
+#define GL_SILENCE_DEPRECATION
+#include <GLFW/glfw3.h>
+#endif
+
+#include "logs.h" // Simple macros for DEBUG, INFO, ... messages
+#include "shader_utils.h"
+#include <optional>
+#include <iostream>
+
+ShaderUtils::Program::Program() {}
+
+ShaderUtils::Program::~Program()
+{
+    if (vertexShader.has_value())
+        glDeleteShader(vertexShader.value());
+    if (vertexShader.has_value())
+        glDeleteShader(fragmentShader.value());
+    if (registered && program.has_value())
+        glDeleteProgram(program.value());
+}
+
+bool ShaderUtils::Program::registerShader(const ShaderUtils::Type shader_type, const char *shader_source)
+{
+    int success = {};
+    char errorMessage[1024] = {};
+
+    if (shader_type == ShaderUtils::Type::VERTEX_SHADER_TYPE)
+    {
+        vertexShader = glCreateShader(GL_VERTEX_SHADER);
+        const unsigned int vertexShaderValue = vertexShader.value();
+        // Now, pass the shaders
+        glShaderSource(vertexShaderValue, 1, &shader_source, NULL);
+        // And now, compile them
+        glCompileShader(vertexShaderValue);
+
+        glGetShaderiv(vertexShaderValue, GL_COMPILE_STATUS, &success);
+        if (!success)
+        {
+            glGetShaderInfoLog(vertexShaderValue, 1024, NULL, errorMessage);
+            error("Vertex shader compilation error: " << errorMessage);
+            return false;
+        }
+    }
+    else
+    {
+        fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
+        const unsigned int fragmentShaderValue = fragmentShader.value();
+        // Now, pass the shaders
+        glShaderSource(fragmentShaderValue, 1, &shader_source, NULL);
+        // And now, compile them
+        glCompileShader(fragmentShaderValue);
+
+        glGetShaderiv(fragmentShaderValue, GL_COMPILE_STATUS, &success);
+        if (!success)
+        {
+            glGetShaderInfoLog(fragmentShaderValue, 1024, NULL, errorMessage);
+            error("Fragment shader compilation error: " << errorMessage);
+            return false;
+        }
+    }
+    return true;
+}
+
+bool ShaderUtils::Program::registerProgram()
+{
+    if (registered)
+    {
+        error("program is already registered");
+        return false;
+    }
+    if (!vertexShader.has_value() || !fragmentShader.has_value())
+    {
+        error("cannot compile program without vertex and fragment shaders");
+        return false;
+    }
+    int success = {};
+    char errorMessage[1024] = {};
+    const unsigned int vertexShaderValue = vertexShader.value();
+    const unsigned int fragmentShaderValue = fragmentShader.value();
+
+    program = glCreateProgram();
+    const unsigned int programValue = program.value();
+
+    glAttachShader(programValue, vertexShaderValue);
+    glAttachShader(programValue, fragmentShaderValue);
+    glLinkProgram(programValue);
+
+    glGetProgramiv(programValue, GL_LINK_STATUS, &success);
+    if (!success)
+    {
+        glGetProgramInfoLog(programValue, 1024, NULL, errorMessage);
+        error("Shader linking error: " << errorMessage);
+        return false;
+    }
+
+    // We can now delete our vertex and fragment shaders
+    glDeleteShader(vertexShaderValue);
+    glDeleteShader(fragmentShaderValue);
+    glUseProgram(programValue);
+    registered = true;
+
+    return true;
+}
+
+std::optional<unsigned int> ShaderUtils::Program::getProgram() const
+{
+    return program;
+}
+
+bool ShaderUtils::Program::programIsRegistered() const
+{
+    return registered;
+}
+```
+
+Using those helpers, our shaders registration take a few lines of code:
+
+```c++
+// in main.cpp, just before the `while` loop
+    ...
+    auto shader_utils = ShaderUtils::Program{};
+
+    if (!shader_utils.registerShader(ShaderUtils::Type::VERTEX_SHADER_TYPE, basicVertexShaderSource))
+    {
+        glfwTerminate();
+        return -1;
+    }
+
+    if (!shader_utils.registerShader(ShaderUtils::Type::FRAGMENT_SHADER_TYPE, basicFragmentShaderSource))
+    {
+        glfwTerminate();
+        return -1;
+    }
+
+    if (!shader_utils.registerProgram())
+    {
+        glfwTerminate();
+        return -1;
+    }
+    ...
+```
+
+As our current target is the basic RGB triangle, our shaders are very simple.
+
+For the vertex shader source:
+
+```vert
+#version 410 core
+layout (location = 0) in vec3 vertexPosition;
+layout (location = 1) in vec3 vertexColor;
+layout (location = 0) out vec3 fragmentColor;
+
+void main() {
+    gl_Position = vec4(vertexPosition, 1.0); // `w` is used for perspective
+    fragmentColor = vertexColor;
+}
+```
+
+, and the fragment shader source:
+
+```frag
+#version 410 core
+layout (location = 0) in vec3 fragmentColor;
+out vec4 finalColor;
+
+void main() {
+    finalColor = vec4(fragmentColor, 1.0);
+}
+```
+
+For this, you can easily write down those shaders in dedicated files, and load them interactively via the command line.  
+For this exercise, I am writing those shaders down into two dedicated strings, and use them non-interactively:
+
+```c++
+    ...
+    const char *basicVertexShaderSource = "#version 410 core\n"
+                                        "layout (location = 0) in vec3 vertexPosition;\n"
+                                        "layout (location = 1) in vec3 vertexColor;\n"
+                                        "layout (location = 0) out vec3 fragmentColor;\n"
+                                        "void main()\n"
+                                        "{\n"
+                                        "    gl_Position = vec4(vertexPosition, 1.0);\n" // `w` is used for perspective
+                                        "    fragmentColor = vertexColor;\n"
+                                        "}\0";
+
+    const char *basicFragmentShaderSource = "#version 410 core\n"
+                                            "layout (location = 0) in vec3 fragmentColor;\n"
+                                            "out vec4 finalColor;\n"
+                                            "void main()\n"
+                                            "{\n"
+                                            "    finalColor = vec4(fragmentColor, 1.0);\n"
+                                            "}\0";
+    ...
+```
+
+## A story about vertices...
+
+We have our main program, we have our shaders... now, let's draw the famous triangle!
+
+The array will contains 6 elements, with the following labels `x, y, z, r, g, b`.  
+The offset for a position will be `0`, and the offset for a color will be `3`.
+
+I wrote down the basic specification in a specific library component:
+
+```c++
+// in maths_utils.h
+#ifndef _MATHS_UTILS_H
+#define _MATHS_UTILS_H
+
+namespace MathsUtils
+{
+
+    const unsigned int VERTEX_ELEMENTS_NB = 6;
+
+    /**
+     * @brief Reassemble all elements of a vertex in a dedicated type
+     * Contains, in the following order: x, y, z (position, in 3D), r, g, b (RGB colors)
+     */
+    typedef float vertex[VERTEX_ELEMENTS_NB];
+
+    ... // Some uninteresting functions for this exercise
+
+    /**
+     * @brief Returns the number of individual vertex arrays inside a vertices array
+     *
+     * @param vertices - an array of vertex
+     * @return The number of the individual vertex arrays
+     */
+    const unsigned int getNbVertex(const vertex vertices[]);
+
+    /**
+     * @brief Sums and returns the number of individual elements stored in the vertices array
+     *
+     * @param vertices - an array of vertex
+     * @return The sum of all individual elements stored in the vertices array
+     */
+    const unsigned int getNbElements(const vertex vertices[]);
+}
+
+#endif /* _MATHS_UTILS_H */
+```
+
+The implementation is straightforward:
+
+```c++
+// in maths_utils.cpp
+#include "maths_utils.h"
+
+const unsigned int MathsUtils::getNbVertex(const MathsUtils::vertex vertices[])
+{
+    return (unsigned int)(sizeof(*vertices) / MathsUtils::VERTEX_ELEMENTS_NB);
+}
+
+const unsigned int MathsUtils::getNbElements(const MathsUtils::vertex vertices[])
+{
+    return MathsUtils::getNbVertex(vertices) * VERTEX_ELEMENTS_NB;
+}
+```
+
+So, we end with the following code:
+
+```c++
+    ...
+    // Specify position attribute - 0 as offset
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, MathsUtils::VERTEX_ELEMENTS_NB * sizeof(float), (GLvoid *)0);
+    glEnableVertexAttribArray(0);
+
+    // Specify color attribute - 3 as offset
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, MathsUtils::VERTEX_ELEMENTS_NB * sizeof(float), (GLvoid *)(3 * sizeof(float)));
+    glEnableVertexAttribArray(1);
+
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    ...
+```
+
+Now, we have to explicit say that:
+* we want to use the GPU program,
+* bind the vertex array,
+* and draw the triangle.
+
+In the while loop, we could just write:
+
+```c++
+    ...
+    while (!glfwWindowShouldClose(window))
+    {
+        // Render
+        glClearColor(0.5, 0.5, 0.5, 1.0);
+        glClear(GL_COLOR_BUFFER_BIT);
+        glUseProgram(shader_utils.getProgram().value());
+        glBindVertexArray(VAO);
+        glDrawArrays(GL_TRIANGLES, 0, 3);
+        // Poll for and process events
+        glfwPollEvents();
+        // Swap front and back buffers
+        glfwSwapBuffers(window);
+    }
+    ...
+```
+
+and, do not forget the delete the buffer right after:
+
+```c++
+    ...
+    glDeleteBuffers(1, &VBO);
+    glDeleteVertexArrays(1, &VAO);
+    glfwTerminate();
+    return 0;
+}
+```
+
+Then, hit `cmake . && make`, launch the program and... tadaaaa!
+
+{{< figure src="/images/rgb_opengl_triangle_m1.png" title="An RGB triangle, built with OpenGL 4.1 on a macbook air m1" scale="50%" />}}
+
+The full code is available at: [https://github.com/k0pernicus/opengl-explorer](https://github.com/k0pernicus/opengl-explorer), commit `0e311828fb34b272809432254307e8561e951335`:
+
+```bash
+git clone https://github.com/k0pernicus/opengl-explorer
+cd opengl-explorer
+git checkout -b rgb_triangle 0e311828fb34b272809432254307e8561e951335
+```
+
+The m1 mac is an awesome machine, but lacks of continuity for OpenGL (especially as OpenGL 4.5 >= introduces a lot of new exciting features that make the code less verbose).  
+As OpenGL 4.1 is still robust and as Apple did not completely removed OpenGL from the stack, it is still interesting to draw things with OpenGL... but Vulkan may be interesting at this point.
+
+I don't know if I will continue on this kind of exercises, and go further on trasnformations for example... but do not hesitate to give me some feedbacks (by emails) if you want to know more about X or Y.
