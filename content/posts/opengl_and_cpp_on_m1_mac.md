@@ -19,7 +19,7 @@ for OpenGL.
 
 I am using modern C++ (C++17) for this project, mainly because I really like modern C++.
 
-The goal of this (first?) part is to draw the famous RGB triangle, on the mac M1.
+The goal of this (first?) part is to draw the famous RGB triangle, on the m1 mac, using C++17.
 
 ###  Why not Metal with C++ ?
 
@@ -252,8 +252,8 @@ I will use specific features of C++17, like `optional`, in order to improve the 
 
 ```c++
 /* shader_utils.h */
-#ifndef SHADER_UTILS_H
-#define SHADER_UTILS_H
+#ifndef _SHADER_UTILS_H
+#define _SHADER_UTILS_H
 
 #include <optional>
 
@@ -270,17 +270,66 @@ namespace ShaderUtils
     {
 
     private:
+        /**
+         * @brief The vertex shader ID, as an optional
+         */
         std::optional<unsigned int> vertexShader = std::nullopt;
+
+        /**
+         * @brief The fragment shader ID, as an optional
+         */
         std::optional<unsigned int> fragmentShader = std::nullopt;
+
+        /**
+         * @brief The GPU program ID (or shader ID), as an optional
+         */
         std::optional<unsigned int> program = std::nullopt;
+
+        /**
+         * @brief Stores if the shader has been registered or not
+         */
         bool registered = false;
 
     public:
+        /**
+         * @brief Constructor
+         */
         Program();
+
+        /**
+         * @brief Destructor
+         */
         ~Program();
+
+        /**
+         * @brief Register a shader
+         *
+         * @param shader_type The type: fragment or vertex
+         * @param shader_source The source code as a string
+         * @return true The shader has been successfully registered
+         * @return false The shader has not been registered - error is logged
+         */
         bool registerShader(const Type shader_type, const char *shader_source);
+
+        /**
+         * @brief Register the GPU program (or shader), after compilation
+         * of the fragment and vertex shaders.
+         *
+         * @return true The shader has been successfully registered
+         * @return false The shader has not been successfully registered - error is logged
+         */
         bool registerProgram();
+
+        /**
+         * @brief Returns the GPU program ID object, as optional
+         *
+         * @return std::optional<unsigned int>
+         */
         std::optional<unsigned int> getProgram() const;
+
+        /**
+         * @brief Returns if the GPU program object has been registered or not
+         */
         bool programIsRegistered() const;
     };
 
@@ -608,7 +657,7 @@ and, do not forget the delete the buffer right after:
 
 Then, hit `cmake . && make`, launch the program and... tadaaaa!
 
-{{< figure src="/images/rgb_opengl_triangle_m1.png" title="An RGB triangle, built with OpenGL 4.1 on a macbook air m1" scale="50%" />}}
+{{< figure src="/images/rgb_opengl_triangle_m1.png" title="An RGB triangle, built with OpenGL 4.1 on a macbook air m1" scale="50%" >}}
 
 The full code is available at: [https://github.com/k0pernicus/opengl-explorer](https://github.com/k0pernicus/opengl-explorer), commit `0e311828fb34b272809432254307e8561e951335`:
 
