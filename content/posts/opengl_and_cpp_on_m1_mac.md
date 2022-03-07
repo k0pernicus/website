@@ -1,7 +1,7 @@
 +++
 title = "The case of OpenGL, in C++, on m1 mac"
-date = 2022-03-05T00:00:00+02:00
-draft = true
+date = 2022-03-07T16:45:00+02:00
+draft = false
 categories = ["programming", "c++", "computer graphics", "opengl"]
 tags = ["programming", "c++", "computer graphics", "opengl"]
 description = "COMBO!"
