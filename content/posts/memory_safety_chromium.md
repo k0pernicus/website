@@ -35,7 +35,7 @@ Indeed, the team developed a plan to solve those issues, using two criterias:
 * time and resources costs needed to implement the improvement(s),
 * the real benefit of those costs, *basically the number and the quality of those improvement(s)*.
 
-{{< figure src="/images/memory_bugs_chromium_plan.png" title="Plan for next years  memory bugs improvements for / in Chromium, from Chromium Project team" scale="50%" >}}
+{{< figure src="/images/memory_bugs_chromium_plan.png" title="Plan for next years memory bugs improvements for / in Chromium, from Chromium Project team" scale="50%" >}}
 
 This spectrum reflects the different strategies offered by the team, from left to right:
 
