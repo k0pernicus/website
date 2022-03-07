@@ -668,6 +668,7 @@ git checkout -b rgb_triangle 0e311828fb34b272809432254307e8561e951335
 ```
 
 The m1 mac is an awesome machine, but lacks of continuity for OpenGL (especially as OpenGL 4.5 >= introduces a lot of new exciting features that make the code less verbose).  
-As OpenGL 4.1 is still robust and as Apple did not completely removed OpenGL from the stack, it is still interesting to draw things with OpenGL... but Vulkan may be interesting at this point.
+As OpenGL 4.1 is still robust and, as Apple did not completely removed OpenGL from the stack, it is still interesting to draw things with OpenGL.  
+**However** Vulkan may be interesting at this point for further / longer multiplatform compatibility (despites its complexity).
 
 I don't know if I will continue on this kind of exercises, and go further on trasnformations for example... but do not hesitate to give me some feedbacks (by emails) if you want to know more about X or Y.
