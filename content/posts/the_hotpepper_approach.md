@@ -2,7 +2,7 @@
 author = "Antonin"
 date = "2016-09-01T13:41:55+02:00"
 description = "An approach to assess and improve the energy consumption of Android apps"
-tags = ["android", "internship", "hotpepper", "hot", "pepper"]
+tags = ["android", "internship", "hotpepper"]
 title = "The Hot-Pepper approach"
 disqus = false
 +++
