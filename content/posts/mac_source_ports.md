@@ -2,8 +2,8 @@
 title = "Old games on m1 macs, natively"
 date = 2022-03-09T09:30:00+02:00
 draft = false
-categories = ["games", "apple silicon", "mac"]
-tags = ["games", "apple silicon", "mac"]
+categories = ["games", "apple silicon", "apple", "macintosh", "macOS", "retrogaming"]
+tags = ["games", "apple silicon", "apple", "macintosh", "macOS", "retrogaming"]
 description = "More games to play!"
 disqus = false
 +++
