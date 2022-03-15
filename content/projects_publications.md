@@ -9,10 +9,10 @@ title = "Projects & publications"
 #### Pico-8 cartridges
 
 {{< figure
-    src="/pico_8/galactica.p8.png"
-    alt="Galactica cartridge"
-    title="Galactica, a (basic) space shooter"
-    class="pico-8-cartridge"
+src="/pico_8/galactica.p8.png"
+alt="Galactica cartridge"
+title="Galactica, a (basic) space shooter"
+class="pico-8-cartridge"
 >}}
 
 ### Books and research papers

@@ -1,11 +1,14 @@
 +++
 author = "Antonin"
-date = "2021-07-15T01:00:00-00:00"
+date = "2022-03-15T01:00:00-00:00"
 title = "About me"
 +++
 
 I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), polyglot developer.  
 You can contact me at [antonin@carette.xyz](mailto:antonin@carette.xyz), you can download my public GPG key [here](antonin@carette.xyz.key).
+
+Please reach me out if you are interested in hiring in the video-game industry (fixed-term contracts), 
+availability from June 2022.
 
 My resume is available in [English](/CARETTE_EN_cv.pdf).
 
@@ -24,8 +27,8 @@ Please, do not contact me for whatever position that implies front-end and / or 
 
 ### Work experience
 
-##### Full Stack Developer, **[Dernier Cri](https://derniercri.io)**, _2021 > ..._
-Web & mobile development, front-end and back-end.
+##### Full Stack Developer, **[Dernier Cri](https://derniercri.io)**, _2021 > 2022_
+Web & mobile development, front-end mainly.
 
 ##### R&D Engineer, **[DataThings](https://datathings.com/)**, _2021 (6 months contract work)_
 I am developing machine learning algorithms to solve issues in Vision projects for different companies around the world, from prototype to production-ready (including deployment).
