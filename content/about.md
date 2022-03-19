@@ -1,14 +1,16 @@
 +++
 author = "Antonin"
-date = "2022-03-15T01:00:00-00:00"
+date = 2022-03-19T21:30:00+02:00
 title = "About me"
 +++
 
-I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), polyglot developer.  
+I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), programmer.  
 You can contact me at [antonin@carette.xyz](mailto:antonin@carette.xyz), you can download my public GPG key [here](antonin@carette.xyz.key).
 
 Please reach me out if you are interested in hiring in the video-game industry (fixed-term contracts), 
 availability from June 2022.
+
+**I am not interested in anything other than the movie, photography, or video-games industry**.
 
 My resume is available in [English](/CARETTE_EN_cv.pdf).
 
