@@ -57,6 +57,11 @@ paginate = 7
     url = "https://github.com/k0pernicus"
 
 [[params.social]]
+    name = "Instagram"
+    icon = "instagram"
+    url = "https://www.instagram.com/antonintakespictures"
+
+[[params.social]]
     name = "LinkedIn"
     icon = "linkedin"
     url = "https://linkedin.com/in/antonin-carette-792bbb82"
