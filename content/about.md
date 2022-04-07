@@ -10,7 +10,7 @@ You can contact me at [antonin@carette.xyz](mailto:antonin@carette.xyz), you can
 Please reach me out if you are interested in hiring in the video-game industry (fixed-term contracts), 
 availability from June 2022.
 
-**I am not interested in anything other than the movie, photography, or video-games industry**.
+**I also have a website where I show my own photographs, at [https://www.glitchees.net](https://www.glitchees.net).**
 
 My resume is available in [English](/CARETTE_EN_cv.pdf).
 
