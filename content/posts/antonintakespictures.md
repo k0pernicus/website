@@ -1,6 +1,6 @@
 +++
 title = "Now on Instagram"
-date = 2022-03-31T19:30:00+02:00
+date = 2022-03-31T19:05:00+02:00
 draft = false
 categories = ["photography", "thoughts"]
 tags = ["photography", "thoughts"]
