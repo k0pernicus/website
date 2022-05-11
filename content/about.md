@@ -1,14 +1,11 @@
 +++
 author = "Antonin"
-date = 2022-04-07T21:30:00+02:00
+date = 2022-05-11T09:00:00+02:00
 title = "About me"
 +++
 
-I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), programmer.  
+I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), game programmer.  
 You can contact me at [antonin@carette.xyz](mailto:antonin@carette.xyz), you can download my public GPG key [here](antonin@carette.xyz.key).
-
-Please reach me out if you are interested in hiring in the video-game industry (fixed-term contracts), 
-availability from June 2022.
 
 **I also have a website where I show my own photographs, at [https://www.glitchees.net](https://www.glitchees.net).**
 
@@ -28,6 +25,9 @@ Please, do not contact me for whatever position that implies front-end and / or 
 * [Youtube - Jonathan Blow, Preventing the End of Civilization](https://www.youtube.com/watch?v=ZSRHeXYDLko)
 
 ### Work experience
+
+##### Game Programmer, **[RedArtGames](https://www.redartgames.com)**, _2022 > ..._
+I am porting video-games from PC (mostly) to modern consoles like PS*, Xbox, or Nintendo Switch.
 
 ##### Full Stack Developer, **[Dernier Cri](https://derniercri.io)**, _2021 > 2022_
 Web & mobile development, front-end mainly.
