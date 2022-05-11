@@ -26,14 +26,14 @@ Please, do not contact me for whatever position that implies front-end and / or 
 
 ### Work experience
 
-##### Game Programmer, **[RedArtGames](https://www.redartgames.com)**, _2022 > ..._
-I am porting video-games from PC (mostly) to modern consoles like PS*, Xbox, or Nintendo Switch.
+##### Game Programmer, **[RedArtGames Studio](https://www.redartgames.com)**, _2022 > ..._
+I port video-games from PC (mostly) to modern consoles like PS*, Xbox, or Nintendo Switch.
 
 ##### Full Stack Developer, **[Dernier Cri](https://derniercri.io)**, _2021 > 2022_
 Web & mobile development, front-end mainly.
 
 ##### R&D Engineer, **[DataThings](https://datathings.com/)**, _2021 (6 months contract work)_
-I am developing machine learning algorithms to solve issues in Vision projects for different companies around the world, from prototype to production-ready (including deployment).
+I developed machine learning algorithms to solve issues in Vision projects for different companies around the world, from prototype to production-ready (including deployment).
 
 ##### Machine Learning Engineer & Software Engineer, **[Tadaweb](https://tadaweb.com/)**, _2018 > 2021_  
 I developed researchers and developers tools for the Machine Learning team (Vision and NLP projects), and conducted researches
