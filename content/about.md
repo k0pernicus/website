@@ -27,7 +27,7 @@ Please, do not contact me for whatever position that implies front-end and / or 
 ### Work experience
 
 ##### Game Programmer, **[RedArtGames Studio](https://www.redartgames.com)**, _2022 > ..._
-I port video-games from PC (mostly) to modern consoles like PS*, Xbox, or Nintendo Switch.
+I port game engines and video games to modern consoles: Sony PlayStation family, Microsoft Xbox family, and Nintendo Switch family.
 
 ##### Full Stack Developer, **[Dernier Cri](https://derniercri.io)**, _2021 > 2022_
 Web & mobile development, front-end mainly.
