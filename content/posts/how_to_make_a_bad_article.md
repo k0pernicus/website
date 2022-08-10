@@ -8,6 +8,12 @@ description = "Short answer: laziness"
 disqus = false
 +++
 
+***[10th of August 2022 - Article Update]***  
+A friend of mine told me he would not used the word "instructions" talking 
+about the size of a binary program, as there are not only instructions but the ELF structure, the imports, etc.
+After its review, I changed the word "instructions" to "lines" (even if I don't really like the word "lines"...).  
+Thanks Eric for the review! :)
+
 After going to [famous orange website](https://news.ycombinator.com) I noticed an article claiming that '[“Hello world” is slower in C++ than in C (Linux)](https://lemire.me/blog/2022/08/09/hello-world-is-slower-in-c-than-in-c-linux/)'.
 
 I was intrigued by the title at first but, after reading the first two paragraphs, I became mortified by it.
@@ -93,17 +99,18 @@ After compiling the binaries, lets compare the size first:
    33429
 ```
 
-The C binary has 33427 instructions, and the Cpp binary 33429 instructions... quite a lot to print an "hello world"!  
-So, both binaries are different, as the cpp output has 2 instructions more than the C one.
+The C binary has 33427 lines, and the Cpp binary 33429 lines... quite a lot to print an "hello world"!  
+So, both binaries are different, as the cpp output has 2 lines more than the C one (could be instructions, a header 
+difference in the ELF structure, etc...).
 
-And how many instructions differ?
+And how many lines differ?
 
 ```sh
 > cmp -l helloc hellocpp | wc -l
    376
 ```
 
-376 instructions are different between both binaries, which is 1.12% of the entire size of the cpp binary (not so much).
+376 lines are different between both binaries, which is 1.12% of the entire size of the cpp binary (not so much).
 
 ### The issue with hyperfine
 
