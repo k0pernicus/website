@@ -16,14 +16,14 @@ Thanks Eric for the review! :)
 
 After going to [famous orange website](https://news.ycombinator.com) I noticed an article claiming that '[“Hello world” is slower in C++ than in C (Linux)](https://lemire.me/blog/2022/08/09/hello-world-is-slower-in-c-than-in-c-linux/)'.
 
-I was intrigued by the title at first but, after reading the first two paragraphs, I became mortified by it.
+I was intrigued by the title at first but, after reading the first two paragraphs, I became mortified.
 
 ### The issue with the article
 
 C++ is a **programming language** that includes its own standard library, but can also work with the
  C standard library.
 When you make comparisons, and especially if you publish the results publicly, you have to make sure 
-that what you are comparing can actually be compared (in short: do not compare apples and oranges).
+that what you are comparing can actually be compared (in short: do not compare apples with oranges).
 
 In this article, the author compares two different programs.  
 A C program:
@@ -89,7 +89,7 @@ int main() {
 }
 ```
 
-I used `clang` version 13.1.6 for this experiment.g
+I used `clang` version 13.1.6 for this experiment.
 
 After compiling the binaries, lets compare the size first:
 ```sh
