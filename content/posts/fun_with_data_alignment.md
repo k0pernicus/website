@@ -1,6 +1,6 @@
 +++
 title = "Fun with data alignment"
-date = 2022-11-18T22:00:00+02:00
+date = 2022-11-18T21:30:00+02:00
 draft = false
 categories = ["programming"]
 tags = ["programming", "c", "c++"]
@@ -20,8 +20,9 @@ I wanted to discuss about data alignment in this technical article.
 
 ### The problem
 
-What is an alignment?
-An alignment is an integer value representing **the number of bytes between successive addresses** at which a given struct, or object, can be allocated.
+What is a data structure alignment?
+An alignment is an integer value representing **the number of bytes between successive addresses** at which a given struct, or object, can be allocated.  
+In short: it a way to arrange and access an address in the computer memory.
 
 <!--
 Just imagine a book's page: it has a fixed size, and can contains a maximum of `n` lines of size `x`.
@@ -226,9 +227,9 @@ following output:
 
 ### Why does this matter ?
 
-As you might know, the CPU accesses memory by a **single** memory word at a time.  
-As long as the memory word size is, at least, as large as the largest data type supported, 
-aligned accesses will **always** access a single memory word (excp). This may not be true for misaligned data accesses.
+As you might know, the CPU accesses memory by a **single** memory _WORD_ at each CPU clock.  
+As long as the memory _WORD_ size is, at least, as large as the largest data type supported, 
+aligned accesses will **always** access a single memory _WORD_. This may not be true for misaligned data accesses.
 
 #### Performance
 
