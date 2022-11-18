@@ -1,7 +1,7 @@
 +++
 title = "Fun with data alignment"
-date = 2022-11-18T12:00:00+02:00
-draft = true
+date = 2022-11-18T22:00:00+02:00
+draft = false
 categories = ["programming"]
 tags = ["programming", "c", "c++"]
 description = "\"A lign orc rash!\""
