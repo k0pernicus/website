@@ -26,21 +26,21 @@ Please, do not contact me for whatever position that implies front-end and / or 
 
 ### Work experience
 
-##### Game Programmer, **[RedArtGames Studio](https://www.redartgames.com)**, _2022 > ..._
-I port game engines and video games to modern consoles: Sony PlayStation family, Microsoft Xbox family, and Nintendo Switch family.
+##### Game Programmer, **[Red Art Games](https://www.redartgames.com)**, _2022 > 2023 > ..._
+I port game engines and video games to modern consoles: Sony PS4, Sony PS5, Microsoft Xbox One, Microsoft Xbox Series, and Nintendo Switch.
 
 ##### Full Stack Developer, **[Dernier Cri](https://derniercri.io)**, _2021 > 2022_
-Web & mobile development, front-end mainly.
+Web & mobile development.
 
-##### R&D Engineer, **[DataThings](https://datathings.com/)**, _2021 (6 months contract work)_
-I developed machine learning algorithms to solve issues in Vision projects for different companies around the world, from prototype to production-ready (including deployment).
+##### R&D Engineer, **[DataThings](https://datathings.com/)**, _2021 (6 months contract)_
+I developed machine learning algorithms to solve issues in Vision projects for different companies around the world, from prototype to production.
 
-##### Machine Learning Engineer & Software Engineer, **[Tadaweb](https://tadaweb.com/)**, _2018 > 2021_  
+##### Machine Learning Engineer & Software Engineer, **[Tadaweb](https://tadaweb.com/)**, _2018 > 2019 > 2020 > 2021_  
 I developed researchers and developers tools for the Machine Learning team (Vision and NLP projects), and conducted researches
 on Vision projects, (using `PyTorch`).  
 I also wrote and deploy microservices in k8s clusters for our customers.
 
-##### Data Scientist & Software Developer, **[Dernier Cri](https://derniercri.io)**, _2016 > 2018_
+##### Data Scientist & Software Developer, **[Dernier Cri](https://derniercri.io)**, _2016 > 2017 > 2018_
 I applied research theories and practical AI/ML models to solve R&D problems on numerical and textual data for startups and big companies in France.  
 I also worked in parallel on web projects (fullstack), from prototype to production.
 
