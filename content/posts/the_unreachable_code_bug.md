@@ -1,10 +1,10 @@
 +++
-title = "The weird unreachable code (bug?)"
+title = "The weird unreachable code"
 date = 2023-02-12T23:03:00+02:00
 draft = false
 categories = ["programming", "compiler"]
 tags = ["programming", "c", "c++", "compiler"]
-description = "Compilers are gonna weird"
+description = "UB friendly"
 disqus = false
 +++
 
