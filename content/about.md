@@ -7,19 +7,17 @@ title = "About me"
 I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), game programmer.  
 You can contact me at [antonin@carette.xyz](mailto:antonin@carette.xyz), you can download my public GPG key [here](antonin@carette.xyz.key).
 
-**I also have a website where I show my own photographs, at [https://www.glitchees.net](https://www.glitchees.net).**
-
 My resume is available in [English](/CARETTE_EN_cv.pdf).
 
 #### Note
 
-Please, do not contact me for whatever position that implies front-end and / or back-end with JavaScript or TypeScript
-(and I include NodeJS, of course).  
+I am **not** interested in web.* position.
 
 ### Some interesting things to read / watch:
 
 * [Blog Article - Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html)
 * [Blog Article - Jeff Dean's Numbers Everyone Should Know](http://highscalability.com/numbers-everyone-should-know)
+* [Blog Article - The Exceptional Beauty of Doom 3's Source Code](https://kotaku.com/the-exceptional-beauty-of-doom-3s-source-code-5975610)
 * [Manifesto - The Hacker's Manifesto](https://www.usc.edu/~douglast/202/lecture23/manifesto.html)
 * [Youtube - The Internet's Own Boy](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 * [Youtube - Jonathan Blow, Preventing the End of Civilization](https://www.youtube.com/watch?v=ZSRHeXYDLko)
@@ -27,7 +25,7 @@ Please, do not contact me for whatever position that implies front-end and / or 
 ### Work experience
 
 ##### Game Programmer, **[Red Art Games](https://www.redartgames.com)**, _2022 > 2023 > ..._
-I port game engines and video games to modern consoles: Sony PS4, Sony PS5, Microsoft Xbox One, Microsoft Xbox Series, and Nintendo Switch.
+I port game engines and video games to modern consoles: Sony PS4®, Sony PS5®, Microsoft Xbox® One, Microsoft Xbox® Series, and Nintendo Switch®.
 
 ##### Full Stack Developer, **[Dernier Cri](https://derniercri.io)**, _2021 > 2022_
 Web & mobile development.
