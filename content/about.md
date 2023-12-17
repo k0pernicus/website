@@ -24,8 +24,8 @@ I am **not** interested in web.* position.
 
 ### Work experience
 
-##### Game Programmer, **[Red Art Games](https://www.redartgames.com)**, _2022 > 2023 > ..._
-I port game engines and video games to modern consoles: Sony PS4®, Sony PS5®, Microsoft Xbox® One, Microsoft Xbox® Series, and Nintendo Switch®.
+##### Game Programmer, **[Red Art Games](https://www.redartgames.com)**, _2022 > 2023 > 2024 > ..._
+I port game engines and video games to modern game consoles: Sony PS4®, Sony PS5®, Microsoft Xbox® One, Microsoft Xbox® Series, and Nintendo Switch®.
 
 ##### Full Stack Developer, **[Dernier Cri](https://derniercri.io)**, _2021 > 2022_
 Web & mobile development.
