@@ -20,7 +20,7 @@ paginate = 7
 	category = "categories"
 
 [params]
-    subtitle = "Game Programmer"
+    subtitle = "Game (Engine) Programmer"
     # Content types which are excluded from recent posts and archive page.
     excludedTypes = []
 	disableDisqusTypes = ["page", "about", "projects_publications"]
