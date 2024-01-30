@@ -12,7 +12,7 @@ This blog post reflects my thoughts as a (European) software / apps developer, a
 My blog is followed by tech people, and I suppose everyone here knows the subject and just want to read my old thoughts about "what iz goin' on in da'techie world?!", but let me summarize briefly what happened recently in the latest episode of "Apple and the DMA"...
 
 In order to comply with the [EU's DMA (Digital Markets Act)](https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-markets-act-ensuring-fair-and-open-digital-markets_en), Apple has been obliged to make a few "concessions" about its internal apps management / system to match the requirements.  
-Among the most significant changes, something that some of the apps developers waited since a long time now about the App Store.  
+Among the most significant changes, something that some of the apps developers waited since a long time is the App Store.  
 We know that the limit for Apple was for March of this year, and I was very interested in listening to their decisions to know how / when they will handle the requests from the EU.  
 Their response has been released online on 26th of January 2024, ["_Update on apps distributed in the European Union_"](https://developer.apple.com/fr/support/dma-and-apps-in-the-eu/) and, as a developer point of view, they seriously disappointed me and made me realize **again** how evil ~~Tim~~ Apple is.
 
@@ -43,3 +43,7 @@ This is pretty hard when you are inside the same ecosystem and consume **inside*
 This company can keep its rotten apple, developers don't want to eat it (and will certainly make that idea clear in the future).
 
 As always I am available by email if you want to discuss and / or argue with me. 
+
+### Updates
+
+* changed `about` -> `is` in second paragraph (30th of January)
