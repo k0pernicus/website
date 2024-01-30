@@ -1,6 +1,6 @@
 +++
 title = "The disastrous communication from Apple to apps developers"
-date = 2024-01-30T17:00:00+02:00
+date = 2024-01-30T17:30:00+02:00
 draft = false
 categories = ["thoughts", "apple"]
 tags = ["thoughts", "apple"]
