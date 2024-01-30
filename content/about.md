@@ -4,8 +4,10 @@ date = 2022-05-11T09:00:00+02:00
 title = "About me"
 +++
 
-I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), game programmer.  
-You can contact me at [antonin@carette.xyz](mailto:antonin@carette.xyz), you can download my public GPG key [here](antonin@carette.xyz.key).
+I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), head or Research & Development and game engine programmer.  
+You can contact me at [antonin[at]carette[dot]xyz](mailto:antonin@carette.xyz).
+
+**My personal thinking and ideas, expressed in this blog, do not reflect the opinion of my both past and current employers.**
 
 My resume is available in [English](/CARETTE_EN_cv.pdf).
 
@@ -23,6 +25,9 @@ I am **not** interested in web.* position.
 * [Youtube - Jonathan Blow, Preventing the End of Civilization](https://www.youtube.com/watch?v=ZSRHeXYDLko)
 
 ### Work experience
+
+##### Head of Research & Development, **[Red Art Games](https://www.redartgames.com)**, _2024 > ..._
+I port (old native) game engines and (old native) video games to modern game consoles, and I lead a small dedicated team for that.
 
 ##### Game Programmer, **[Red Art Games](https://www.redartgames.com)**, _2022 > 2023 > 2024 > ..._
 I port game engines and video games to modern game consoles: Sony PS4®, Sony PS5®, Microsoft Xbox® One, Microsoft Xbox® Series, and Nintendo Switch®.
