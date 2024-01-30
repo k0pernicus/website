@@ -37,7 +37,7 @@ The term "choice" is inconvenient here, or _incomplete_. I prefer to talk about 
 **This decision is definitely not the attitude of a leader, but the attitude of someone who scare for its first place.**
 
 I tend to wonder what alternatives are for us, software developers and Apple products owners. 
-The most difficult thing is not to move from one operating system to another actually (especially for a software developer), but actually quiting an ecosystem for another. 
+The most difficult thing is not to move from one operating system to another actually (especially for a software developer), but actually quitting an ecosystem for another. 
 This is pretty hard when you are inside the same ecosystem and consume **inside** that ecosystem since a while now...
 
 This company can keep its rotten apple, developers don't want to eat it (and will certainly make that idea clear in the future).
