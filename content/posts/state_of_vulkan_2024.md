@@ -4,7 +4,7 @@ date = 2024-05-28T20:30:00+02:00
 draft = false
 categories = ["vulkan", "graphics", "graphics APIs", "graphics programming"]
 tags = ["vulkan", "graphics", "graphics APIs", "graphics programming"]
-description = "The Vulkan did not exploded (yet?)"
+description = "The Vulkan did not explode (yet?)"
 disqus = false
 +++
 
@@ -118,6 +118,7 @@ As stated in the survey the main targets of the recipients are:
 1. Windows (11, 10), 
 2. Linux,
 3. Android.
+
 This reflects our observation that the great majority of released apps is actually for Windows and / or Linux 
 platforms only.
 
