@@ -8,6 +8,11 @@ description = "The Vulkan did not explode (yet?)"
 disqus = false
 +++
 
+**
+**UPDATE 2TH OF JUNE 2024**
+Thanks to Geoffrey for his help to fix weird sentences & remove typos :)
+**
+
 As a game engine developer, I always ask myself the same question working on new features or bug fixes: "**What are the targets of my game engine?**".  
 Excluding the consoles, this question mostly implies which **operating system** - or platform - is targeted: Windows, 
 Linux (or GNU/Linux, but I will keep "Linux" for the rest of the article), or macOS.
@@ -20,8 +25,8 @@ Targeting multiple platforms among Windows, Linux, or macOS, only two mainstream
  **OpenGL** and **Vulkan**.
 I exclude WebGPU on purpose here as the API is not stable yet.  
 OpenGL and Vulkan have their specifications developed by the same company, Khronos.
-However Khronos declared in 2017 that [OpenGL is no longer in active development, in favor of 
-the Vulkan API](https://www.khronos.org/news/archives) where the first stable version was released in 2015.
+However Khronos declared in 2017 that [OpenGL was no longer in active development, in favor of 
+the Vulkan API](https://www.khronos.org/news/archives), whose first stable version was released in 2015.
 
 So, eight years after its introduction, what is the state of Vulkan today among graphics apps?  
 Is Vulkan finally a "DirectX 12 killer", or is it (unfortunately) a splash in the water?
@@ -57,7 +62,7 @@ Based on the Wikipedia page ["Game Engines that support Vulkan(API)"](https://en
 In my knowledge only [Id Tech 7 supports Vulkan rendering **only** for PCs](https://en.wikipedia.org/wiki/Id_Tech_7).
 
 As a comparison:
-* [PCGamingWiki shows more than 1600 games released since 1997 using OpenGL](https://www.pcgamingwiki.com/wiki/List_of_OpenGL_games), **16 in 2023** despite the fact that no new OpenGL version has been released since 2016, **which is more than with Vulkan in the same year**,
+* [PCGamingWiki shows more than 1600 games released since 1997 using OpenGL](https://www.pcgamingwiki.com/wiki/List_of_OpenGL_games), **16 in 2023** despite the fact that no new OpenGL version has been released since 2016, **which is more than with Vulkan for the same year**,
 * [PCGamingWiki shows more than 430 games released on the latest version of DirectX](https://www.pcgamingwiki.com/wiki/List_of_Direct3D_12_games) (DirectX 12 and DirectX 12 Ultimate) since 2015, **88 in 2023**.
 
 So, **twice** more **games** have been released with DirectX 12 than Vulkan in total, despite the fact that DirectX 12 is 
@@ -106,7 +111,7 @@ DirectX 12 Ultimate.
 
 ## The 2023 survey
 
-LunarG organizes a survey about Vulkan by Vulkan developers, since a few years now.
+LunarG organizes a Vulkan survey for Vulkan developers, since a few years now.
 The survey is free, open for everyone, and LunarG published the 2024 results [here](https://www.lunarg.com/wp-content/uploads/2023/04/2023-Ecosystem-Survey-Public-Report-06APR2023.pdf).
 
 Despite the fact that the survey has been largely shared to Vulkan developers (more than 13.000+ recipients
