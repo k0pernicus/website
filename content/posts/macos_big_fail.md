@@ -30,7 +30,7 @@ The image size of Big Sur to download was **12.1 GB**, which is **4 GB more than
 
 The image is huge, and I do think that, despite the latest precautions taken by Apple, the servers were not fully ready to handle the hype... which leads to an outage, a worldwide fail, and a lot of good memes.
 
-{{< tweet 1326999537790185473 >}}
+{{< tweet id="1326999537790185473" user="JonyIveParody" >}}
 
 Then, the situation gotten worse and worse as Apple decided to release, during the outage, new beta versions of many tools and operating systems (iOS, watchOS, ...) for the developers.
 
@@ -48,11 +48,11 @@ I restarted the machine, and got the same issues.
 
 This was weird, but it became even weirder when I saw on Twitter that other developers have exactly the same issues, in the same time...
 
-{{< tweet 1326991320519335936 >}}
+{{< tweet id="1326991320519335936" user="panic" >}}
 
 Then, suddenly, Jeff Johnson proposed this solution:
 
-{{< tweet 1326990296412991489 >}}
+{{< tweet id="1326990296412991489" user="lapcatsoftware" >}}
 
 A lot of people reacted to this tweet as
 > "Wait... how a network request - that I did not send - can slow down all my tools on my local machine?!".
@@ -76,7 +76,7 @@ Introduce security checks like this to the detriment of the consumer is **ugly**
 
 Unfortunately, this method will not work anymore on macOS Big Sur as `trustd` can't be block by users anymore.
 
-{{< tweet 1327034191523975168 >}}
+{{< tweet id="1327034191523975168" user="patrickwardle" >}}
 
 ## "Here comes the sun..."
 

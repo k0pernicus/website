@@ -10,4 +10,4 @@ disqus = false
 
 This is truly the end of some good indie games... and a security threat.
 
-{{< tweet 1344723932243488770 >}}
+{{< tweet id="1344723932243488770" user="KinoFabino" >}}
