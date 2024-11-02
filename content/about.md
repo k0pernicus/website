@@ -9,12 +9,6 @@ You can contact me at [antonin[at]carette[dot]xyz](mailto:antonin@carette.xyz).
 
 **My personal thinking and ideas, expressed in this blog, do not reflect the opinion of my both past and current employers.**
 
-My resume is available in [English](/CARETTE_EN_cv.pdf).
-
-#### Note
-
-I am **not** interested in web.* position.
-
 ### Some interesting things to read / watch:
 
 * [Blog Article - Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html)
@@ -26,11 +20,12 @@ I am **not** interested in web.* position.
 
 ### Work experience
 
-##### Head of Research & Development, **[Red Art Games](https://www.redartgames.com)**, _2024 > ..._
-I port (old native) game engines and (old native) video games to modern game consoles, and I lead a small dedicated team for that.
+My resume is available in [English](/CARETTE_EN_cv.pdf).
 
-##### Game Programmer, **[Red Art Games](https://www.redartgames.com)**, _2022 > 2023 > 2024 > ..._
-I port game engines and video games to modern game consoles: Sony PS4®, Sony PS5®, Microsoft Xbox® One, Microsoft Xbox® Series, and Nintendo Switch®.
+##### Head of R&D / Game Programmer, **[Red Art Games](https://www.redartgames.com)**, _2022 > 2023 > 2024_
+I helped porting game engines and video games to modern game consoles: Sony PS4®, Sony PS5®, Microsoft Xbox® One, Microsoft Xbox® Series, and Nintendo Switch®.  
+I also led (big) projects to port old game engines, and old games, to modern game
+consoles.
 
 ##### Full Stack Developer, **[Dernier Cri](https://derniercri.io)**, _2021 > 2022_
 Web & mobile development.
