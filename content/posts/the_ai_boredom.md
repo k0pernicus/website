@@ -126,4 +126,4 @@ I encourage you to take a look at [their scientific achievements portfolio](http
 These are all the reasons I cannot share the enthusiasm surrounding the latest AI-powered emoji generators, even if
 my eyes still shine for the 10-years old AlphaGo.
 
-_Thanks for G. Hecht for the review._
+_Special thanks to G. Hecht for its review._
