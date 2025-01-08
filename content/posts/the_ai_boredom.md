@@ -1,6 +1,6 @@
 +++
 title = "The AI boredom"
-date = 2025-01-08T15:00:00+02:00
+date = 2025-01-07T20:00:00+02:00
 draft = true
 categories = ["ai", "thoughts"]
 tags = ["ai"]
@@ -10,20 +10,20 @@ disqus = false
 
 
 ## Summary by the author...
-...to not waste energy (and money) with summarization algorithms.  
+...to avoid wasting energy (and money) on summarization algorithms.  
 "
 I don't share the same enthusiasm as the tech world about the current generation of Artificial Intelligence (AI) products because:
 1. most of them do not bring value to people (beyond the 'tech enthusiasts' world),
 2. unrealiability and instability are still unsolved issues,
 3. they primarily profit big — and often unreliable — companies,
 4. they consume excessive energy,
-5. the responsibility for AI actions is still challenged.
+5. ethical and legal challenges are not a concern for big companies.
 "
 
 ## Now, the content
 
 There's not a day goes by when I don't hear, or see, the term “Artificial Intelligence” (AI) somewhere.
-AI is everywhere, is the "new trend" - or "tech bubble" - in the Tech Industry, and here to stay for a while now.
+AI is everywhere, is the "new trend" - or "tech bubble" - in the Tech Industry, and here to stay for a while.
 
 However, I’m sorry but I don’t share the tech world’s enthusiasm for the latest AI products.
 Actually, I feel pretty bored.
@@ -58,7 +58,7 @@ To demonstrate this, the best example comes from one the most recent and insigni
 {{< youtube id="A0BXZhdDqZM" >}}
 
 Interestingly, this does not seem to raise an eyebrow from people outside the tech world, as the trend on Google Search is as 
-low as it is since ten years now.  
+low now as it was ten years now.  
 As an example, this is the Google Search trend of "`Artificial Intelligence`" term, compared to "`NFT`" and "`Bitcoin`", from 2010 to 2024.
 For reproduction, please follow [this link](https://trends.google.com/trends/explore?date=2010-08-12%202025-01-08&q=NFT,bitcoin,artificial%20intelligence).
 
@@ -68,25 +68,27 @@ Can you see the bubble somewhere?
 
 #### The unreliability problems
 
-Why aren’t new AI models widely used for critical problems? I believe it’s due to their many **unreliability** problems.
+Why aren’t new AI models widely used for critical problems? I believe it’s because of their numerous **reliability** issues.
 It’s evident that unreliability plague recent AI models (and more generally speaking: software). 
 They can’t be deeply tested for achieving complete tasks at an expert level and are trained on biased and often unreliable data.  
 Moreover, as long as AI is treated as a black box, and as long as major companies like Microsoft, Meta, Google, and OpenAI dominate development, I do think that **unreliability will persist**.  
 As an example, if new AI models are as reliable, powerful, and unbiased as claimed, why aren’t they being used to detect and block hateful content in real-time?
 Instead, Meta's solution - to this **very serious problem** - is [to rely on... humans](https://futurism.com/zuckerberg-meta-announcement-hate-speech).
 
-The unreliability problems introduce some very new complex questions about security and testing, and introduce 
-very long delays from proposition to production (as an example, you still can't a self-driving car in early-2025). 
+These unreliability issues raise new and complex questions about security and testing, which introduces long delays 
+from proposition to production (as an example, you still can't buy a self-driving car in early-2025). 
 
 #### Embrace innovation (not responsabilities)
 
 The question of responsibility for AI actions is critical, yet many companies seem indifferent to it.
-There are many many examples of this on the internet since a few years, but two are really to put in front for this example:
+There have been countless examples of this on the internet in recent years, but two of them catched my attention recently:
 1. the [aircraft company Air Canada and its responsability for its (funny) chatbot actions](https://www.washingtonpost.com/travel/2024/02/18/air-canada-airline-chatbot-ruling/),
 2. and, in another measure, the [responsability of Character.AI about the death of a teenager](https://www.nbcnews.com/tech/characterai-lawsuit-florida-teen-death-rcna176791).
 
 Responsibility entails moral accountability, but it seems that tech companies (outside the EU, perhaps) only care 
 about morality when courts, or bad buzz, force them to.
+Meta's solution for blocking harmful content, mentioned earlier, can actually be seen as a way to avoid legal or moral 
+responsibility if AI decisions go wrong ('not my fault!').
 
 #### The energy crisis
 
@@ -107,7 +109,7 @@ To me, you can think of "replacing `A` to `B`" if:
 
 But we are far from achieving this kind of level yet, and it seems [OpenAI struggles to achieve significant 
 more performance (and reliability) than previous models despite increasing the models and costs](https://futurism.com/the-byte/openai-research-best-models-wrong-answers).  
-So, why continuing to consider Sam Altman's thoughts as his predictions, especially about AGI, are completely wrong?
+So, why should we continue to consider Sam Altman's thoughts while his predictions, especially about AGI, are gone wrong?
 And if people lose their jobs to AI, where will they find the $30/month for AI subscriptions?
 
 #### But, there is still hope
@@ -123,3 +125,5 @@ I encourage you to take a look at [their scientific achievements portfolio](http
 
 These are all the reasons I cannot share the enthusiasm surrounding the latest AI-powered emoji generators, even if
 my eyes still shine for the 10-years old AlphaGo.
+
+_Thanks for G. Hecht for the review._
