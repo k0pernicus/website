@@ -1,10 +1,10 @@
 +++
 title = "The AI boredom"
-date = 2025-01-07T20:00:00+02:00
-draft = true
+date = 2025-01-08T15:52:00+02:00
+draft = false
 categories = ["ai", "thoughts"]
 tags = ["ai"]
-description = "Unreliability at its best"
+description = "Unreliable at its finest"
 disqus = false
 +++
 
