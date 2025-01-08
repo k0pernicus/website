@@ -1,6 +1,6 @@
 +++
 title = "The AI boredom"
-date = 2025-01-07T20:00:00+02:00
+date = 2025-01-08T15:00:00+02:00
 draft = true
 categories = ["ai", "thoughts"]
 tags = ["ai"]
@@ -60,6 +60,7 @@ To demonstrate this, the best example comes from one the most recent and insigni
 Interestingly, this does not seem to raise an eyebrow from people outside the tech world, as the trend on Google Search is as 
 low as it is since ten years now.  
 As an example, this is the Google Search trend of "`Artificial Intelligence`" term, compared to "`NFT`" and "`Bitcoin`", from 2010 to 2024.
+For reproduction, please follow [this link](https://trends.google.com/trends/explore?date=2010-08-12%202025-01-08&q=NFT,bitcoin,artificial%20intelligence).
 
 {{< figure src="/images/ai_trend_2025.png" title="Y Axis: Percent, X Axis: Years." >}}
 
