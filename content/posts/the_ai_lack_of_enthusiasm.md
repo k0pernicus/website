@@ -78,7 +78,7 @@ Instead, Meta's solution - to this **very serious problem** - is [to rely on... 
 The unreliability problems introduce some very new complex questions about security and testing, and introduce 
 very long delays from proposition to production (as an example, you still can't a self-driving car in early-2025). 
 
-#### Responsi-what?
+#### Embrace innovation (not responsabilities)
 
 The question of responsibility for AI actions is critical, yet many companies seem indifferent to it.
 There are many many examples of this on the internet since a few years, but two are really to put in front for this example:
