@@ -12,99 +12,113 @@ disqus = false
 ## Summary by the author...
 ...to not waste energy (and money) with summarization algorithms.  
 "
-I don't share the same enthusiasm as the Tech World about the current generation of Artificial Intelligence (AI) 
-products because:
-1. Most of them do not bring value to the people (think outside the "tech enthousiasts" world),
-2. They are unreliable,
-3. They profit mostly to big - unreliable - companies,
-4. They cost too much energy,
-5. The responsibility of AI actions is still questionable.
+I don't share the same enthusiasm as the tech world about the current generation of Artificial Intelligence (AI) products because:
+1. most of them do not bring value to people (beyond the 'tech enthusiasts' world),
+2. unrealiability and instability are still unsolved issues,
+3. they primarily profit big — and often unreliable — companies,
+4. they consume excessive energy,
+5. the responsibility for AI actions is still challenged.
 "
 
 ## Now, the content
 
-I am sorry but I don't share the enthusiasm of the Tech World about latest Artificial Intelligence (AI) products.
-Actually, I feel bored.
+There's not a day goes by when I don't hear, or see, the term “Artificial Intelligence” (AI) somewhere.
+AI is everywhere, is the "new trend" - or "tech bubble" - in the Tech Industry, and here to stay for a while now.
 
-Since more a decade now (at least), Artifical Intelligence achieved great progress, from scientific grounbreaking 
-(AlphaGo, AlphaFold, YOLO, Live Segmentation of videos, ...) to... ugly content generation for multi-billions companies.
+However, I’m sorry but I don’t share the tech world’s enthusiasm for the latest AI products.
+Actually, I feel pretty bored.
+
+For more than a decade now, AI has achieved great progress—from groundbreaking scientific advances 
+(e.g., AlphaGo, AlphaFold, YOLO, live segmentation of videos, etc.) to... ugly content generation for 
+multi-billion-dollar companies.
 
 {{< youtube id="4RSTupbfGog" autoplay="false" >}}
 
-Unfortunately, nowadays, AI becames a shortword for "LLM" in the Tech World and, as a former AI Engineer who was formed on 
-(what we call now) statistical machine learning and the true value of explainable methods, this little thing irritates 
-me at the most highest level as possible.
+Unfortunately, AI has now become synonymous with "LLM" (large language models) in the tech world. 
+As a former AI engineer trained in what we now call statistical machine learning and explainable methods, this trend irritates me to no end.
 
-AI was made for great promises to solve many of our actual problems in society:
-* help everyday people in boring tasks to focus on something valuable,
-* help in detecting deceases and creating new drugs to help people with new or rare deceases,
-* help to solve internal crisis in our society like "unbiased algorithms for society's final decision",
-* help to detect harmful content on the web, and report or block them in real-time,
-* help to detect cyber-attacks, and report and block them in real-time,
-* help people in distress,
-* etc.  
-The common word here is "help" and, aside the first item for some people and maybe the second item in the future, 
-it failed in **every** other task.
+AI was supposed to solve some of our society’s greatest challenges:
+* helping people with boring tasks, freeing them to focus on meaningful work,
+* detecting diseases and developing drugs for new or rare conditions,
+* addressing societal crises with unbiased algorithms for critical decisions,
+* identifying and blocking harmful content online in real-time,
+* detecting and neutralizing cyberattacks in real-time,
+* or assisting people in distress.
 
-### There is no goal
+The common theme here is "helping people".
+Yet, aside from basic task assistance for a small subset of users and some potential in medicine, AI has largely failed 
+at **every** other goal.
 
-Instead of all of this, we have emoji-generator models on our phones, trained on very big power-unefficient datacenters,
- and consuming our local battery and memory.
-Tech companies obviously don't know where to go with AI, and even if they don't need it they want it for investment 
-reasons, like crypto and NFT before the AI-Hype era.
+#### There is no goal
+
+Instead, we get emoji-generating models on our phones, trained on massive, power-hungry datacenters, and draining our device's battery and memory.
+Tech companies seem directionless with AI. Even when they don’t need it, they embrace it for the sake of investments, much like crypto and NFTs before the AI hype era.  
 To demonstrate this, the best example comes from one the most recent and insignificant Apple ad:
 
 {{< youtube id="A0BXZhdDqZM" >}}
 
-### The unreliability problems
+Interestingly, this does not seem to raise an eyebrow from people outside the tech world, as the trend on Google Search is as 
+low as it is since ten years now.  
+As an example, this is the Google Search trend of "`Artificial Intelligence`" term, compared to "`NFT`" and "`Bitcoin`", from 2010 to 2024.
 
-We might ask why new AI models are not really used (yet) for critical problems, exposed previously.
-I have the feeling this is because of their many **unreliability** problems.  
-There is doubt that there is reliability problems are common in recent AI models, as they can't be deeply tested in achieving a complete task - compared to an expert -, and as they are being trained on biased and unrealiable data.
-Also, I think that AI models will continue to be unreliable if they are continuously treated as black boxes, and if AI models are still developed by major unreliable tech companies like Microsoft, Meta, Google, or OpenAI.  
-To demonstrate this idea, let's take an example: if new AI products are so reliable, powerful and unbiased today, why they are not used to detect and block, in real-time, hateful content?
-But no, instead, Meta think that the best solution - for this **very serious problem** - is [to rely on... humans](https://futurism.com/zuckerberg-meta-announcement-hate-speech).
+{{< figure src="/images/ai_trend_2025.png" title="Y Axis: Percent, X Axis: Years." >}}
 
-### But who is responsible for AI actions?
+Can you see the bubble somewhere?
 
-The responsibility of the actions of an AI is also to be considered very seriously, and most companies do not share this idea.
+#### The unreliability problems
+
+Why aren’t new AI models widely used for critical problems? I believe it’s due to their many **unreliability** problems.
+It’s evident that unreliability plague recent AI models (and more generally speaking: software). 
+They can’t be deeply tested for achieving complete tasks at an expert level and are trained on biased and often unreliable data.  
+Moreover, as long as AI is treated as a black box, and as long as major companies like Microsoft, Meta, Google, and OpenAI dominate development, I do think that **unreliability will persist**.  
+As an example, if new AI models are as reliable, powerful, and unbiased as claimed, why aren’t they being used to detect and block hateful content in real-time?
+Instead, Meta's solution - to this **very serious problem** - is [to rely on... humans](https://futurism.com/zuckerberg-meta-announcement-hate-speech).
+
+The unreliability problems introduce some very new complex questions about security and testing, and introduce 
+very long delays from proposition to production (as an example, you still can't a self-driving car in early-2025). 
+
+#### Responsi-what?
+
+The question of responsibility for AI actions is critical, yet many companies seem indifferent to it.
 There are many many examples of this on the internet since a few years, but two are really to put in front for this example:
 1. the [aircraft company Air Canada and its responsability for its (funny) chatbot actions](https://www.washingtonpost.com/travel/2024/02/18/air-canada-airline-chatbot-ruling/),
-2. and, in another measure, the [responsability of Character.AI about the death of a teenager](https://www.nbcnews.com/tech/characterai-lawsuit-florida-teen-death-rcna176791).  
-With responsability comes morale actions, and it seems Tech Companies (outside EU maybe) do not care about morality 
-as soon as they do not go in courts, or get bad buzz.
+2. and, in another measure, the [responsability of Character.AI about the death of a teenager](https://www.nbcnews.com/tech/characterai-lawsuit-florida-teen-death-rcna176791).
 
-### The energy crisis
+Responsibility entails moral accountability, but it seems that tech companies (outside the EU, perhaps) only care 
+about morality when courts, or bad buzz, force them to.
 
-[The energy crisis is also a problem with those kinds of insignificant (or toys) AI](https://spectrum.ieee.org/ai-energy-consumption), 
+#### The energy crisis
+
+[The energy crisis is another significant problem](https://spectrum.ieee.org/ai-energy-consumption), 
 but I guess thinking about World impacts is way too much to ask for big companies CEOs and shareholders.
-Instead, CEOs are too much busy to discuss about how to replace experts by unreliable algorithms.
+Instead, CEOs are too much busy to think [how to replace experts with unreliable algorithms](https://futurism.com/sam-altman-replace-normal-people-ai).
 
-### The wrong leaders
+#### The wrong leaders
 
-Talking about CEOs, let's talk about "AI figures"...  
-I have no double those people are smart, but I don't think we should consider them as serious in depicting the future, 
-and I don't think we should share their vision too.
-Some CEOs like Sam Altman think the best about Artificial Intelligence [is to replace normal people](https://futurism.com/sam-altman-replace-normal-people-ai) in their jobs with unreliable algorithms.
-In my head, you would think of "replacing <A> to <B>" is <B> is:
-* better than <A> for doing a given task, at any cost,
-* or <B> equals to <A> in terms of quality and delivery **but** cheaper.  
-But we trully don't achieve this kind of level yet, so **why** express this kind of really dumb idea, and why this person
-has so much credits in the tech world instead of being ignored?  
-Also, is it possible to know how people will spend 30$ in monthly AI-subscriptions if those people lose their job?
+Speaking of CEOs, let's discuss "AI figures"...  
+I have no double those persons are smart, but I question why they’re trusted to shape the future, and why their 
+visions are embraced.
 
-### Are we fucked ?
+As an example, Sam Altman expressed his idea about [replacing normal people](https://futurism.com/sam-altman-replace-normal-people-ai) in their jobs with unreliable algorithms.
+To me, you can think of "replacing `A` to `B`" if:
+* `B` performs better than `A` for one or many task(s), and at any cost,
+* or `B` is equivalent to `A` in quality and delivery **but** cheaper.  
 
-So, all of this is what we call "The Future"? Is this that fucked?  
-To be honest, I thought that Artificial Intelligence would remove all the unpleasant tasks I have to do everyday instead
-of focusing my attention to pleasant things, but this still not the case... and my automatic vacuum cleaner is still
-as dumb as it was five years ago.  
+But we are far from achieving this kind of level yet, and it seems [OpenAI struggles to achieve significant 
+more performance (and reliability) than previous models despite increasing the models and costs](https://futurism.com/the-byte/openai-research-best-models-wrong-answers).  
+So, why continuing to consider Sam Altman's thoughts as his predictions, especially about AGI, are completely wrong?
+And if people lose their jobs to AI, where will they find the $30/month for AI subscriptions?
 
-The only exception I see, despite all of what I just said, comes from a London company, owned by Google, called 
-[DeepMind](https://deepmind.google).
-DeepMind raised the bar of great scientific breakthrough in the World since more than a decade now, and seems to really try
- to help people in every way.
-I encourage you to take a look at [their breakthroughs portfolio](https://deepmind.google/research/breakthroughs/) to 
-acknowledge their scientific achievements.
+#### But, there is still hope
 
-This is all the reasons why, I am sorry, but I do not share your enthousiasm about the latest AI-based emoji-generator.
+So, all of this is what we call "The Future"? Is it really that fucked?  
+I hoped AI would eliminate all my everyday unpleasant tasks (dishes, make healthy meals, etc.) and allow me to focus 
+only on more "fulfilling“ activities, but we are still far from that...
+As an example, my automatic vacuum cleaner is as dumb as it was five years ago.  
+
+The only exception I've seen, despite all of what I just said is [DeepMind](https://deepmind.google).
+DeepMind trully raised the bar with scientific breakthroughs for over a decade, and genuinely strives to help humanity.
+I encourage you to take a look at [their scientific achievements portfolio](https://deepmind.google/research/breakthroughs/).
+
+These are all the reasons I cannot share the enthusiasm surrounding the latest AI-powered emoji generators, even if
+my eyes still shine for the 10-years old AlphaGo.
