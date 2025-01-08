@@ -4,7 +4,7 @@ date = 2022-05-11T09:00:00+02:00
 title = "About me"
 +++
 
-I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), head or Research & Development and game engine programmer.  
+I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), Senior Software Architect, at Thales Alenia Space.  
 You can contact me at [antonin[at]carette[dot]xyz](mailto:antonin@carette.xyz).
 
 **My personal thinking and ideas, expressed in this blog, do not reflect the opinion of my both past and current employers.**
@@ -22,7 +22,9 @@ You can contact me at [antonin[at]carette[dot]xyz](mailto:antonin@carette.xyz).
 
 My resume is available in [English](/CARETTE_EN_cv.pdf).
 
-##### Head of R&D / Game Programmer, **[Red Art Games](https://www.redartgames.com)**, _2022 > 2023 > 2024_
+##### Senior Software Architect, **[Thales Alenia Space](https://www.thalesaleniaspace.com)**, _early 2025 > ..._
+
+##### Head of R&D / Game Programmer, **[Red Art Games](https://www.redartgames.com)**, _2022 > 2023 > 2024 > early 2025_
 I helped porting game engines and video games to modern game consoles: Sony PS4®, Sony PS5®, Microsoft Xbox® One, Microsoft Xbox® Series, and Nintendo Switch®.  
 I also led (big) projects to port old game engines, and old games, to modern game
 consoles.
