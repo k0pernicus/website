@@ -32,17 +32,17 @@ paginate = 7
     mode = "auto" # light & dark mode automatically
 
 [[menu.main]]
-    name = "Blog posts,"
+    name = "Blog posts"
     url = "/posts"
     weight = 1
 
 [[menu.main]]
-    name = "Blog tags,"
+    name = "Blog tags"
     url = "/tags"
     weight = 2
 
 [[menu.main]]
-    name = "Projects and Publications,"
+    name = "Projects and Publications"
     url = "/projects_publications"
     weight = 3
 
