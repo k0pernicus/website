@@ -22,7 +22,11 @@ You can contact me at [antonin[at]carette[dot]xyz](mailto:antonin@carette.xyz).
 
 My resume is available in [English](/CARETTE_EN_cv.pdf).
 
-##### Senior Software Architect, **[Thales Alenia Space](https://www.thalesaleniaspace.com)**, _early 2025 > ..._
+##### Senior Systems Architect, and Lead Chapter of Systems Engineering, **[Thales Alenia Space](https://www.thalesaleniaspace.com)**, _early 2025 > ..._
+
+Memory safety languages, and good coding practices, on the Edge 🚀  
+Lead Chapter of Systems Engineering.  
+Targeting high-security and high-performance on very low-profile and energy-efficient devices.
 
 ##### Head of R&D / Game Programmer, **[Red Art Games](https://www.redartgames.com)**, _2022 > 2023 > 2024 > early 2025_
 I helped porting game engines and video games to modern game consoles: Sony PS4®, Sony PS5®, Microsoft Xbox® One, Microsoft Xbox® Series, and Nintendo Switch®.  
