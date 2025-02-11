@@ -2,7 +2,7 @@ baseurl = "/"
 copyright = "Antonin Carette"
 languageCode = "en-us"
 theme = "ezhil"
-title = "Antonin Carette"
+title = "A journey into a wild pointer"
 
 # Enable syntax highlighting
 pygmentsstyle = "solarized-dark"
@@ -20,7 +20,7 @@ paginate = 7
 	category = "categories"
 
 [params]
-    subtitle = "A journey into a wild pointer"
+    subtitle = ""
     # Content types which are excluded from recent posts and archive page.
     excludedTypes = []
 	disableDisqusTypes = ["page", "about", "projects_publications"]
