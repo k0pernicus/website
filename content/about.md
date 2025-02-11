@@ -9,6 +9,8 @@ You can contact me at [antonin[at]carette[dot]xyz](mailto:antonin@carette.xyz).
 
 **My personal thinking and ideas, expressed in this blog, do not reflect the opinion of my both past and current employers.**
 
+[My MobyGames profile](https://www.mobygames.com/person/1368928/antonin-carette/). 
+
 ### Some interesting things to read / watch:
 
 * [Blog Article - Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html)
