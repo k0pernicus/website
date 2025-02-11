@@ -2,7 +2,7 @@ baseurl = "/"
 copyright = "Antonin Carette"
 languageCode = "en-us"
 theme = "ezhil"
-title = "A journey into a wild pointer"
+title = "Journey into a wild pointer"
 
 # Enable syntax highlighting
 pygmentsstyle = "solarized-dark"
