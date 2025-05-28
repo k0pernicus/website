@@ -11,14 +11,14 @@ I'm wondering myself about the title of this post, 2 days ago... The first title
 
 So, here's the deal!
 After two bachelors (in Cellular Biology and Computer Science domains), I finished my University years 3 week ago, obtaining my Master's degree in Computer Science, speciality "Machine Learning, Big Data and Optimization Algorithms".
-As a parenthesis, I invite every person interested in studying machine learning and optimization algorithms to take a look at <a href="http://fil.univ-lille1.fr/master-informatique/master-2-mocad">this Master</a>, which was hard to follow but really interesting.
+As a parenthesis, I invite every person interested in studying machine learning and optimization algorithms to take a look at [this Master program](http://fil.univ-lille1.fr/master-informatique/master-2-mocad), which was hard to follow but really interesting.
 During all those years, I contributed **a lot** to research and open source projects, as some student organizations, and I've made 4 internships in different research laboratories: LIFL, IRCICA, INRIA (twice), and LATECE - a research laboratory in Montreal - to work on bioinformatics, artifical intelligence and IoT.
 
 During my _school career_, I never worked in a tech' company that develops his own products, or a tech' company that develop some products or propose services for other companies.
 Technically, I'm good - not great, just good.
 My favorite programming language is _Rust_ (I'm using it since 1 year now - I admit it was hard to learn by myself this language but I find it fascinating to work with), and I use 3 others in daily life now: _Python_, _Elixir_ and _OCaml_.
 I used few months ago _Golang_, but it became boring to develop with this language - and I just prefer _Elixir_ to work with for concurrency!
-Also, I love contributing and testing new things like computers, smartphones, operating systems, programming languages, softwares (like <a href="https://docker.com">Docker</a>), ...
+Also, I love contributing and testing new things like computers, smartphones, operating systems, programming languages, softwares (like [Docker](https://docker.com")), ...
 So yeah, pretty inquisitive and ready for an academic carrier, or to work on R&D!
 Personaly, I am interested in exploring possibilities to solve computer science problems.
 It means searching and reading research papers about new technologies or algorithms: #ThatIsWhatILove.
@@ -29,7 +29,7 @@ Google, Facebook, Kiip, Snapchat, Docker Inc.,...
 All these companies are AWESOME and have successfully skip some strong startup difficulties, in order to develop "new new" things and _make the world a better place_.
 So, between working in a giant company and a startup, I have no hesitation in choosing the startup.
 
-<a href="http://derniercri.io">DernierCri</a> is a startup/agency for digital innovation, based in Lille.
+[DernierCri](http://derniercri.io) is a startup/agency for digital innovation, based in Lille.
 The startup is born in 2016 under the name _Nectify_, and more than 15 brilliant people are working now at this one.
 Those people are working using great trendy technologies like Phoenix, Elixir, JavaScript or Ocaml.
 The place is really great, employees I met already there are nice, and I had some good echoes on how is it cool to work there.
