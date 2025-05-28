@@ -10,6 +10,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 # Number of posts to show in recent posts list
+[pagination]
 paginate = 7
 
 [author]
