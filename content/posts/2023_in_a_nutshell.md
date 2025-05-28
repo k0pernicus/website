@@ -31,7 +31,7 @@ The work for _SHINORUBI_ began in September 2022, ended in late-November 2023, a
 Apart from that I helped to make fixes for existing game engines but the games have not been annunced yet by RedArtGames 
 so I can't tell anything the games and game engines (yet).
 
-{{<tweet user="REDARTGAMES" id="1730620502647930934" >}}
+{{<x user="REDARTGAMES" id="1730620502647930934" >}}
 
 I continued my own game engine in my spare time, but more and more I tend refocusing the game engine to a 
 renderer-only project, with a `Vulkan` and `Metal` backends.  

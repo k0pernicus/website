@@ -10,9 +10,9 @@ disqus = false
 
 Last Saturday, after logging on ~~Twitter~~ X, I came across two tweets from two great programmers I follow.
 
-{{< tweet id="1791925515281899810" user="Jonathan_Blow" >}}
+{{< x id="1791925515281899810" user="Jonathan_Blow" >}}
 
-{{< tweet id="1791437076455411888" user="ocornut" >}}
+{{< x id="1791437076455411888" user="ocornut" >}}
 
 **Context**: Jonathan Blow and Omar Cornut are two programmers focusing on games and game engines 
 development.
