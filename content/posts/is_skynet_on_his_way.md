@@ -1,11 +1,13 @@
-+++
-author = "Antonin"
-date = "2016-04-23T01:38:33-04:00"
-description = "\"The End Is Near\" #LOL"
-tags = ["artificial intelligence", "machine learning"]
-title = "Is Skynet on his way?"
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2016-04-23T01:38:33-04:00"
+description: "\"The End Is Near\" #LOL"
+tags: ["artificial intelligence", "machine learning"]
+title: "Is Skynet on his way?"
+toc: false
+readTime: true
+---
+
 ## Abstract
 
 [Skynet](https://en.wikipedia.org/wiki/Skynet_(Terminator)) is a technology reached by the [Terminator franchise](https://en.wikipedia.org/wiki/Terminator_(franchise)).

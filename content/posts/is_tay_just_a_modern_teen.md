@@ -1,13 +1,14 @@
-+++
-author = ""
-date = "2016-04-01T01:39:20-04:00"
-description = "Ghost in the shell..."
-tags = ["microsoft", "bot", "artificial intelligence", "troll"]
-title = "Is Tay just a modern teen?"
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2016-04-01T01:39:20-04:00"
+description: "Ghost in the shell..."
+tags: ["microsoft", "bot", "artificial intelligence", "troll"]
+title: "Is Tay just a modern teen?"
+toc: false
+readTime: true
+---
 
-{{< figure src="/images/is_tay_just_a_modern_teen.jpeg" height="500" >}}
+![](/images/is_tay_just_a_modern_teen.jpeg#small)
 
 ## Abstract
 

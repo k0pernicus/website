@@ -1,13 +1,12 @@
-+++
-title = "Struct embedding trick to avoid duplicate code"
-date = 2018-11-06T21:50:24+01:00
-description = ""
-draft = false
-toc = false
-categories = ["go", "programming trick"]
-tags = ["go", "struct embedding", "interface"]
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Struct embedding trick to avoid duplicate code"
+date: "2018-11-06T21:50:24+01:00"
+description: ""
+tags: ["go", "struct embedding", "interface"]
+toc: false
+readTime: true
+---
 
 When you are writing go code, and try to make it more flexible, most of the time you are looking for interfaces.
 A go interface is a good solution to make your code more flexible, or scalable,

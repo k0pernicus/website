@@ -1,12 +1,12 @@
-+++
-title = "Medium posts"
-date = 2018-10-27T01:23:11+02:00
-description = ""
-draft = false
-toc = false
-categories = ["blog", "technology"]
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Medium posts"
+date: 2018-10-27T01:23:11+02:00
+description: ""
+tags: ["thoughts", "technology"]
+toc: false
+readTime: true
+---
 
 ## Update 16th of February 2025
 

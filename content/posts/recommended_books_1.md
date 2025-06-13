@@ -1,12 +1,12 @@
-+++
-title = "Books recommendation (1/x)"
-date = 2020-07-16T00:00:00+02:00
-draft = false
-categories = ["culture"]
-tags = ["culture"]
-description = "'r'"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Books recommendation (1/x)"
+date: "2020-07-16T00:00:00+02:00"
+tags: ["culture"]
+description: "'r'"
+toc: true
+readTime: true
+---
 
 In 2019, I read an average of three books a month, including comic books.
 

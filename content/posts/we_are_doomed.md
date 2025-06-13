@@ -1,12 +1,12 @@
-+++
-title = "We are doomed"
-date = 2024-01-14T20:00:00+01:00
-description = "A pessimistic view of \"modern software engineering\""
-draft = false
-categories = ["thoughts"]
-tags = ["thoughts"]
-disqus = false
-+++
+---
+author: "Antonin"
+title: "We are doomed"
+date: "2024-01-14T20:00:00+01:00"
+description: "A pessimistic view of \"modern software engineering\""
+tags: ["thoughts"]
+toc: false
+readTime: true
+---
 
 I wanted to write about modern graphics APIs at first, how exclusive they are depending of the platform you are 
 developing on (and for), and how difficult to use they are.
@@ -159,5 +159,6 @@ very old UI/UX frameworks, software and APIs to run, for example, Windows 95 com
 
 Otherwise, **you are doomed**.
 
-![we_are_doomed_conclusion.jpg](/images/we_are_doomed_conclusion.jpg)
+![we_are_doomed_conclusion.jpg](/images/we_are_doomed_conclusion.jpg#small)
+
 Generated using [memegenerator](https://memegenerator.net).

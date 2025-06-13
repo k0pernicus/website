@@ -1,12 +1,12 @@
-+++
-title = "Macintoshgarden"
-date = 2020-10-05T20:00:00+02:00
-draft = false
-categories = ["culture", "retrogaming", "retrocomputing", "macintosh"]
-tags = ["culture", "retrogaming", "retrocomputing", "apple", "macintosh"]
-description = "The perfect library for Mac retrolovers"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Macintoshgarden"
+date: 2020-10-05T20:00:00+02:00
+tags: ["culture", "retrogaming", "retrocomputing", "apple", "macintosh"]
+description: "The perfect library for Mac retrolovers"
+toc: false
+readTime: true
+---
 
 if "macintoshgarden" doesn't give you a smile on your face, I'm pretty sure you don't know this site...
 

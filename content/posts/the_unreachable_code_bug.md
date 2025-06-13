@@ -1,12 +1,12 @@
-+++
-title = "The weird unreachable code"
-date = 2023-02-12T23:03:00+02:00
-draft = false
-categories = ["programming", "compiler"]
-tags = ["programming", "c", "c++", "compiler"]
-description = "UB friendly"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The weird unreachable code"
+date: "2023-02-12T23:03:00+02:00"
+tags: ["programming", "c", "c++", "compiler"]
+description: "UB friendly"
+toc: false
+readTime: true
+---
 
 Last week I heard about a weird behaviour of a C++ program on Twitter.  
 The code is:

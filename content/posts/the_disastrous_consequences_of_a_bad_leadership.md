@@ -1,13 +1,12 @@
-+++
-title = "The disastrous consequences of a bad leader(ship)"
-date = 2021-10-25T12:00:00+02:00
-draft = false
-categories = ["software engineering", "leadership"]
-tags = ["software", "engineering", "leadership", "management", "team",
-"responsabilities"]
-description = "The cruise is not fun anymore"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The disastrous consequences of a bad leader(ship)"
+date: "2021-10-25T12:00:00+02:00"
+tags: ["software", "engineering", "leadership", "management", "team", "responsabilities"]
+description: "The cruise is not fun anymore"
+toc: false
+readTime: true
+---
 
 People tend to critize developers **a lot**, but it is not (always) their fault when something goes wrong.
 

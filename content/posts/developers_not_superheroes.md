@@ -1,12 +1,12 @@
-+++
-title = "Developers are not superheroes"
-date = 2020-04-25T19:00:00+02:00
-draft = false
-categories = ["devlife"]
-tags = ["developer", "devlife"]
-description = "Stop the bullshit"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Developers are not superheroes"
+date: 2020-04-25T19:00:00+02:00
+tags: ["developer", "devlife"]
+description: "Stop the bullshit"
+toc: false
+readTime: true
+---
 
 There is a myth in IT.  
 The myth of the "super code monkey".

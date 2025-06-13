@@ -1,12 +1,12 @@
-+++
-title = "Zero-cost abstractions in Rust"
-date = 2020-02-08T23:10:00+02:00
-draft = false
-categories = ["rust", "compiler"]
-tags = ["rust", "programming language design", "compiler"]
-description = "Abstractions before optimizations"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Zero-cost abstractions in Rust"
+date: 2020-02-08T23:10:00+02:00
+tags: ["rust", "programming language design", "compiler"]
+description: "Abstractions before optimizations"
+toc: false
+readTime: true
+---
 
 Last week, [Ibrahim Dursun](https://idursun.com/) published [an article about zero-cost abstractions in Rust](https://idursun.com/posts/Rust_zero_cost_abstractions_in_action/).  
 Unfortunately, except for a subpart of the article, this article did not reflect, in my own opinion, correctly what are zero-cost abstractions.

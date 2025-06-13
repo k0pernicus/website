@@ -1,12 +1,12 @@
-+++
-title = "2022, in a nutshell"
-date = 2022-12-27T12:00:00+01:00
-description = "The year of 'rethinking'"
-draft = false
-categories = ["thoughts"]
-tags = ["thoughts"]
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2022-12-27T12:00:00+01:00"
+description: "The year of 'rethinking'"
+tags: ["thoughts"]
+title: "2022, in a nutshell"
+toc: false
+readTime: true
+---
 
 2022 was a strange year for everyone I think.
 To me, it was a year full of reconsideration, of reflection on myself, the World, and my family's future.
@@ -15,7 +15,7 @@ worst may come "soon"...
 
 Anyway.
 
-### The blog posts statement
+## The blog posts statement
 
 I published nine posts this year (10 if you include the one you are reading):
 * **three technical topics**, mainly on low-level programming principles and graphics programming,
@@ -26,7 +26,7 @@ I published nine posts this year (10 if you include the one you are reading):
 I think I found a "good" publishing rate, and I expect to write more technical blog posts in the next year (maybe a 
 "_game engine series_", who knows).
 
-### "Rethinking"
+## "Rethinking"
 
 Professionally, 2022 got off to a _terrible_ start _but_ ended with the best work experience of my life.  
 I switched in 2021 from an AI Engineer job to a Senior Software Engineer job, and 2022 was another transition 
@@ -47,10 +47,10 @@ If you want to do more with an IP, then you develop a sequel or a new game in th
 Also, after a few years using Go and Rust full-time, getting back to C++ 17/20 comforted me in the idea that the
  language evolves in a good direction.
 
-![Heidelberg 1693 credits screen](images/heidelberg_credits.jpeg)
+![Heidelberg 1693 credits screen](/images/heidelberg_credits.jpeg)
 [Heidelberg 1693](https://www.nintendo.fr/Jeux/Jeux-a-telecharger-sur-Nintendo-Switch/Heidelberg-1693-2300395.html) credits screen, on my own Nintendo Switch.
 
-### What I expect for 2023
+## What I expect for 2023
 
 In 2022 I helped to port the games ["OmegaBot"](https://www.youtube.com/watch?v=Rw2Uc3PFewA) and ["Shinorubi"](https://www.youtube.com/watch?v=UEBPGROX3UY) on consoles, which are great projects for very different reasons.  
 For 2023, I expect **more cool games to port**, more complex tasks to learn new skills or to perfect my own skills, and a
@@ -72,7 +72,7 @@ So, I expect **a Nintendo Switch 2** for 2023, with more power and a slightly be
 
 Finally, in an idealistic future: **less war**, **more love**, and an **eco-friendly society**.
 
-### What I do not expect for 2023
+## What I do not expect for 2023
 
 The beta version of "Cyberpunk 2077", which is still in alpha version since almost three years...  
 If CD Projekt still think they can make an 'ok' game with what they done yet :)

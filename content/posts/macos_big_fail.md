@@ -1,12 +1,12 @@
-+++
-title = "Slow... for your security!"
-date = 2020-11-13T17:30:00+02:00
-draft = false
-categories = ["macOS", "apple"]
-tags = ["macOS", "apple"]
-description = "macOS Big Fail"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Slow... for your safety!"
+date: "2020-11-13T17:30:00+02:00"
+tags: ["macOS", "apple"]
+description: "macOS Big Fail"
+toc: true
+readTime: true
+---
 
 **EDIT (15th of November 2020)**  
 _I made a mistake in explaining that OCSP send in its request the hash binary, which is not correct, and I am sorry for that._  
@@ -37,9 +37,9 @@ Then, the situation gotten worse and worse as Apple decided to release, during t
 In parallel to this situation - and I don't know exactly if the following issues were related to the Big Sur update - the Apple Developers app kept crashing all the time, Apple Card and Apple Pay were under outage also, iMessage stopped as well as Apple Plans APIs and big services for the developers... and the final customers.  
 And this, as a domino game, leads to another fail...
 
-{{< figure src="/images/macos_big_fail_system_status_apps.png" title="Apple System Status during the outage, for apps and APIs [1]" >}}
+![](/images/macos_big_fail_system_status_apps.png "Apple System Status during the outage, for apps and APIs [1]")
 
-{{< figure src="/images/macos_big_fail_system_status.png" title="Apple System Status during the outage, for devs [1]" >}}
+![](/images/macos_big_fail_system_status.png "Apple System Status during the outage, for devs [1]")
 
 ## Slow by design
 

@@ -1,12 +1,12 @@
-+++
-title = "2023, in a nutshell"
-date = 2023-12-25T12:16:16+01:00
-description = "Hopefully I have a job..."
-draft = false
-categories = ["thoughts"]
-tags = ["thoughts"]
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2023-12-25T12:16:16+01:00"
+tags: ["thoughts"]
+title: "2023, in a nutshell"
+description: "Hopefully I have a job..."
+toc: false
+readTime: true
+---
 
 In my last year's blog post I wrote
 

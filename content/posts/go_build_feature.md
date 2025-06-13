@@ -1,15 +1,14 @@
-+++
-title = "The `go build` constraints"
-date = 2018-10-26T18:56:18+02:00
-description = "Or how to make your program OS agnostic... at compile time"
-draft = false
-toc = false
-categories = ["go", "software", "compilation"]
-tags = ["go", "feature", "os"]
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The `go build` constraints"
+date: 2018-10-26T18:56:18+02:00
+description: "Or how to make your program OS agnostic... at compile time"
+tags: ["go", "feature", "os"]
+toc: true
+readTime: true
+---
 
-{{< figure src="/images/go_build_constraint.png" title="Credits to @ashleymcnamara" >}}
+![](/images/go_build_constraint.png#small "Credits to @ashleymcnamara")
 
 Recently, I started to use [termui](https://github.com/gizak/termui) in order to build and run
 a modular dashboard on the terminal.

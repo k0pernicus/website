@@ -1,15 +1,14 @@
-+++
-title = "The 'intelligence' problem in 'artificial intelligence'"
-date = 2018-09-22T13:38:34+02:00
-description = "Too dumb for you."
-draft = false
-toc = false
-categories = ["thoughts", "artificial intelligence", "machine learning"]
-tags = ["machine learning", "artificial intelligence", "thoughts"]
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The 'intelligence' problem in 'artificial intelligence'"
+date: "2018-09-22T13:38:34+02:00"
+description: "Too dumb for you."
+tags: ["machine learning", "artificial intelligence", "thoughts"]
+toc: true
+readTime: true
+---
 
-{{< figure src="/images/intelligence_problem.png" title="XKCD - Artificial Intelligence" >}}
+![](/images/intelligence_problem.png#small "XKCD - Artificial Intelligence")
 
 The more I listen AI enthousiastic people, the more I can differenciate them in '10' very different groups:
 * people who think that AI is a synonym of "strong black magic";

@@ -1,14 +1,14 @@
-+++
-title = "A strange strings comparison problem, in Go"
-date = 2019-09-15T02:00:00+02:00
-draft = false
-categories = ["go"]
-description = "Let's talk about untyped string constants"
-tags = ["go", "typing", "implicit typing"]
-disqus = false
-+++
+---
+author: "Antonin"
+title: "A strange strings comparison problem, in Go"
+date: "2019-09-15T02:00:00+02:00"
+description: "Let's talk about untyped string constants"
+tags: ["go", "typing", "implicit typing"]
+toc: true
+readTime: true
+---
 
-{{< figure src="/images/go_implicit_conversions_1.png" title="Thanks to https://github.com/egonelbre/gophers for this sketch" >}}
+![](/images/go_implicit_conversions_1.png#small "Thanks to https://github.com/egonelbre/gophers for this sketch")
 
 Go is known for it's strong type system, and explicit type conversion.
 
@@ -163,7 +163,7 @@ const y string = "Hello"
 
 the comparison will fail at compile time, with the same compilation error message than the previous time(s).
 
-{{< figure src="/images/go_implicit_conversions_2.png" title="Thanks to https://github.com/egonelbre/gophers for this sketch" >}}
+![](/images/go_implicit_conversions_2.png#small "Thanks to https://github.com/egonelbre/gophers for this sketch")
 
 ## But... why do we need untyped string constants?
 

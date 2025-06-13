@@ -1,10 +1,16 @@
+---
+author: "Antonin"
+title: "Setup video and sound for WSL2"
+date: 2020-05-05T00:00:00+02:00
+tags: ["wsl", "wsl2", "linux", "windows"]
+description: "Linux on Windows... natively!"
+toc: true
+readTime: true
+---
+
 +++
-title = "Setup video and sound for WSL2"
-date = 2020-05-05T00:00:00+02:00
 draft = false
 categories = ["wsl2", "linux", "windows", "development", "hack"]
-tags = ["wsl", "wsl2", "linux", "windows"]
-description = "Linux on Windows... natively!"
 disqus = false
 +++
 
@@ -75,9 +81,9 @@ To setup the firewall, we need to configure the settings of your X server via th
 Type Windows key and search for "Windows Defender Settings" app.  
 Now, click on "Advanced settings" to get the full settings (1), and click on "Inbound rules" (2).
 
-{{< figure src="/images/windows_defender.png" title="Windows Defender Settings (1)" scale="50%" >}}
+![](/images/windows_defender.png#small "Windows Defender Settings (1)")
 
-{{< figure src="/images/inbound_rules.png" title="Inbound rules (2)" scale="50%" >}}
+![](/images/inbound_rules.png#small "Inbound rules (2)")
 
 You will see a big list of rules by running and non-running services, softwares, daemons, etc... and you will have to look for the name of your X server.
 
@@ -87,7 +93,7 @@ Once you have it, disable the rules for private profiles, and click on each publ
 This enables the communication with *everything*.  
 Now, click on "scope", and on "Remote IP address", click on "Add..." (3).  
 
-{{< figure src="/images/ip_set.png" title="Set WSL2 ip (3)" scale="50%" >}}
+![](/images/ip_set.png#small "Set WSL2 ip (3)")
 
 In the field "This IP address or subnet", paste the content of your `DISTRO_IP` variable, click the "OK" button, and apply the settings just after.
 
@@ -97,7 +103,7 @@ Once you made this, you just allowed the X server to communicate with your WSL2 
 
 Once you made the changes, open a distribution terminal, and launch `xeyes` (or anything X utility), and... tada!
 
-{{< figure src="/images/xeyes.png" title="xeyes on Windows!" scale="50%" >}}
+![](/images/xeyes.png#small "xeyes on Windows!")
 
 ### GUIs using docker
 

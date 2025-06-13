@@ -1,12 +1,12 @@
-+++
-title = "The end of a decade"
-date = 2020-12-31T10:09:00+01:00
-draft = false
-categories = ["thoughts"]
-tags = ["thoughts"]
-description = "Desires and desillusions of the past ten years"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The end of a decade"
+date: "2020-12-31T10:09:00+01:00"
+tags: ["thoughts"]
+description: "Desires and desillusions of the past ten years"
+toc: false
+readTime: true
+---
 
 2020 is nearly over, finally! And what an awful year...
 

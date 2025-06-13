@@ -1,12 +1,12 @@
-+++
-title = "Update on Frame engine (1/x)"
-date = 2022-08-17T19:20:00+02:00
-draft = false
-categories = ["programming", "swift", "swiftui", "apple metal", "game engine", "frame engine"]
-tags = ["programming", "swift", "swiftui", "apple metal", "game engine", "frame engine"]
-description = "\"Making games is hard, y'know\""
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Update on Frame engine (1/x)"
+date: 2022-08-17T19:20:00+02:00
+tags: ["programming", "swift", "swiftui", "apple metal", "game engine", "frame engine"]
+description: "\"Making games is hard, y'know\""
+toc: true
+readTime: true
+---
 
 Today I wanted to share my advancements on `Frame`, a game engine I began almost two years ago, for Apple devices 
 only.
@@ -25,7 +25,7 @@ I made, which "forced me" to step back from the project.
 So, during two week-ends and a few days of vacations, I get back on "`Frame`" to deliver a much better experience to
 the game developer (actually 'me'), more features, better performance, and... more platforms support!
 
-### Better code abstraction
+## Better code abstraction
 
 The first thing I made was to make my Swift code **simpler to understand** and **better to maintain**.  
 I removed a lot of duplicated things, introduced new code abstraction for better code management, make the `Scene` object
@@ -68,7 +68,7 @@ which is "only" 100 more lines in total, not bad at all!
 The C/C++ header is to use only one representation of data structures to pass in the shaders, 
 instead of duplicating the data structures each time.
 
-### The camera object
+## The camera object
 
 In the previous version of `Frame`, there was no proper camera - only a fixed "eye" at origin (0, 0, 0) that displays 
 everything around him with a limit of (1, 1, 1).
@@ -91,7 +91,7 @@ An example of the interaction in a very basic 3D scene that contains 5 different
 
 {{<youtube id="NkvK1In-568" autoplay="false">}}
 
-### 3D objects and textures support
+## 3D objects and textures support
 
 For 3D objects I can now render dynamically any `.obj` file for an abstract 3D object, as soon as it packaged in the app (which is not really useful for a game engine, I admit it).
 
@@ -126,9 +126,9 @@ Also, I implemented a first version of a `Light` object, to light up (and down) 
 the rendered scene.  
 There are still big improvements to make for the `Light` object but the basic version works quite well.
 
-![An example of the light bubble in a 3D scene](images/frame_advances_light_bubble.jpg)
+![An example of the light bubble in a 3D scene](/images/frame_advances_light_bubble.jpg#small)
 
-### The renderer
+## The renderer
 
 This can be part of the [first section]({{< relref "#anchor" >}} "Better code abstraction") but the scene and the 
 rendering code were really intricated and very difficult to maintain without touching of each other.  
@@ -139,7 +139,7 @@ The first version of the renderer was not great, and difficult to maintain.
 I also made some abstractions to avoid containing the renderer in the internal `Coordinator` object of the engine view,
 which should be a `NSViewRepresentable` derived object.
 
-### Better performances
+## Better performances
 
 Now, running the full engine, creating and rendering a simple 3D scene is taking 24MB of RAM **maximum** and, 
 of course, the rendering is done 60 frames per second.
@@ -150,7 +150,7 @@ There are new things to be done in order to increase the performances, but I am 
 The renderer takes, in average, 4ms in debug mode, so I can render this 
 basic scene at 250 FPS... in **debug mode**, and for each platform.
 
-### Natively on iOS, iPadOS, and macOS
+## Natively on iOS, iPadOS, and macOS
 
 The main drawback of my initial project was the support of multiple Apple platforms.  
 At the beginning I imagined `Frame` as a game engine to run on macOS, to developer games for macOS.
@@ -166,16 +166,16 @@ The devices I test all along the changes were:
 The debugger of the engine (the right part of the renderer) is not displayed correctly in the simulator, but it 
 renders well on real hardware.
 
-![Frame on macOS](images/frame_advances_plat_macOS.jpeg)
+![Frame on macOS](/images/frame_advances_plat_macOS.jpeg#small)
 
-![Frame on iPadOS](images/frame_advances_plat_iPadOS.jpeg)
+![Frame on iPadOS](/images/frame_advances_plat_iPadOS.jpeg#small)
 
-![Frame on iOS](images/frame_advances_plat_iOS.jpeg)
+![Frame on iOS](/images/frame_advances_plat_iOS.jpeg#small)
 
 [^1]: Using the same Swift / SwiftUI code, and one click (on _Xcode_) to build and deploy 
 on the platform of your choice.
 
-### The annoying part: Xcode
+## The annoying part: Xcode
 
 I use Apple devices as a developer since more than 12 years now, and I am noticing each year the decline of Apple 
 to develop appealing and stable tools for developers... like _Xcode_.
@@ -191,7 +191,7 @@ a buggy (developer) tool to develop a big project.
 I never thought I would say this but, concerning developer tools, Microsoft delivers much better developer tools for their 
 platform, like _Visual Studio 2019_ or _Visual Studio 2022_...
 
-### Conclusion and future
+## Conclusion and future
 
 I made big improvements over two weeks of (hard) work on `Frame`, and I am very happy with the changes for this 
 new version.  

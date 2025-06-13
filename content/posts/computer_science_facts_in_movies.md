@@ -1,13 +1,13 @@
-+++
-author = ""
-date = "2016-05-08T01:34:34-04:00"
-description = "Hack the TV!"
-tags = ["cinema", "movies", "computer science", "hack"]
-title = "Computer science facts, in movies"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Computer science facts, in movies"
+date: "2016-05-08T01:34:34-04:00"
+tags: ["cinema", "movies", "computer science", "hack"]
+description: "Hack the TV!"
+readTime: true
+---
 
-{{< figure src="/images/computer_science_facts_in_movies.png" height="500" >}}
+![](/images/computer_science_facts_in_movies.png#small)
 
 I love watching movies.
 I see almost four of five movies per week, without any subject restriction.
@@ -28,7 +28,7 @@ Most part of hackers are white hats, and do the things right (remember that, if 
 Today, in movies, hackers are representated as bad guys dressed in black, have some social problems, type some (bad) _C_/_C++_ code in an unknown interface (in maybe just 10 seconds - world record!) and drink a lot of soda.
 Movies talking about "hackers" as black hats are, to me, pretty bad movies (even if the visual and scenario is great).
 
-## **LOL**.
+## LOL.
 
 Very funny to see that movies screenwriters and directors thinks again with stereotypes, and don't make some researchs before...
 This is **zero sense**.

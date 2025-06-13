@@ -1,21 +1,21 @@
-+++
-author = "Antonin"
-date = 2022-05-11T09:00:00+02:00
-title = "About me"
-+++
+---
+date: "2025-06-13"
+title: "About me"
+toc: true
+readTime: true
+---
 
 I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), Senior Systems Software Architect at Thales Alenia Space.  
-You can contact me at [antonin[at]carette[dot]xyz](mailto:antonin@carette.xyz).
+You can contact me at [dev[at]carette[dot]xyz](mailto:dev@carette.xyz).
 
 The ideas shared here are mine alone and are not endorsed by my past or current employers.
 
-### Work experience
+## Work experience
 
-My resume, in [English](/CARETTE_EN_cv.pdf).
+My resume, in [English](/CARETTE_EN_cv.pdf).  
+My [MobyGames profile](https://www.mobygames.com/person/1368928/antonin-carette/).
 
-My [MobyGames profile](https://www.mobygames.com/person/1368928/antonin-carette/). 
-
-### Some interesting things to read / watch:
+## Interesting links
 
 * [Blog Article - Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html)
 * [Blog Article - Jeff Dean's Numbers Everyone Should Know](http://highscalability.com/numbers-everyone-should-know)

@@ -1,12 +1,12 @@
-+++
-title = "Conditional compilation and optin dependencies with Rust 'features'"
-date = 2021-03-12T00:45:00+02:00
-draft = false
-categories = ["rust", "programming"]
-tags = ["rust", "programming"]
-description = "The good, the bad, and the rusty"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Conditional compilation and optin dependencies with Rust 'features'"
+date: "2021-03-12T00:45:00+02:00"
+tags: ["rust", "programming"]
+description: "The good, the bad, and the rusty"
+toc: true
+readTime: true
+---
 
 I am a long time Rust user/fan - since 2014 - and I still have some troubles to follow the community in terms of RFCs, or accepted features to be included in an upcoming version of the language.
 Most of the time, checking for the new features, I have the feeling that I don't need to use them for my current & past projects... like a purist C / C++ developer who uses the strict minimum of the features to make something great.  

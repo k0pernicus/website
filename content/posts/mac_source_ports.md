@@ -1,12 +1,12 @@
-+++
-title = "Old games on m1 macs, natively"
-date = 2022-03-09T09:30:00+02:00
-draft = false
-categories = ["games", "apple silicon", "apple", "macintosh", "macOS", "retrogaming"]
-tags = ["games", "apple silicon", "apple", "macintosh", "macOS", "retrogaming"]
-description = "More games to play!"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Old games on m1 macs, natively"
+date: 2022-03-09T09:30:00+02:00
+tags: ["games", "apple silicon", "apple", "macintosh", "macOS", "retrogaming"]
+description: "More games to play!"
+toc: false
+readTime: true
+---
 
 Apple Silicon chips on the mac changed **everything**... except the gaming industry (yet).  
 Even though M1 chips (M1, , M1 Pro, and M1 Max) have been sold a lot (+25% this January compared to January 2021, which had already broke all the records for mac sales), a very few companies updated their actual games to run on M1 chips.
@@ -15,7 +15,7 @@ Even if a few solutions exist to run windows games on the M1 mac, running a wind
 
 I recently heard about a website that lists old games ports (think about a port as a "translation" of a game from a given architecture [x86, x86_64, powerpc, ...] to another) for mac, including arm as a target, and finally found the website: [https://macsourceports.com](https://macsourceports.com).
 
-{{< figure src="/images/mac_source_ports_2022.png" title="The home page of Mac Source Ports website" scale="50%" >}}
+![](/images/mac_source_ports_2022.png#small "The home page of Mac Source Ports website")
 
 Mac Source Ports games are **universal**, to run in both x86_64 architecture (basically an intel chip) and arm architecture (M1 chip).  
 Those ports are **signed** and **notarized**, so no issue running them on your mac and no awful pop-up asking to push the application into the bin.

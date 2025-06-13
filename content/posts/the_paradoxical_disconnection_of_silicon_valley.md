@@ -1,12 +1,12 @@
-+++
-title = "The Paradoxical Disconnection of Silicon Valley"
-date = 2025-02-02T16:00:00+02:00
-draft = false
-categories = ["ai", "thoughts"]
-tags = ["ai", "thoughts"]
-description = "Tech titans: Out of touch?"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The Paradoxical Disconnection of Silicon Valley"
+date: "2025-02-02T16:00:00+02:00"
+tags: ["ai", "thoughts"]
+description: "Tech titans: Out of touch?"
+toc: true
+readTime: true
+---
 
 A few months ago, a video of a private tech conference leaked online. The speaker was Eric Schmidt, discussing tech entrepreneurship, his past experiences, and how to make money today.
 

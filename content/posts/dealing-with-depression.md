@@ -1,12 +1,12 @@
-+++
-title = "Dealing everyday with anxiety, impostor syndrome, and mental depression"
-date = 2020-01-24T20:00:00+02:00
-draft = false
-categories = ["thoughts", "depression", "thoughts", "hack"]
-description = "Hidden 21th Pain Century"
-tags = ["hack", "thoughts", "depression", "thoughts"]
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Dealing everyday with anxiety, impostor syndrome, and mental depression"
+date: 2020-01-24T20:00:00+02:00
+description: "Hidden 21th Pain Century"
+tags: ["hack", "thoughts", "depression", "thoughts"]
+toc: true
+readTime: true
+---
 
 This is for sure the most intimate blog post I ever made on this website, and this blog post was absolutely necessary.
 

@@ -1,11 +1,12 @@
-+++
-author = "Antonin"
-date = "2017-06-24T08:02:35Z"
-title = "Is research innovation still belongs to Universities ?"
-description = ""
-tags = ["artificial intelligence", "university", "thoughts"]
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2017-06-24T08:02:35Z"
+title: "Is research innovation still belongs to Universities ?"
+description: ""
+tags: ["artificial intelligence", "university", "thoughts"]
+toc: false
+readTime: true
+---
 
 I started my PhD two months ago, on automated ways to classify documents, and I begin to be depressed...
 

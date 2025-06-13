@@ -1,13 +1,12 @@
-+++
-title = "The AI boredom"
-date = 2025-01-08T15:52:00+02:00
-draft = false
-categories = ["ai", "thoughts"]
-tags = ["ai"]
-description = "Unreliable at its finest"
-disqus = false
-+++
-
+---
+author: "Antonin"
+title: "The AI boredom"
+date: "2025-01-08T15:52:00+02:00"
+tags: ["ai"]
+description: "Unreliable at its finest"
+toc: false
+readTime: true
+---
 
 ## Summary by the author...
 ...to avoid wasting energy (and money) on summarization algorithms.  
@@ -49,7 +48,7 @@ The common theme here is "helping people".
 Yet, aside from basic task assistance for a small subset of users and some potential in medicine, AI has largely failed 
 at **every** other goal.
 
-#### There is no goal
+### There is no goal
 
 Instead, we get emoji-generating models on our phones, trained on massive, power-hungry datacenters, and draining our device's battery and memory.
 Tech companies seem directionless with AI. Even when they don’t need it, they embrace it for the sake of investments, much like crypto and NFTs before the AI hype era.  
@@ -62,11 +61,11 @@ low now as it was ten years now.
 As an example, this is the Google Search trend of "`Artificial Intelligence`" term, compared to "`NFT`" and "`Bitcoin`", from 2010 to 2024.
 For reproduction, please follow [this link](https://trends.google.com/trends/explore?date=2010-08-12%202025-01-08&q=NFT,bitcoin,artificial%20intelligence).
 
-{{< figure src="/images/ai_trend_2025.png" title="Y Axis: Percent, X Axis: Years." >}}
+![](/images/ai_trend_2025.png "Y Axis: Percent, X Axis: Years.")
 
 Can you see the bubble somewhere?
 
-#### The unreliability problems
+### The unreliability problems
 
 Why aren’t new AI models widely used for critical problems? I believe it’s because of their numerous **reliability** issues.
 It’s evident that unreliability plague recent AI models (and more generally speaking: software). 
@@ -78,7 +77,7 @@ Instead, Meta's solution - to this **very serious problem** - is [to rely on... 
 These unreliability issues raise new and complex questions about security and testing, which introduces long delays 
 from proposition to production (as an example, you still can't buy a self-driving car in early-2025). 
 
-#### Embrace innovation (not responsabilities)
+### Embrace innovation (not responsabilities)
 
 The question of responsibility for AI actions is critical, yet many companies seem indifferent to it.
 There have been countless examples of this on the internet in recent years, but two of them catched my attention recently:
@@ -90,13 +89,13 @@ about morality when courts, or bad buzz, force them to.
 Meta's solution for blocking harmful content, mentioned earlier, can actually be seen as a way to avoid legal or moral 
 responsibility if AI decisions go wrong ('not my fault!').
 
-#### The energy crisis
+### The energy crisis
 
 [The energy crisis is another significant problem](https://spectrum.ieee.org/ai-energy-consumption), 
 but I guess thinking about World impacts is way too much to ask for big companies CEOs and shareholders.
 Instead, CEOs are too much busy to think [how to replace experts with unreliable algorithms](https://futurism.com/sam-altman-replace-normal-people-ai).
 
-#### The wrong leaders
+### The wrong leaders
 
 Speaking of CEOs, let's discuss "AI figures"...  
 I have no double those persons are smart, but I question why they’re trusted to shape the future, and why their 
@@ -112,7 +111,7 @@ more performance (and reliability) than previous models despite increasing the m
 So, why should we continue to consider Sam Altman's thoughts while his predictions, especially about AGI, are gone wrong?
 And if people lose their jobs to AI, where will they find the $30/month for AI subscriptions?
 
-#### But, there is still hope
+### But, there is still hope
 
 So, all of this is what we call "The Future"? Is it really that fucked?  
 I hoped AI would eliminate all my everyday unpleasant tasks (dishes, make healthy meals, etc.) and allow me to focus 

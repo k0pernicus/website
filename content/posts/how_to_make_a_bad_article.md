@@ -1,12 +1,12 @@
-+++
-title = "How to publish a bad programming article"
-date = 2022-08-09T23:48:00+02:00
-draft = false
-categories = ["thoughts", "programming"]
-tags = ["thoughts", "programming"]
-description = "Short answer: laziness"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "How to publish a bad programming article"
+date: "2022-08-09T23:48:00+02:00"
+tags: ["thoughts", "programming"]
+description: "Short answer: laziness"
+toc: true
+readTime: true
+---
 
 ***[10th of August 2022 - Article Update]***  
 A friend of mine told me he would not used the word "instructions" talking 
@@ -18,7 +18,7 @@ After going to [famous orange website](https://news.ycombinator.com) I noticed a
 
 I was intrigued by the title at first but, after reading the first two paragraphs, I became mortified.
 
-### The issue with the article
+## The issue with the article
 
 C++ is a **programming language** that includes its own standard library, but can also work with the
  C standard library.
@@ -53,7 +53,7 @@ However, as you already noticed, those programs are valid C and C++ programs but
 **Note**: `std::endl` does a buffer flush before printing the message on the standard output compared to the C version, 
 so the code is not strictly equivalent to the C sample...
 
-### Let's redo the experiment
+## Let's redo the experiment
 
 If we want to compare both languages, we actually have to compare the binaries (size / memory performance / execution time / ...)
 of the same program compiled by different compilers: a C compiler, and a C++ compiler.  
@@ -112,7 +112,7 @@ And how many lines differ?
 
 376 lines are different between both binaries, which is 1.12% of the entire size of the cpp binary (not so much).
 
-### The issue with hyperfine
+## The issue with hyperfine
 
 `hyperfine` is a correct tool to make basic benchmarks but, as every software in the market, its performance and results
 depend of the conditions during the tests.
@@ -140,7 +140,7 @@ And, if comparison conditions are not the same, then you can't compare the resul
 
 Also, this is to demonstrate why you should run multiple times your benchmarks, with no software running in the background (especially for very little programs like those).
 
-### Running the real tests
+## Running the real tests
 
 Running the same both programs with the same conditions **only ten times**, this is the median of the observations:
 * C: **3.2ms**, standard deviation of **0.8ms**,
@@ -148,7 +148,7 @@ Running the same both programs with the same conditions **only ten times**, this
 
 **Same thing.**
 
-### Conclusion
+## Conclusion
 
 The author stated in its blog post:
 > What we are testing by running these programs is the overhead due to the choice of programming language.

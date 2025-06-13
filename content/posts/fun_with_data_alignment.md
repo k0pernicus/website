@@ -1,12 +1,12 @@
-+++
-title = "Fun with data alignment"
-date = 2022-11-18T21:30:00+02:00
-draft = false
-categories = ["programming"]
-tags = ["programming", "c", "c++"]
-description = "\"A lign orc rash!\""
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Fun with data alignment"
+date: "2022-11-18T21:30:00+02:00"
+tags: ["programming", "c", "c++"]
+description: "\"A lign orc rash!\""
+toc: true
+readTime: true
+---
 
 Whoever worked on system programming know that data alignment is very important to save memory space, 
 or avoid runtime crashes casting from a specific type to another.  
@@ -18,7 +18,7 @@ I wanted to discuss about data alignment in this technical article.
 * MacBook Air M1 (base model, 2020),
 * clang 14.0.0 (Apple version), with C++17 support.
 
-### The problem
+## The problem
 
 What is a data structure alignment?
 An alignment is an integer value representing **the number of bytes between successive addresses** at which a given struct, or object, can be allocated.  
@@ -47,9 +47,9 @@ struct Example {
 However, `Example` is not 5 bytes but... **8** bytes, which is 3 bytes more than our hypothesis.  
 To explain this behaviour, we will consecutively split the issue for five different structs and compare our expectations to the reality.
 
-### How to compute struct sizes ?
+## How to compute struct sizes ?
 
-#### DA01
+### DA01
 
 ```c++
 struct DA01 {
@@ -60,7 +60,7 @@ struct DA01 {
 For `DA01` the maximum size taken by one field is **1 byte**.
 We have 4 fields of 1 byte, which results to **4 bytes**. 
 
-#### DA02
+### DA02
 
 ```c++
 struct DA02 {
@@ -74,7 +74,7 @@ For `DA02` the maximum size taken by one field is **4 bytes** (`b`).
 We have a field of 1 byte and another of 4 bytes, which results to **8 bytes** as we have **3 padding bytes** to allocate
 memory for `a`.
 
-#### DA03
+### DA03
 
 ```c++
 struct DA03 {
@@ -90,7 +90,7 @@ For `DA03` the maximum size taken by one field is **4 bytes** (`b`).
 We have a field of 1 byte and the second one of 4 bytes, and then three other 1 byte fields.
 This results to **12 bytes** as we have **3 padding bytes** for `a`, and **1 padding byte** for `e`.
 
-#### DA04
+### DA04
 
 ```c++
 struct DA04 {
@@ -103,7 +103,7 @@ For `DA04` the maximum size taken by one field is **4 bytes** (`e`).
 We have 4 fields of 1 byte consecutively, which results to 4 bytes and **no padding** needed.
 This results to **8 bytes**.
 
-#### DA05
+### DA05
 
 ```c++
 struct DA05 {
@@ -117,7 +117,7 @@ Finally, for `DA05`, the maximum size taken by one field is **8 bytes** (`b`).
 We have a field of 1 byte at first, and we must insert paddings to get 8 bytes in total - so, a **padding of 7 bytes**.
 This results to **16 bytes** in total.
 
-#### Summary
+### Summary
 
 | Struct | Supposed size (in bytes) | Real size (in bytes) |
 |--------|--------------------------|----------------------|
@@ -129,7 +129,7 @@ This results to **16 bytes** in total.
 
 The difference of size between `DA03` and `DA04`, which contain the same fields but using a different order, should alerts you how data alignment could be important to manage and save some space in your programs.
 
-### The benchmarks
+## The benchmarks
 
 If you want to reproduce the results by yourself, this is the simple program I used:
 
@@ -225,13 +225,13 @@ following output:
 * DA05: expected 9 bytes, got 16 bytes (alignment of 8 byte(s))
 ```
 
-### Why does this matter ?
+## Why does this matter ?
 
 As you might know, the CPU accesses memory by a **single** memory _WORD_ at each CPU clock.  
 As long as the memory _WORD_ size is, at least, as large as the largest data type supported, 
 aligned accesses will **always** access a single memory _WORD_. This may not be true for misaligned data accesses.
 
-#### Performance
+### Performance
 
 As I explained before the system tries to grab a value, and parse it, from its data alignment information.  
 As an example, there is absolutely no issue for the following structure to parse it with a manual alignment of 1 byte.
@@ -260,7 +260,7 @@ of the data stored in it, and might results to undefined behaviors.
 
 Also, a correct alignment for your data structures may help very much the cache system.
 
-#### Undefined behaviors
+### Undefined behaviors
 
 In system programming you could consider to cast one type to another... and so a structure or a basic type.
 
@@ -274,9 +274,9 @@ This may happen very frequently when you try to copy a data structure from a mem
  another hardware / chip.
 This is frequent for systems with APU(s).
 
-### Alignment specification
+## Alignment specification
 
-#### In the code
+### In the code
 
 There are different ways to specify a data alignment for one, or all, data structure(s).
 
@@ -302,7 +302,7 @@ You can take a look at this documentation [here](https://learn.microsoft.com/en-
 This may be the principal method to use, as you may want to use a different data alignment per struct, and not for your 
 entire program.
 
-#### Via your compiler's options
+### Via your compiler's options
 
 Fortunately you can specify the alignment for each or all structs **in** the code, or via a compiler's setting.  
 On my local `clang` compiler the option to specify the maximum alignment data size is `-fpack-struct`.

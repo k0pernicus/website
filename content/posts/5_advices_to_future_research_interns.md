@@ -1,13 +1,14 @@
-+++
-author = "Antonin"
-date = "2016-08-10T10:36:51-04:00"
-description = "Welcome to the jungle"
-tags = ["research", "internship"]
-title = "Five advices to future research interns"
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2016-08-10T10:36:51-04:00"
+description: "Welcome to the jungle"
+tags: ["research", "internship"]
+title: "Five advices to future research interns"
+toc: true
+readTime: true
+---
 
-{{< figure src="/images/5_advices_to_future_research_interns_cover.jpg" height="500" >}}
+![](/images/5_advices_to_future_research_interns_cover.jpg)
 
 During undergraduate school, I completed 4 research internships and one research project.
 I learned a lot during those, especially how to reason in order to resolve a science problem.

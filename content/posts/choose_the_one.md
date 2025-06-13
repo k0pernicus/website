@@ -1,13 +1,14 @@
-+++
-author = "Antonin"
-date = "2016-03-30T01:40:25-04:00"
-description = "Brainfuck > ALL"
-tags = []
-title = "Choose the one"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Choose the one"
+date: "2016-03-30T01:40:25-04:00"
+description: "Brainfuck > ALL"
+tags: []
+toc: true
+readTime: true
+---
 
-{{< figure src="/images/choose_the_one_cover.jpeg" height="500" >}}
+![](/images/choose_the_one_cover.jpeg)
 
 ## Abstract
 

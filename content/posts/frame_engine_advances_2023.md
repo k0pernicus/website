@@ -1,12 +1,12 @@
-+++
-title = "Update on Frame engine (2/x)"
-date = 2023-08-13T15:00:00+02:00
-draft = false
-categories = ["programming", "swift", "swiftui", "apple metal", "game engine", "frame engine"]
-tags = ["programming", "swift", "swiftui", "apple metal", "game engine", "frame engine"]
-description = "\"Making games is hard, y'know\""
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Update on Frame engine (2/x)"
+date: "2023-08-13T15:00:00+02:00"
+tags: ["programming", "swift", "swiftui", "apple metal", "game engine", "frame engine"]
+description: "\"Making games is hard, y'know\""
+toc: true
+readTime: true
+---
 
 Almost one year ago [I posted my advances](/posts/frame_engine_advances_2022) on "`Frame`", a custom game engine wrote in Swift with SwiftUI, and Metal as a backend.
 
@@ -80,10 +80,10 @@ Metal is definitely a simpler API compared to Vulkan, just comparing the API com
 
 ## Screenshots
 
-![A lighting scene, rendered on iPadOS](images/frame_advances_scene_ipad.png)
+![A lighting scene, rendered on iPadOS](/images/frame_advances_scene_ipad.png#small)
 
 A lighting scene, rendered on iPadOS
 
-![A small part of the editor and its basic debug interface](images/frame_advances_scene_editor.png)
+![A small part of the editor and its basic debug interface](/images/frame_advances_scene_editor.png#small)
 
 A small part of the editor and its basic debug interface

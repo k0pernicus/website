@@ -1,12 +1,11 @@
-+++
-title = "Gaming on mac in 2023"
-date = 2023-12-26T12:00:00+01:00
-description = "A crossover love story"
-draft = false
-categories = ["games", "apple silicon", "apple", "macintosh", "macOS", "retrogaming"]
-tags = ["games", "apple silicon", "apple", "macintosh", "macOS", "retrogaming"]
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Gaming on mac in 2023"
+date: 2023-12-26T12:00:00+01:00
+description: "A crossover love story"
+tags: ["games", "apple silicon", "apple", "macintosh", "macOS", "retrogaming"]
+readTime: true
+---
 
 If you know me since a while you know my love for the macintosh and the Apple Silicon chips.
 Actually my main daily driver is an Macbook Air M2 and I have a Steam Deck next to me which I bought to play Windows games in an handheld format.

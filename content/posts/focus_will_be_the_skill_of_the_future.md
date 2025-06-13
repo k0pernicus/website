@@ -1,12 +1,12 @@
-+++
-title = "The skill of the future is not 'AI', but 'Focus'"
-date = 2025-02-11T16:00:00+02:00
-draft = false
-categories = ["ai", "thoughts"]
-tags = ["ai"]
-description = "Don't let AI erode your focus."
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The skill of the future is not 'AI', but 'Focus'"
+date: "2025-02-11T16:00:00+02:00"
+tags: ["ai"]
+description: "Don't let AI erode your focus."
+toc: false
+readTime: true
+---
 
 If you frequent Hacker News regurlarly, you have likely noticed the buzz around engineers using AI 
 (specifically Large Language Models, or LLMs) to tackle Computer Science problems.

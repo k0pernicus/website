@@ -1,10 +1,12 @@
-+++
-author = "k0pernicus"
-date = "2017-01-02T19:32:13+01:00"
-description = "current_year += 1;"
-title = "My new year's resolutions"
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2017-01-02T19:32:13+01:00"
+description: "current_year += 1;"
+title: "My new year's resolutions"
+tags: ["thoughts"]
+toc: false
+readTime: true
+---
 
 Happy new year !
 

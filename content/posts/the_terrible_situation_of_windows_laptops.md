@@ -1,12 +1,12 @@
-+++
-title = "The Terrible Situation of Windows (Professional) Laptops"
-date = 2024-05-19T17:25:00+02:00
-draft = false
-categories = ["thoughts", "windows", "hardware"]
-tags = ["thoughts", "windows", "hardware"]
-description = "Shut Up and (do not) Take my Money!"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The Terrible Situation of Windows (Professional) Laptops"
+date: "2024-05-19T17:25:00+02:00"
+tags: ["thoughts", "windows", "hardware"]
+description: "Shut Up and (do not) Take my Money!"
+toc: false
+readTime: true
+---
 
 Last Saturday, after logging on ~~Twitter~~ X, I came across two tweets from two great programmers I follow.
 

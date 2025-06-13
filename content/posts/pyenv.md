@@ -1,15 +1,14 @@
-+++
-title = "Pyenv"
-date = 2018-07-22T14:01:43+02:00
-description = "A brief overview of a good Python package manager"
-draft = false
-toc = false
-categories = ["programming"]
-tags = ["pyenv", "python", "developer", "tool", "package manager"]
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Pyenv"
+date: "2018-07-22T14:01:43+02:00"
+description: "A brief overview of a good Python package manager"
+tags: ["pyenv", "python", "developer", "tool", "package manager"]
+toc: true
+readTime: true
+---
 
-{{< figure src="/images/pyenv_cover.png" title="Credits to XKCD" height="500" >}}
+![](/images/pyenv_cover.png#small "Credits to XKCD")
 
 I write Python code each day, for personal and professional projects.
 As I am working on multiple Python projects, old and fresh ones, I have to use different Python versions for those projects, from `2.7.2` to `3.7.0`.

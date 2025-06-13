@@ -1,13 +1,12 @@
-+++
-title = "`go mod`: manage all your dep as a single unit"
-date = 2018-11-03T20:04:54+01:00
-description = "A simple example of how to use Go modules"
-draft = false
-toc = false
-categories = ["go", "module", "feature", "versioning"]
-tags = ["go", "module", "feature", "versioning"]
-disqus = false
-+++
+---
+author: "Antonin"
+title: "`go mod`: manage all your dep as a single unit"
+date: "2018-11-03T20:04:54+01:00"
+description: "A simple example of how to use Go modules"
+tags: ["go", "module", "feature", "versioning"]
+toc: true
+readTime: true
+---
 
 Generally, when you want to package your go app, you are creating different
 packages, inside the same project.

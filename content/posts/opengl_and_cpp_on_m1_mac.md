@@ -1,12 +1,12 @@
-+++
-title = "The case of OpenGL, in C++, on m1 mac"
-date = 2022-03-07T16:45:00+02:00
-draft = false
-categories = ["programming", "c++", "computer graphics", "opengl"]
-tags = ["programming", "c++", "computer graphics", "opengl"]
-description = "COMBO!"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The case of OpenGL, in C++, on m1 mac"
+date: "2022-03-07T16:45:00+02:00"
+tags: ["programming", "c++", "computer graphics", "opengl"]
+description: "COMBO!"
+toc: false
+readTime: true
+---
 
 Since a long time now I was interested in learning computer graphics and "do stuff" with computer graphics APIs.  
 I began to work on a very simple Game engine in Swift / Metal last year but I began to switch to a Windows machine
@@ -21,12 +21,12 @@ I am using modern C++ (C++17) for this project, mainly because I really like mod
 
 The goal of this (first?) part is to draw the famous RGB triangle, on the m1 mac, using C++17.
 
-###  Why not Metal with C++ ?
+##  Why not Metal with C++ ?
 
 Even if [Apple Metal](https://developer.apple.com/metal/) is great (actually, the API is pretty awesome), it is unfortunately specific to Apple products, and I wanted to work on something with platforms that **do not** include _only_ Apple.  
 Also, Metal is still a pretty young API and the documentation is not quite right sometimes...
 
-### And why not Vulkan?
+## And why not Vulkan?
 
 I am not opposed to Vulkan at all: performances are great, great ideas behind, and multiplatforms. 
 However, Vulkan is still young and is **way more** complicated to learn than learning OpenGL.  
@@ -647,7 +647,7 @@ and, do not forget the delete the buffer right after:
 
 Then, hit `cmake . && make`, launch the program and... tadaaaa!
 
-{{< figure src="/images/rgb_opengl_triangle_m1.png" title="An RGB triangle, built with OpenGL 4.1 on a macbook air m1" scale="50%" >}}
+![](/images/rgb_opengl_triangle_m1.png#small "An RGB triangle, built with OpenGL 4.1 on a macbook air m1")
 
 The full code is available at: [https://github.com/k0pernicus/opengl-explorer](https://github.com/k0pernicus/opengl-explorer), commit `0e311828fb34b272809432254307e8561e951335`:
 

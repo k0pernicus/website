@@ -1,12 +1,12 @@
-+++
-title = "The state of memory safety in Chromium"
-date = 2020-05-24T00:00:00+02:00
-draft = false
-categories = ["chromium", "memory safety", "memory bugs"]
-tags = ["chromium", "memory safety", "memory bugs"]
-description = "Close the tap"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The state of memory safety in Chromium"
+date: "2020-05-24T00:00:00+02:00"
+tags: ["chromium", "memory safety", "memory bugs"]
+description: "Close the tap"
+toc: false
+readTime: true
+---
 
 As [Microsoft last year](https://medium.com/tadaweb/security-by-design-a-brief-introduction-to-rust-378060e45038), the Chromium project team, responsible for the Chromium browser (which is the base of many open source and proprietary projects like Chrome, Brave, or Visual Studio Code), released a blog post last week about [memory bugs in Chromium](https://www.chromium.org/Home/chromium-security/memory-safety).
 
@@ -18,7 +18,7 @@ Based on those bugs, the observation is clear:
 > The Chromium project finds that around 70% of our serious security bugs are memory safety problems.  
 [...] Around 70% of our high severity security bugs are memory unsafety problems (that is, mistakes with C/C++ pointers). Half of those are use-after-free bugs.
 
-{{< figure src="/images/memory_bugs_chromium_chart.png" title="Chart about memory bugs on Chromium, from Chromium Project team" scale="50%" >}}
+![](/images/memory_bugs_chromium_chart.png#small "Chart about memory bugs on Chromium, from Chromium Project team")
 
 Despite the efforts of the project team to maintain *good* security architecture in managing [sandboxing](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md) and [site isolation](https://www.chromium.org/Home/chromium-security/site-isolation), to let those heavy components manage and contain the severity of memory bugs has both limitations and resources cost.  
 Also, even if those security components (or layers) stay necessary for daily usage, [this not enough to stop attackers and avoid attacks](https://googleprojectzero.blogspot.com/2020/02/escaping-chrome-sandbox-with-ridl.html).
@@ -35,7 +35,7 @@ Indeed, the team developed a plan to solve those issues, using two criterias:
 * time and resources costs needed to implement the improvement(s),
 * the real benefit of those costs, *basically the number and the quality of those improvement(s)*.
 
-{{< figure src="/images/memory_bugs_chromium_plan.png" title="Plan for next years memory bugs improvements for / in Chromium, from Chromium Project team" scale="50%" >}}
+![](/images/memory_bugs_chromium_plan.png#small "Plan for next years memory bugs improvements for / in Chromium, from Chromium Project team")
 
 This spectrum reflects the different strategies offered by the team, from left to right:
 

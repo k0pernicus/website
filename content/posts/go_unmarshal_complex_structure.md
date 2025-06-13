@@ -1,12 +1,12 @@
-+++
-title = "(Un)marshal complex JSON objects, in Go"
-date = 2019-04-16T20:03:16+02:00
-description = "Deep dive into the Hell of Unmarshalling..."
-draft = false
-categories = ["go"]
-tags = ["go", "marshalling", "unmarshalling", "json"]
-disqus = false
-+++
+---
+author: "Antonin"
+title: "(Un)marshal complex JSON objects, in Go"
+date: "2019-04-16T20:03:16+02:00"
+description: "Deep dive into the Hell of Unmarshalling..."
+tags: ["go", "marshalling", "unmarshalling", "json"]
+toc: true
+readTime: true
+---
 
 If you work a lot with APIs in Go, it may happen you have to work with complex
 JSON responses...

@@ -1,11 +1,12 @@
-+++
-author = "Antonin"
-date = "2016-09-25T01:37:28+02:00"
-description = "Stressed Out"
-tags = ["thoughts"]
-title = "I'm finished with you, Charlemagne!"
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2016-09-25T01:37:28+02:00"
+description: "Stressed Out"
+tags: ["thoughts"]
+title: "I'm finished with you, Charlemagne!"
+toc: false
+readTime: true
+---
 
 I'm wondering myself about the title of this post, 2 days ago... The first title I chosen was "_I'm finished school... and I'm scared!_", but it was not really geeky, and pretty pessimistic. The next I chosen was "_The Legend of k0pernicus: A New Scary Adventure_", which was pretty geeky but also pessimistic (again). Finally, "_I'm finished with you, Charlemagne!_" refers to the end of my school period and, depending on who is reading this post, might be felt as a pretty good thing, or just pretty scary thing...
 

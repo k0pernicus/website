@@ -1,13 +1,14 @@
-+++
-description = "Beware trolls..."
-author = "Antonin"
-tags = ["thoughts", "os", "programming", "macos", "gnu", "linux"]
-title = "Why I can't back to a GNU/Linux distribution again"
-date = "2016-09-10T03:20:49+02:00"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Why I can't back to a GNU/Linux distribution again"
+description: "Beware trolls..."
+tags: ["thoughts", "os", "programming", "macos", "gnu", "linux"]
+date: "2016-09-10T03:20:49+02:00"
+toc: false
+readTime: true
+---
 
-{{< figure src="/images/macbook_air_picture.jpeg" width="500" >}}
+![](/images/macbook_air_picture.jpeg)
 
 I'm a programmer.
 I use in daily life four main programming languages: _Python_, _Rust_, _Golang_ and _Ocaml_, and I'm very happy to use my Macbook to develop softwares everyday.
@@ -37,27 +38,27 @@ I think the evolution of those distributions shows that I was really fed-up usin
 
 Based on those 5 GNU/Linux distributions, I can formulate 5 reasons that I can't switch back to GNU/Linux.
 
-### A GNU/Linux distribution is not as simple to use as macOS (even ElementaryOS)
+## A GNU/Linux distribution is not as simple to use as macOS (even ElementaryOS)
 
 I know that Apple have dedicated teams to work on ergonomics things and the majority of desktop environment (and desktop applications) not, but I think it is really important to focus **now** on ergonomics and usability of the desktop environment and its applications.
 Now, GNU/Linux distributions have dedicated app stores (like the Ubuntu Store or the dedicated one for ElementaryOS since the 0.4 version) and some desktop environments like Gnome or KDE have improve themselves on usability, but there is a lot of work to do, especially on how to custom the desktop without console commands...
 To finish, it is **boring** to found the software of your dream wrote specifically for a devoted distribution like Ubuntu. Purely magical, this can mean that the software may not work on an other distribution because, for example, you can't compile this one due to your older GCC's version. For this example, if you don't practice for example C or C++ to port the software on your distribution or your personal distribution configuration, you just screwed.
 
-### Updates can kill easily your distribution
+## Updates can kill easily your distribution
 
 Trust me, it may complicated sometimes to get your original desktop and configuration after a simple `sudo apt-get update && sudo apt-get upgrade`...
 Using macOS, no problem (since OSX 10.9 for me)!
 
-### The hardware support on Linux can be poor according to the distribution
+## The hardware support on Linux can be poor according to the distribution
 
 Sometime, you have to wait weeks or months to run _perfectly_ your last GPU and networks cards, unless install the last Ubuntu version and try to do something <TROLL>with that unnecessarily complicated distribution</TROLL>.
 
-### GNU/Linux communities are not as great as the macOS community
+## GNU/Linux communities are not as great as the macOS community
 
 Ok, those can be great, according to the distribution.
 In fact, I found as much trolls as friends in GNU/Linux communities...
 
-### The common use to work with macOS softwares, and the material
+## The common use to work with macOS softwares, and the material
 
 I laugh hard when a GNU/Linux user trolls me because I bought an expensive computer with a dedicated operating system, especially when I know that his one cost 2 times more and has been visited by the after-sales service at least 3 times in one year. BITCH PLEASE!
 Ok, Apple computers are pretty expensive, and some people does not understand why the price is just high for a devoted-OS-computer.

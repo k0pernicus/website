@@ -1,56 +1,36 @@
 baseurl = "/"
-copyright = "Antonin Carette"
 languageCode = "en-us"
-theme = "ezhil"
-title = "Journey into a wild pointer"
-
-# Enable syntax highlighting
-pygmentsstyle = "solarized-dark"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
-# Number of posts to show in recent posts list
-[pagination]
-paginate = 7
-
-[author]
-	name = "Antonin Carette"
-
-[taxonomies]
-	tag = "tags"
-	category = "categories"
+theme = "typo"
+title = "A journey into a wild pointer"
 
 [params]
-    subtitle = ""
-    # Content types which are excluded from recent posts and archive page.
-    excludedTypes = []
-	disableDisqusTypes = ["page", "about", "projects_publications"]
-	featherIconsCDN = true
-    readingTime = true
-    readingTimeText = "Estimated reading time:"
-    dateFormat = "Mon, Jan 2, 2006"
-    favicon = "computer_favicon.png"
-    mode = "auto" # light & dark mode automatically
+    homeIntroTitle = ""
+    homeIntroContent = ""
+    colorPalette = "default"
+    faviconPath = "computer_favicon.png"
+    theme = "auto"
+    homeCollectionTitle = "Posts"
+    homeCollection = "posts"
+    showFooter = true
+    paginationSize = 15
+    listDateFormat = '2 Jan 2006'
+    listSummaries = false
 
-[[menu.main]]
+[[params.menu]]
     name = "Blog posts"
     url = "/posts"
-    weight = 1
 
-[[menu.main]]
+[[params.menu]]
     name = "Blog tags"
     url = "/tags"
-    weight = 2
 
-[[menu.main]]
+[[params.menu]]
     name = "Projects and Publications"
     url = "/projects_publications"
-    weight = 3
 
-[[menu.main]]
+[[params.menu]]
     name = "About me"
     url = "/about"
-    weight = 4
 
 [[params.social]]
     name = "Github"
@@ -67,5 +47,14 @@ paginate = 7
     icon = "rss"
     url = "/index.xml"
 
+[params.breadcrumbs]
+    enabled = true
+    showCurrentPage = true
+    home = "~"
+
 [permalinks]
     post = "/:year/:month/:day/:filename/"
+
+[markup]
+    [markup.highlight]
+        style = 'algol'

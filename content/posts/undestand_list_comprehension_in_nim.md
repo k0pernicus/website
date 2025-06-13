@@ -1,11 +1,12 @@
-+++
-author = "Antonin"
-date = "2016-05-19T01:32:21-04:00"
-description = "A post to better understand how to use list comprehension in Nim"
-tags = ["nim", "programming"]
-title = "List comprehension in Nim"
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2016-05-19T01:32:21-04:00"
+description: "A post to better understand how to use list comprehension in Nim"
+tags: ["nim", "programming"]
+title: "List comprehension in Nim"
+toc: false
+readTime: true
+---
 
 [Nim](http://nim-lang.org) is a powerful programming language, developed by a strong and skillful community.
 Since [my post on Twitter](https://twitter.com/k0pernicus/status/732358457567780864) 2 days ago, I wrote between 2 and 4 hours a day to program in Nim, and it's wonderful!

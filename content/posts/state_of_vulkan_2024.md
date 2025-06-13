@@ -1,12 +1,12 @@
-+++
-title = "The state of Vulkan apps in 2024"
-date = 2024-05-28T20:30:00+02:00
-draft = false
-categories = ["vulkan", "graphics", "graphics APIs", "graphics programming"]
-tags = ["vulkan", "graphics", "graphics APIs", "graphics programming"]
-description = "The Vulkan did not explode (yet?)"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The state of Vulkan apps in 2024"
+date: 2024-05-28T20:30:00+02:00
+tags: ["vulkan", "graphics", "graphics APIs", "graphics programming"]
+description: "The Vulkan did not explode (yet?)"
+toc: true
+readTime: true
+---
 
 **
 **UPDATE 2TH OF JUNE 2024**
@@ -55,7 +55,7 @@ Using those data I will draw three different graphs, and three different conclus
 As we can see below, the number of apps using Vulkan is decreasing since 2019, from 35 released apps in 2022 to 
 9 released apps in 2023.
 
-![](images/vk_released_games_per_year.png)
+![Number of released Vulkan games per year](/images/vk_released_games_per_year.png)
 
 Based on the Wikipedia page ["Game Engines that support Vulkan(API)"](https://en.wikipedia.org/wiki/Category:Game_engines_that_support_Vulkan_(API)) 11 game engines support Vulkan as a graphics API, most of them from very famous video game companies like [id Software](https://en.wikipedia.org/wiki/Id_Software), 
 [Valve](https://en.wikipedia.org/wiki/Valve_Corporation), and [Epic Games](https://en.wikipedia.org/wiki/Epic_Games).  
@@ -68,7 +68,7 @@ As a comparison:
 So, **twice** more **games** have been released with DirectX 12 than Vulkan in total, despite the fact that DirectX 12 is 
 exclusive to Windows.
 
-![](images/vk_released_games_per_year_vs_dx12.png)
+![Number of released Vulkan games compared to DX12](/images/vk_released_games_per_year_vs_dx12.png)
 
 As we can see here, the number of released Vulkan apps, compared to the number of released DirectX 12 apps, was really close
  until 2021.
@@ -84,7 +84,7 @@ the platform with most users on it: Windows.
 Based on the previous observation, we can ask ourselves whether the demand for cross-platform applications is high or negligeable, 
 and what are the main platforms that Vulkan apps developers are targeting.
 
-![](images/vk_released_games_per_platform.png)
+![Number of released Vulkan games per platform](/images/vk_released_games_per_platform.png)
 
 Windows and Linux are clear winners for Vulkan since 2015, with 41.7% of Vulkan apps for Windows, and 30.2% for Linux.
 The Android mobile platform is kind of a success compared to iOS, with 16.2% of Vulkan apps.  
@@ -93,14 +93,14 @@ Unlike Sony and Microsoft consoles, the Nintendo Switch officialy accepts Vulkan
 To finish, the major Vulkan apps targets **only one platform**, which may be a big disappointment 
 given Vulkan's promise to be multi-platforms.
 
-![](images/vk_released_games_with_platforms_support.png)
+![Number of released Vulkan games with platform support](/images/vk_released_games_with_platforms_support.png)
 
 ### Released Vulkan apps per API version
 
 Now, let's take a look at which API version developers are using: do they prefer the later APIs or do they stick with
 the first versions of Vulkan instead?
 
-![](images/vk_released_games_per_vk_version.png)
+![Number of released Vulkan games per Vulkan version](/images/vk_released_games_per_vk_version.png)
 
 This graph is not easy to interpret as there is a **large** number of Vulkan apps that does not expose publicly their 
 API version.  

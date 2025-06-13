@@ -1,12 +1,11 @@
-+++
-title = "Burned out"
-date = 2022-02-04T15:30:00+02:00
-draft = false
-categories = ["toxic", "thoughts"]
-tags = ["toxic", "thoughts"]
-description = "The web of shit"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Burned out"
+date: "2022-02-04T15:30:00+02:00"
+tags: ["toxic", "thoughts"]
+description: "The web of shit"
+readTime: true
+---
 
 ## Warning
 

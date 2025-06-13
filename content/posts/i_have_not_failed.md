@@ -1,11 +1,12 @@
-+++
-author = ""
-date = "2016-04-27T01:35:41-04:00"
-description = "Boys Don't Cry"
-tags = ["mozilla", "job interview"]
-title = "I have (not) failed"
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2016-04-27T01:35:41-04:00"
+description: "Boys Don't Cry"
+tags: ["mozilla", "job interview"]
+title: "I have (not) failed"
+toc: false
+readTime: true
+---
 
 In my personal life, I am very inquisitive, and I try to contribute a maximum to free and open source projects.
 Since I was 15 years old, I'm contributing to a few Mozilla's projects, like the Firefox web browser, the Firefox operating system or the Rust programming language.

@@ -1,12 +1,12 @@
-+++
-title = "AlphaFold 2: a new AI achievement"
-date = 2020-12-03T23:22:00+02:00
-draft = false
-categories = ["artificial intelligence", "bioinformatics"]
-tags = ["alphafold", "artificial intelligence", "machine learning"]
-description = "The end of a 50 years old grand challenge"
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2020-12-03T23:22:00+02:00"
+tags: ["alphafold", "artificial intelligence", "machine learning"]
+title: "AlphaFold 2: a new AI achievement"
+description: "The end of a 50 years old grand challenge"
+toc: true
+readTime: true
+---
 
 The last 30th of November, [DeepMind](https://deepmind.com/) published on their website 
 [an article about _AlphaFold_ 2](https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology), 
@@ -42,7 +42,7 @@ it could be more than **10^143 ways** to fold a single protein, which is way mor
 the possible moves in the game of Go (**10^360**).  
 Obviously, misfolding a protein has way more implications than making a wrong move in a Go game...
 
-{{< figure src="/images/3D_protein_structure.jpg" title="Ribbon diagram of the 3D structure of hemoglobin - credits to Azom.com[2]" >}}
+![](/images/3D_protein_structure.jpg#small "Ribbon diagram of the 3D structure of hemoglobin - credits to Azom.com[2]")
 
 Unfortunately, a protein can be modified, or **misfold**, and lead to strong issues in the organism...  
 Indeed, an accumulation of misfolded proteins - proteins that contain at least one structure modifications - 
@@ -64,7 +64,7 @@ Claimed by the Science community, the higher total score of _GDTs_, the better a
 The _CASP_ competitions for protein folding are performed since 1994, and new algorithms and results are evaluated
  by this community every two years.
 
-{{< figure src="/images/CASP_2020.png" title="CASP results, 30th November of 2020 - credits to DeepMind[3]" >}}
+![](/images/CASP_2020.png#small "CASP results, 30th November of 2020 - credits to DeepMind[3]")
 
 ## The AlphaFold breakthrough
 
@@ -81,7 +81,7 @@ _AlphaFold_ 1 has two steps in the process:
 2. a [Gradient descent optimisation](https://en.wikipedia.org/wiki/Gradient_descent) of folding the 3D structure to 
 match the distances between amino-acids in the protein.
 
-{{< figure src="/images/alphafold_1_struct.png" title="AlphaFold 1 architecture - credits to DeepMind[6]" >}}
+![](/images/alphafold_1_struct.png#small "AlphaFold 1 architecture - credits to DeepMind[6]")
 
 As stated by the team of _AlphaFold_, [the second version of the model may be **significantly** different from the first one](https://fortune.com/2020/12/01/lessons-from-deepminds-a-i-breakthrough-eye-on-ai/), as the first version has a (light) tendency of overfit the data.
 

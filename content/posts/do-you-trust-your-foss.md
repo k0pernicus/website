@@ -1,12 +1,12 @@
-+++
-title = "Do you trust your FOSS?"
-date = 2021-01-02T16:07:00+02:00
-draft = false
-categories = ["open source", "thoughts"]
-tags = ["open source", "thoughts"]
-description = "The chain of trust problem"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Do you trust your FOSS?"
+date: 2021-01-02T16:07:00+02:00
+tags: ["open source", "thoughts"]
+description: "The chain of trust problem"
+toc: false
+readTime: true
+---
 
 People tend to believe that free and open source softwares (_FOSS_) are **way more trustable** than proprietary softwares... and **I want to believe this idea**.
 

@@ -1,15 +1,16 @@
 ---
-author: ""
-date: 2017-10-01T09:09:11+02:00
+author: "Antonin"
+date: "2017-10-01T09:09:11+02:00"
 description: "In Rust, We Trust"
 tags: ["rust", "rustfest", "talks", "people", "community"]
 title: "Rustfest, an amazing experience"
-disqus: false
+toc: false
+readTime: true
 ---
 
 [RustFest](http://zurich.rustfest.eu/) is an European event to attempt general talks about Rust, and to meet people from the Rust community.
 
-{{< figure src="/images/rustfest-badge.jpg" title="Rustfest 2017 badge" >}}
+![](/images/rustfest-badge.jpg "Rustfest 2017 badge")
 
 *RustFest* is a two-days event.
 The first day is a series of talks from the Rust team (in Mozilla) and, predominantly, the Rust community about: the past and the future of the programming language, POCs, how to deal with macros, awesome new projects like 3D games, a gently introduction for developing 2D games (and how easy is it), why a company choosed to move their tech stack to Rust, etc.
@@ -31,7 +32,7 @@ Don't change, you're awesome 😘
 
 In Rust, We Trust 🤘
 
-{{< figure src="/images/rustfest.jpeg" title="Rustfest participants" >}}
+![](/images/rustfest.jpeg "Rustfest participants")
 
 _Credits for this picture: the RustFest team_
 [Original tweet here](https://twitter.com/RustFest/status/914073968235163648)

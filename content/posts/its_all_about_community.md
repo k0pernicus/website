@@ -1,10 +1,11 @@
 ---
-author: ""
+author: "Antonin"
 date: 2018-01-15T00:00:00+02:00
 tags: ["rust", "community"]
 title: "It's all about community"
 description: "People are everything"
-disqus: false
+toc: false
+readTime: true
 ---
 
 It's on - my first blog post for 2018!

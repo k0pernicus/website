@@ -1,13 +1,12 @@
-+++
-title = "2019, as minimalistic"
-date = 2019-02-20T10:11:49+01:00
-description = "So."
-draft = false
-toc = false
-categories = ["minimalistic", "technology"]
-tags = ["minimalistic", "thoughts", "technology"]
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2019-02-20T10:11:49+01:00"
+description: "So."
+tags: ["minimalistic", "thoughts", "technology"]
+title: "2019, as minimalistic"
+toc: false
+readTime: true
+---
 
 I became fed up with my electronic materials.
 

@@ -1,11 +1,12 @@
-+++
-author = ""
-date = "2016-04-24T01:37:32-04:00"
-description = "+100EXP"
-tags = ["free", "open source"]
-title = "Contributing in maintaining free and open source projects"
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2016-04-24T01:37:32-04:00"
+description: "+100EXP"
+tags: ["free", "open source"]
+title: "Contributing in maintaining free and open source projects"
+toc: true
+readTime: true
+---
 
 We, computer developers, have to develop our knowledge ourselves every day.
 This practice allows developers to keep ourselves informed about new technologies, new solutions and security issues.

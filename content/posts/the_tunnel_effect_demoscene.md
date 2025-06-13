@@ -1,12 +1,12 @@
-+++
-title = "The Tunnel Effect"
-date = 2023-08-28T22:45:00+02:00
-draft = false
-categories = ["programming", "swift", "apple metal", "demoscene", "shader", "frame engine"]
-tags = ["programming", "swift", "apple metal", "demoscene", "shader", "frame engine"]
-description = "Complex but Easy"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The Tunnel Effect"
+date: "2023-08-28T22:45:00+02:00"
+tags: ["programming", "swift", "apple metal", "demoscene", "shader", "frame engine"]
+description: "Complex but Easy"
+toc: false
+readTime: true
+---
 
 ## The demoscene
 
@@ -102,8 +102,8 @@ self.samplerState = device.makeSamplerState(descriptor: samplerDescriptor)
 
 Using this setting, and a few textures, you should get the following results:
 
-![First example of the Tunnel effect, rendered in the Frame Engine editor](images/tunnel_ex_0.png)
+![First example of the Tunnel effect, rendered in the Frame Engine editor](/images/tunnel_ex_0.png#small)
 
-![Second example of the Tunnel effect, rendered in the Frame Engine editor](images/tunnel_ex_1.png)
+![Second example of the Tunnel effect, rendered in the Frame Engine editor](/images/tunnel_ex_1.png#small)
 
 The animated version is available on YouTube: {{<youtube id="GqaDGEvxQ5E" autoplay="false">}}.

@@ -1,12 +1,12 @@
-+++
-title = "Know your threat model"
-date = 2020-12-31T18:00:00+01:00
-draft = false
-categories = ["security", "linux", "hardening"]
-tags = ["security", "linux", "hardening"]
-description = "Do not spread paranoia"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "Know your threat model"
+date: 2020-12-31T18:00:00+01:00
+tags: ["security", "linux", "hardening"]
+description: "Do not spread paranoia"
+toc: false
+readTime: true
+---
 
 Last week, a [very good blog post](https://madaidans-insecurities.github.io/guides/linux-hardening.html) has been published about how Linux **by default** is "not a secure operating system"... (kernel actually).  
 I agree with most of the ideas and methods explained in it, **but** this article has a big issue: the target is absolutely not defined.
@@ -38,7 +38,7 @@ People whose lives (or other persons lives) may be in danger.
 For those, I think this blog article can be a good guide to make their life a bit less "paranoid", and reduce at the same time the surface of attack of their device(s).  
 For those persons, I include that some good tools like Qubes or Tor could be a game changer for them, in their daily life.
 
-{{< figure src="/images/authorization.png" title="Comic from xkcd, 'Authorization' (https://xkcd.com/1200/)" >}}
+![](/images/authorization.png#small "Comic from xkcd, 'Authorization' (https://xkcd.com/1200/)")
 
 Whether you are part of the 1st, 2nd or 3rd category, even if you don't use a GNU/Linux distribution but another OS like Windows or macOS, the following (*basic*) rules can help you to manage your security:
 

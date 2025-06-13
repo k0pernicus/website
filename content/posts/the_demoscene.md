@@ -1,12 +1,12 @@
-+++
-title = "The demoscene"
-date = 2022-07-27T20:25:00+02:00
-draft = false
-categories = ["demoscene", "programming"]
-tags = ["demoscene", "programming"]
-description = "Beyond awesomeness"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The demoscene"
+date: "2022-07-27T20:25:00+02:00"
+tags: ["demoscene", "programming"]
+description: "Beyond awesomeness"
+toc: false
+readTime: true
+---
 
 Among all the computer subcultures that exist, the demoscene subculture is, without a doubt, the one that impresses me 
 the most.  
@@ -30,7 +30,7 @@ most of its competitors **as standard**.
 The Amiga 500 for the demoscene is not an exception: the demomaking computers family that were commonly used 
 were: the Commodore 64, the Atari ST and, of course, the Amiga family.
 
-[![The Amiga 500](https://upload.wikimedia.org/wikipedia/commons/c/c3/Amiga500_system.jpg)](https://commons.wikimedia.org/wiki/File:Amiga500_system.jpg)
+[![The Amiga 500](https://upload.wikimedia.org/wikipedia/commons/c/c3/Amiga500_system.jpg)](https://commons.wikimedia.org/wiki/File:Amiga500_system.jpg#small)
 
 Composed generally between 3 and 8 people, demomakers masterize their tools, and have so much creative minds to push the boundaries of programming, graphics, and music composition.
 
@@ -50,7 +50,7 @@ About video games, a lot of newly created studios come from demoscenes like [Sta
 [Remedy](https://www.remedygames.com), [Techland](https://techland.net), 
 [Guerilla Games](https://www.guerrilla-games.com), or [Housemarque](http://www.housemarque.com).
 
-### Links
+## Links
 
 * To know if there is a demoparty near your location: [https://www.demoparty.net](https://www.demoparty.net),
 * A web forum that lists great demos: [https://www.pouet.net](https://www.pouet.net).

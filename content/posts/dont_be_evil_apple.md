@@ -1,12 +1,12 @@
-+++
-title = "The disastrous communication from Apple to apps developers"
-date = 2024-01-30T17:30:00+02:00
-draft = false
-categories = ["thoughts", "apple"]
-tags = ["thoughts", "apple"]
-description = "Tim Apple and the investors: Part 1998"
-disqus = false
-+++
+---
+author: "Antonin"
+title: "The disastrous communication from Apple to apps developers"
+date: 2024-01-30T17:30:00+02:00
+tags: ["thoughts", "apple"]
+description: "Tim Apple and the investors: Part 1998"
+toc: false
+readTime: true
+---
 
 This blog post reflects my thoughts as a (European) software / apps developer, after the response of Apple about the EU's DMA.  
 My blog is followed by tech people, and I suppose everyone here knows the subject and just want to read my old thoughts about "what iz goin' on in da'techie world?!", but let me summarize briefly what happened recently in the latest episode of "Apple and the DMA"...

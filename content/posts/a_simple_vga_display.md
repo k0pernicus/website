@@ -1,11 +1,12 @@
-+++
-author = "Antonin"
-date = "2016-07-27T18:46:01-04:00"
-description = "Back to the 60's"
-tags = ["rust", "os", "arOS", "intermezzOS"]
-title = "Display text easily in arOS, using a Rust macro"
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2016-07-27T18:46:01-04:00"
+tags: ["rust", "os", "arOS", "intermezzOS"]
+title: "Display text easily in arOS, using a Rust macro"
+description: "Back to the 60's"
+toc: false
+readTime: true
+---
 
 In my previous post, I talk about my joy to program my first operating system from scratch (arOS), using assembly and rust code.
 

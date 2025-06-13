@@ -1,11 +1,12 @@
-+++
-author = "Antonin"
-date = "2016-09-01T13:41:55+02:00"
-description = "An approach to assess and improve the energy consumption of Android apps"
-tags = ["android", "internship", "hotpepper"]
-title = "The Hot-Pepper approach"
-disqus = false
-+++
+---
+author: "Antonin"
+date: "2016-09-01T13:41:55+02:00"
+description: "An approach to assess and improve the energy consumption of Android apps"
+tags: ["android", "internship", "hotpepper"]
+title: "The Hot-Pepper approach"
+toc: false
+readTime: true
+---
 
 _Note: These observations are reported in my research report [here](/m2-mocad-internship.pdf), and a research paper is currently drafted on this. The source code of this approach is visible in [Github](https://github.com/SOMCA)._
 
