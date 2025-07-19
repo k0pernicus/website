@@ -5,10 +5,13 @@ toc: true
 readTime: true
 ---
 
+***The ideas shared here are mine alone and are not endorsed by my past or current employers.***
+
 I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), Senior Systems Software Architect at Thales Alenia Space.  
 You can contact me at [dev[at]carette[dot]xyz](mailto:dev@carette.xyz).
 
-The ideas shared here are mine alone and are not endorsed by my past or current employers.
+***UPDATED JULY 20th 2025***  
+My public GPG key to contact me privately is available [here](/dev@carette.xyz.key).  
 
 ## Work experience
 
