@@ -6,7 +6,7 @@ title = "A journey into a wild pointer"
 [params]
     homeIntroTitle = ""
     homeIntroContent = ""
-    colorPalette = "default"
+    colorPalette = "eink"
     faviconPath = "computer_favicon.png"
     theme = "auto"
     homeCollectionTitle = "Posts"
