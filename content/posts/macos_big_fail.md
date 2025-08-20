@@ -9,8 +9,10 @@ readTime: true
 ---
 
 **EDIT (15th of November 2020)**  
-_I made a mistake in explaining that OCSP send in its request the hash binary, which is not correct, and I am sorry for that._  
-_Indeed, OCSP send out the hash of the app developer certificate, as explained [in this great blog post](https://blog.jacopo.io/en/post/apple-ocsp/)._
+I made a mistake in explaining that OCSP send in its request the hash binary, which is not correct, and I am sorry for that.  
+Indeed, OCSP send out the hash of the app developer certificate, as explained [in this great blog post](https://blog.jacopo.io/en/post/apple-ocsp/).
+
+--------------------------------------
 
 Apple released it's new mac operating system update - macOS Big Sur - yesterday night, a version that introduces a new design, closer to the iOS / iPadOS interface, new security updates (goodbye hacky kernel extensions...), new features & apps via Catalyst and... an optimized version of macOS for Apple Silicon devices.
 

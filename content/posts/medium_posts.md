@@ -8,15 +8,15 @@ toc: false
 readTime: true
 ---
 
-## Update 16th of February 2025
+** Update 16th of February 2025 **
 
-I just found out that two articles are pointing to 404 pages:
+Unfortunately two articles from DernierCri are now pointing to 404 pages:
 * "Déployer une app Phoenix sur Heroku, sans connaître Phoenix",
 * and "Cinq fausses idées sur le Big Data".
 
-The article about the Julia programming language is still available, but might be outdated.
+The article about the Julia programming language is still available, but it might be outdated.
 
-## Original article
+---------------------------
 
 I wrote a few articles for DernierCri about Big Data and Software Development [on Medium](https://blog.derniercri.io/@k0pernicus) in 2016 and 2018.
 

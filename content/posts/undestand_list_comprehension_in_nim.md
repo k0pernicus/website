@@ -23,53 +23,64 @@ To use list comprehensions in Nim, you have to import the module "future". This 
 
 A macro, in Nim, is a compile-time code transformation. So, instead of code some boring and excessive stuff to build a simple list, you just can use a flexible syntax for this. This macro takes as parameters an **expression** to build the list, and the type of elements in the list. For example, you can use this example to build a simple list of integers between 0 and 100:
 
-<pre>import future
+```nim
+import future
 let my_list = lc[x | (x <- 0..100), int]
-</pre>
+```
 
 In Python, you can program this thing using:
 
-<pre>my_list = [x for x in range(100)]
-</pre>
+```python
+my_list = [x for x in range(100)]
+```
 
 Ok, this example was not relevant and useful, because you can just build a generator of integers between 0 and 100 and not store all those data in a list... Let's try an other thing!
 
-<pre>let fst_integers = [0,1,2,3,4,5,6,7,8,9,10]
+```nim
+let fst_integers = [0,1,2,3,4,5,6,7,8,9,10]
 let snd_integers = [30,31,32,33,34,35,36,37,38,39,40]
-</pre>
+```
 
 Here, you have two arrays of integers: `fst_integers` and `snd_integers`, and you just want to multiply each integer of the first array with each element of the second array. It's really simple with Nim:
 
-<pre>import future
-let all = lc[(x * y) | (x <- fst_integers, y <- snd_integers), int].
-</pre>
+```nim
+import future
+let all = lc[(x * y) | (x <- fst_integers, y <- snd_integers), int]
+```
 
 This solution outputs the expected result: `@[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 60, 62, 64, ..., 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400]`. Now, we want to multiply each element which is a multiple of 2, from `fst_integers` and from `snd_integers`! To do that, we just have to  add a simple condition at our expression to get all multiple of 2:
 
-<pre>import future
+```nim
+import future
 let all = lc[(x * y) | (x <- fst_integers, y <- snd_integers, x mod 2 == 0 and y mod 2 == 0), int].
-</pre>
+```
 
 In the previous example, we selected interesting integers to resolve our problem: all multiple of 2\. To select a multiple of 2, we just have to know if this integer is divisible with 2! :-) We can also program the same list with:
 
-<pre>import future
-let all = lc[(x * y) | (x <- fst_integers, y <- snd_integers, x mod 2 == 0, y mod 2 == 0), int].</pre>
+```nim
+import future
+let all = lc[(x * y) | (x <- fst_integers, y <- snd_integers, x mod 2 == 0, y mod 2 == 0), int]
+```
 
 With Python:
 
-<pre>fst_integers = list(range(11))
+```python
+fst_integers = list(range(11))
 snd_integers = list(range(30,41))
-all = [x * y for x in fst_integers for y in snd_integers if (x % 2 == 0 and y % 2 == 0)]</pre>
+all = [x * y for x in fst_integers for y in snd_integers if (x % 2 == 0 and y % 2 == 0)]
+```
 
 Now, what if I gave you this piece of code and asked you the solution:
 
-<pre>import future
+```nim
+import future
 let d = lc[ (x,y,z) | (x <- 1..10, y <- 1..10, z <- 1..10), tuple[a,b,c:int] ]
-</pre>
+```
 
 ? This morning, a programer told me: "Easy, it's the same integer each time: (0,0,0), (1,1,1), (2,2,2), ...". NO! This code is similar to the previous one (using 2 lists). In Python, this is the implementation of the last list building:
 
-<pre>[(a,b,c) for a in range(10) for b in range(10) for c in range(10)]
-</pre>
+```python
+[(a,b,c) for a in range(10) for b in range(10) for c in range(10)]
+```
 
 and this code returns to you the set of each tuple existing from these initialized values! The conclusion? List comprehensions in Nim is similar to Python, and the difference is just a "syntax thing"...

@@ -50,14 +50,18 @@ If I want to implement this interface for `orc` and `elf`, I have to implement
 `name`, `getInformations`, `strike` and `stricken` methods for both `orc` and `elf`, which is like duplicating code (except for `getInformations` as our struct contains different
 usefull informations about a given Player class).
 
-A nice trick here is to consider that the redundant code may be included in an interface, via an embedded struct (the example has been reduced to make it more understandable):
+A nice trick here is to consider that the redundant code may be included in an interface, via an embedded struct (the example has been reduced to make it more understandable).
+
 ```go
+...
+
 type namer struct {
   name string
 }
 
-type get interface {
-  getName()
+// We implement only one method, for namer
+func (n *namer) getName() {
+  fmt.Println(n.name)
 }
 
 type orc struct {
@@ -74,11 +78,6 @@ type elf struct {
   vision int
 }
 
-// We implement only one method, for namer
-func (n *namer) getName() {
-  fmt.Println(return n.name)
-}
-
 func main() {
   o := orc{namer: namer{"Orc"}, age: 12, ...}
   e := elf{namer: namer{"Elf"}, age: 12, ...}
@@ -88,5 +87,6 @@ func main() {
 }
 ```
 
-Using this trick, we don't have to implement twice the same method for `orc` and `elf`, and create duplication code, which is pretty nice if you have to add 10 new structs, and a lot of new methods in the
-`get` interface ;)
+The go playground is available [here](https://go.dev/play/p/cC_vgHzJBYP).
+
+Using this trick, we don't have to implement twice the same method for `orc` and `elf`, and create duplication code, which is pretty nice if you have to add 10 new structs, and a lot of new methods in the `namer` interface.

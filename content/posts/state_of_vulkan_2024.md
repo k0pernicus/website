@@ -8,10 +8,10 @@ toc: true
 readTime: true
 ---
 
-**
-**UPDATE 2TH OF JUNE 2024**
-Thanks to Geoffrey for his help to fix weird sentences & remove typos :)
-**
+**UPDATE 2TH OF JUNE 2024**  
+Removed typos (thanks Geoffrey! :) )
+
+---------------------------
 
 As a game engine developer, I always ask myself the same question working on new features or bug fixes: "**What are the targets of my game engine?**".  
 Excluding the consoles, this question mostly implies which **operating system** - or platform - is targeted: Windows, 
