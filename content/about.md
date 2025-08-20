@@ -1,22 +1,27 @@
 ---
 date: "2025-06-13"
 title: "About me"
-toc: true
-readTime: true
+toc: false
+readTime: false
 ---
 
 ***The ideas shared here are mine alone and are not endorsed by my past or current employers.***
 
-I am **Antonin Carette**, aka [@k0pernicus](https://github.com/k0pernicus), Senior Software Architect and Developer.  
-You can contact me at [dev[at]carette[dot]xyz](mailto:dev@carette.xyz).
+I am a senior software engineer, living in Grand-Est region (France).  
 
-***UPDATED JULY 20th 2025***  
+## Contact 
+
+Feel free to send "hi" at [dev[at]carette[dot]xyz](mailto:dev@carette.xyz).  
 My public GPG key to contact me privately is available [here](/dev@carette.xyz.key).  
+
+Please notice I am **NOT** currently looking for a job.
 
 ## Work experience
 
 My resume, in [English](/CARETTE_EN_cv.pdf).  
 My [MobyGames profile](https://www.mobygames.com/person/1368928/antonin-carette/).
+
+Please take a look at [this page](/projects_publications) for my past projects and publications.
 
 ## Interesting links
 
