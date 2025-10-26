@@ -15,14 +15,11 @@ title = "A journey into a wild pointer"
     paginationSize = 15
     listDateFormat = '2 Jan 2006'
     listSummaries = false
+    showTags = false
 
 [[params.menu]]
     name = "Blog posts"
     url = "/posts"
-
-[[params.menu]]
-    name = "Blog tags"
-    url = "/tags"
 
 [[params.menu]]
     name = "Projects and Publications"
