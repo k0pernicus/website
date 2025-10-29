@@ -1,6 +1,6 @@
 ---
 date: "2025-06-13"
-title: "About me"
+title: "whoami"
 toc: false
 readTime: false
 ---

@@ -21,8 +21,7 @@
 {{ with site.Params.social }}
 <div class="social-icons">
     {{- range . }}
-    <a href="{{ trim .url " " | safeURL }}" target="_blank"
-        rel="noopener noreferrer me"
+    <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
         title="{{ (.title | default .name) | title }}">
         {{ partial "svg.html" . }}
     </a>
@@ -30,6 +29,12 @@
 </div>
 {{ end }}
 
+<h1>Hi.</h1>
+<p>
+    Please follow the links above to navigate.
+</p>
+
+<!--
 {{/* Collection Section */}}
 
 {{ if .Site.Params.homeCollection }}
@@ -57,5 +62,7 @@
 
     {{ end }}
 </div>
+
+-->
 
 {{ end }}

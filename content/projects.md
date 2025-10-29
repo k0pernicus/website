@@ -1,6 +1,6 @@
 ---
 date: "2025-06-13"
-title: "Projects and Publications"
+title: "projects" 
 toc: true
 readTime: true
 ---

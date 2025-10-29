@@ -9,7 +9,7 @@ title = "A journey into a wild pointer"
     colorPalette = "eink"
     faviconPath = "computer_favicon.png"
     theme = "auto"
-    homeCollectionTitle = "Posts"
+    homeCollectionTitle = "posts"
     homeCollection = "posts"
     showFooter = true
     paginationSize = 15
@@ -18,16 +18,16 @@ title = "A journey into a wild pointer"
     showTags = false
 
 [[params.menu]]
-    name = "Blog posts"
+    name = "posts"
     url = "/posts"
 
 [[params.menu]]
-    name = "Projects and Publications"
-    url = "/projects_publications"
+    name = "projects"
+    url = "/projects"
 
 [[params.menu]]
-    name = "About me"
-    url = "/about"
+    name = "whoami"
+    url = "/whoami"
 
 [[params.social]]
     name = "Github"
@@ -40,7 +40,7 @@ title = "A journey into a wild pointer"
     url = "https://linkedin.com/in/antonin-carette-792bbb82"
 
 [[params.social]]
-    name = "RSS"
+    name = "rss"
     icon = "rss"
     url = "/index.xml"
 
