@@ -6,20 +6,22 @@
 
 {{ $faviconPath := (.Site.Params.faviconPath | default "" | absURL) }}
 
-<link rel="icon" type="image/ico" href="{{ urls.JoinPath $faviconPath "favicon.ico" }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ urls.JoinPath $faviconPath "favicon-16x16.png" }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ urls.JoinPath $faviconPath "favicon-32x32.png" }}">
-<link rel="icon" type="image/png" sizes="192x192" href="{{ urls.JoinPath $faviconPath "android-chrome-192x192.png" }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ urls.JoinPath $faviconPath "apple-touch-icon.png" }}">
+{{ $faviconIco := urls.JoinPath $faviconPath "favicon.ico" }}
+{{ if fileExists $faviconIco }}
+<link rel="icon" type="image/ico" href="{{ urls.JoinPath $faviconPath " favicon.ico" }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ urls.JoinPath $faviconPath " android-chrome-192x192.png" }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ urls.JoinPath $faviconPath " apple-touch-icon.png" }}">
+{{ end }}
 
 {{ with .OutputFormats.Get "rss" -}}
-{{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+{{ printf `
+<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
 {{ end }}
 
 {{- if .IsHome -}}
-<meta name="description" content="{{ site.Params.Description }}"/>
+<meta name="description" content="{{ site.Params.Description }}" />
 {{- else -}}
-<meta name="description" content="{{ .Params.Description }}"/>
+<meta name="description" content="{{ .Params.Description }}" />
 {{- end }}
 
 {{ if .Param "fediverse" }}
@@ -34,7 +36,7 @@
     {{ end }}
 </title>
 
-<link rel="canonical" href="{{ .Permalink }}"/>
+<link rel="canonical" href="{{ .Permalink }}" />
 
 {{ template "partials/opengraph.html" . }}
 
