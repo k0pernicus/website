@@ -4,14 +4,11 @@
 {{/* Head start hook */}}
 {{ partial "functions/get_hook.html" (dict "hook" "head_start" "context" .) }}
 
-{{ $faviconPath := (.Site.Params.faviconPath | default "" | absURL) }}
+{{ $faviconPath := (.Site.Params.faviconPath) }}
 
-{{ $faviconIco := urls.JoinPath $faviconPath "favicon.ico" }}
-{{ if fileExists $faviconIco }}
-<link rel="icon" type="image/ico" href="{{ urls.JoinPath $faviconPath " favicon.ico" }}">
-<link rel="icon" type="image/png" sizes="192x192" href="{{ urls.JoinPath $faviconPath " android-chrome-192x192.png" }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ urls.JoinPath $faviconPath " apple-touch-icon.png" }}">
-{{ end }}
+<link rel="icon" type="image/ico" href="{{ urls.JoinPath $faviconPath "favicon.ico" }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ urls.JoinPath $faviconPath "android-chrome-192x192.png" }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ urls.JoinPath $faviconPath "apple-touch-icon.png" }}">
 
 {{ with .OutputFormats.Get "rss" -}}
 {{ printf `
