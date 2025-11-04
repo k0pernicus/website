@@ -1,6 +1,6 @@
 ---
 date: "2025-06-13"
-title: "blame"
+title: "Blame"
 toc: false
 readTime: false
 ---

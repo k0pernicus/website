@@ -18,15 +18,15 @@ title = "A journey into a wild pointer"
     showTags = false
 
 [[params.menu]]
-    name = "Posts"
+    name = "posts"
     url = "/posts"
 
 [[params.menu]]
-    name = "Projects"
+    name = "projects"
     url = "/projects"
 
 [[params.menu]]
-    name = "Blame"
+    name = "blame"
     url = "/blame"
 
 [[params.social]]
