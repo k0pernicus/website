@@ -1,6 +1,6 @@
 ---
 date: "2025-06-13"
-title: "whoami"
+title: "blame"
 toc: false
 readTime: false
 ---
