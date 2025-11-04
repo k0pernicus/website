@@ -4,7 +4,7 @@
 {{/* Head start hook */}}
 {{ partial "functions/get_hook.html" (dict "hook" "head_start" "context" .) }}
 
-{{ $faviconPath := (.Site.Params.faviconPath) }}
+{{ $faviconPath := (.Site.Params.faviconPath | absURL) }}
 
 <link rel="icon" type="image/ico" href="{{ urls.JoinPath $faviconPath "favicon.ico" }}">
 <link rel="icon" type="image/png" sizes="192x192" href="{{ urls.JoinPath $faviconPath "android-chrome-192x192.png" }}">
