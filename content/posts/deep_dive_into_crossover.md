@@ -63,10 +63,11 @@ Instead of using `eventfd` (which is a Linux kernel feature that macOS lacks and
 
 However, performance was initially terrible. Why? Because macOS tells the game: "Hey, I have a 3024x1964 screen!" and the game engine says "OK!" and tries to render a poorly optimized open-world at 4K.
 
-The fix was simple but counter-intuitive:
-1. Turn **OFF** "High Resolution Mode" in the bottle settings.
-2. Force the game to 1920x1080.
-3. Enable **Temporal Filtering** in the game engine (which essentially renders at lower res and upscales).
+The fix was simple:
+
+1. turn **OFF** "High Resolution Mode" in the bottle settings.
+2. force the game to 1920x1080.
+3. enable **Temporal Filtering** in the game engine (which essentially renders at lower res and upscales).
 
 Suddenly, the M3 Max was pushing stable frames. Unfortunately this "modern" approach completely breaks when you look backward.
 
@@ -92,9 +93,10 @@ The crash wasn't graphical. It was a missing dependency: `msvcirt.dll`.
 This library is the *old* C++ runtime (MSVC 6.0 era). Modern Windows (and by extension, modern Wine bottles) have largely deprecated or removed it. The game was calling functions in a dynamic library that simply didn't exist in the virtual `system32` folder.
 
 To fix this, I had to:
-1.  Manually create a `Windows XP` bottle (which is more likely to handle legacy calls).
-2.  Use the "Install Software" tool to inject `DirectX for Modern Games` (which oddly enough, contains legacy DX9 redistributables).
-3.  Manually patch the executable with the community-made "Killer App Mod" to strip the DRM that Wine couldn't parse.
+
+1. manually create a `Windows XP` bottle (which is more likely to handle legacy calls).
+2. use the "Install Software" tool to inject `DirectX for Modern Games` (which oddly enough, contains legacy DX9 redistributables).
+3. manually patch the executable with the community-made "Killer App Mod" to strip the DRM that Wine couldn't parse.
 
 *Tron 2.0* : **Partial success**.
 
@@ -105,8 +107,8 @@ Two have been tweaked to run great, and only one did not run at all (due to anti
 
 We often think of "emulation" (or translation, in Wine's case) as a linear performance cost. But on Apple Silicon, it's really about choosing the right translation path:
 
-* **"Retro" Games** (<= 2012): use `DXVK` as it handles the fixed-function pipeline of older DirectX versions way better than Apple's toolkit does,
-* **"Modern" Games** (> 2012): use `D3DMetal` and `MSync` provides the best combo here as it skips the Vulkan translation overhead.
+* **"retro" Games** (<= 2012): use `DXVK` as it handles the fixed-function pipeline of older DirectX versions way better than Apple's toolkit does,
+* **"modern" Games** (> 2012): use `D3DMetal` and `MSync` provides the best combo here as it skips the Vulkan translation overhead.
 
 However, we have to address the elephant in the room: **Proton on Linux**.
 
@@ -116,13 +118,13 @@ On Linux (x86_64), the CPU instructions are native. Proton only needs to transla
 
 On macOS (Apple Silicon), the translations are more expensive:
 
-1.  Rosetta 2 translates x86_64 instructions to ARM64 (CPU overhead),
-2.  CrossOver translates Windows API to macOS API (OS overhead),
-3.  D3DMetal translates DirectX to Metal (GPU overhead).
+1. Rosetta 2 translates x86_64 instructions to ARM64 (CPU overhead),
+2. CrossOver translates Windows API to macOS API (OS overhead),
+3. D3DMetal translates DirectX to Metal (GPU overhead).
 
 This triple-layer cake is technical wizardry, but it explains why my $400 Steam Deck can sometimes launch a game with fewer glitches (and slightly better performance) than an Apple Silicon MacBook Pro. Proton simply has less distance to cover, and Vulkan is a first-class citizen on Linux.
 
 I actually tried to run the same four games on another machine using CachyOS with Proton and... **all four games launched without any tweak**.
-That is a **major** success for Linux.
+That is a **major success** for the Linux community.
 
-Maybe MacBooks will come to launch and run natively Windows games. **If** Apple really wants to.
+Maybe MacBooks will come to launch and run natively Windows games (**if** Apple wants to).
