@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://carette.xyz/"
 languageCode = "en-us"
 theme = "typo"
 title = "A journey into a wild pointer"
