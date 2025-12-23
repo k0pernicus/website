@@ -7,8 +7,6 @@ I updated the base theme in order to enable the dark theme via CSS, and not JS, 
 
 To install and build:
 
-```
-git clone https://github.com/k0pernicus/website && \
-cd website && \
-git submodule update --init
+```sh
+git clone https://github.com/k0pernicus/website
 ```
