@@ -19,7 +19,7 @@ The reality was exactly the opposite, and it forced me to dig deep into how [Cro
 
 This article summarizes my investigations and challenges to play DirectX 12, Direct 11, and DirectX 9 games, using Crossover.
 
-## The Modern Stack: D3DMetal and MSync
+## The modern stack: D3DMetal and MSync
 
 ### There is no place for anti-cheats
 
@@ -59,7 +59,7 @@ Going back to Crossover, I enabled the D3DMetal flag it in the bottle settings, 
 For those who missed the memo, MSync replaces the old ESync/FSync methods. 
 Instead of using `eventfd` (which is a Linux kernel feature that macOS lacks and must emulate), MSync maps Wine synchronization primitives directly to macOS native `kqueue` or Mach semaphores. The result is a **much** lower CPU overhead.
 
-### The Retina Problem
+### The retina problem
 
 However, performance was initially terrible. Why? Because macOS tells the game: "Hey, I have a 3024x1964 screen!" and the game engine says "OK!" and tries to render a poorly optimized open-world at 4K.
 
@@ -73,7 +73,7 @@ Suddenly, the M3 Max was pushing stable frames. Unfortunately this "modern" appr
 
 *Watch Dogs 2* : **Success**.
 
-## The Legacy Stack: When D3DMetal fails
+## The legacy stack: when D3DMetal fails
 
 I then tried to run *Tron 2.0*, a monolith classic from 2003 running on the LithTech engine (DirectX 9).
 
@@ -100,7 +100,7 @@ To fix this, I had to:
 
 *Tron 2.0* : **Partial success**.
 
-## The Proton Reality Check
+## The proton reality check
 
 On the four games I wanted to test only **one** launched with great perfor,ances "out of the box“. 
 Two have been tweaked to run great, and only one did not run at all (due to anti-cheats software compatibility).
