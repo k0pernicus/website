@@ -18,7 +18,7 @@ However the engineers, and the users, on the ground see something else: [a decre
 
 Meanwhile, [these same CEOs see their incomes rise](https://fortune.com/2025/10/22/microsoft-ceo-satya-nadella-pay-hits-a-record-96-5-million-dollars-usd-he-got-a-22-percent-pay-rise-mirroring-the-4-trillion-tech-giants-skyrocketing-shares/).
 
-It makes me wonder. If a CEO's job is essentially a series of inputs and outputs—decisions in, stock price out—can we finally treat that role as a cost function?  
+It makes me wonder. If a CEO's job is essentially a series of inputs (decisions) and outputs (stock price and revenues), can we finally treat that role as a cost function?  
 If we can model a complex distributed system, why can't we model the person at the top?
 
 ## The formula of a leader
