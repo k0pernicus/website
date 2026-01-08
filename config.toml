@@ -50,7 +50,7 @@ title = "A journey into a wild pointer"
     home = "~"
 
 [permalinks]
-    post = "/:year/:month/:day/:filename/"
+    post = "/:year/:month/:day/:contentbasename/"
 
 [markup]
     [markup.highlight]
