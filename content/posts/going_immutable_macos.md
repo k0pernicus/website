@@ -194,7 +194,7 @@ If you want to move away from "hope-based" configuration:
 
 4. version **everything** and commit your `flake.lock`! It is the source of truth for your system.
 
-If you are curious I’ve documented my current setup, including my security hardening (firewall, stealth mode, etc.) here: [k0pernicus/dotfiles/nix-darwin-config](https://github.com/k0pernicus/dotfiles/tree/master/config/nix-darwin-config).
+If you are curious I’ve documented my current setup, including my security hardening (firewall, stealth mode, etc.) here: [k0pernicus/dotfiles/nix-darwin-config](https://github.com/k0pernicus/dotfiles/tree/master/system/nix-darwin-config).
 
 Keep in mind this configuration is personal, and might not be interesting (and certainly not useful) for everyone.
 
