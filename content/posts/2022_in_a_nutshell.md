@@ -47,9 +47,6 @@ If you want to do more with an IP, then you develop a sequel or a new game in th
 Also, after a few years using Go and Rust full-time, getting back to C++ 17/20 comforted me in the idea that the
  language evolves in a good direction.
 
-![Heidelberg 1693 credits screen](/images/heidelberg_credits.jpeg)
-[Heidelberg 1693](https://www.nintendo.fr/Jeux/Jeux-a-telecharger-sur-Nintendo-Switch/Heidelberg-1693-2300395.html) credits screen, on my own Nintendo Switch.
-
 ## What I expect for 2023
 
 In 2022 I helped to port the games ["OmegaBot"](https://www.youtube.com/watch?v=Rw2Uc3PFewA) and ["Shinorubi"](https://www.youtube.com/watch?v=UEBPGROX3UY) on consoles, which are great projects for very different reasons.  
