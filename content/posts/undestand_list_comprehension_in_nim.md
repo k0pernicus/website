@@ -19,7 +19,9 @@ This post is to give some examples of how to use list comprehensions in Nim, and
 
 To use list comprehensions in Nim, you have to import the module "future". This module contains some experimental features, which may soon be moved to core modules (Nim isn't stable for now). This is the syntax of the list comprehension macro:
 
-<pre><span class="Keyword">macro</span> <span class="Identifier">`[]`</span><span class="Other">(</span><span class="Identifier">lc</span><span class="Other">:</span> <span class="Identifier">ListComprehension</span><span class="Other">;</span> <span class="Identifier">comp</span><span class="Other">,</span> <span class="Identifier">typ</span><span class="Other">:</span> <span class="Identifier">expr</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">expr</span>.</pre>
+```nim
+macro `[]`(lc: ListComprehension; comp, typ: expr): expr
+```
 
 A macro, in Nim, is a compile-time code transformation. So, instead of code some boring and excessive stuff to build a simple list, you just can use a flexible syntax for this. This macro takes as parameters an **expression** to build the list, and the type of elements in the list. For example, you can use this example to build a simple list of integers between 0 and 100:
 

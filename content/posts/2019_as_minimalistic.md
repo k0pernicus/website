@@ -79,7 +79,7 @@ Instead, ask yourself the same question but based on your **current** needs: "Do
 
 ## The DIY magic
 
-Sometimes, you have the feeling that, if you want the <put something inside> of your dreams, you have to buy multiple things in order to assemble them,
+Sometimes, you have the feeling that, if you want the object of your dreams, you have to buy multiple things in order to assemble them,
 or to buy one unique **really expensive** thing to satisfy your desire.
 Also, you tend to forget that you can build it yourself...
 

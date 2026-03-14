@@ -41,7 +41,7 @@ Really, I am not aware with this recruitment process.
 A developer who learn by heart the documentation is not a good engineer - just imagine the trouble when the API code he used has been updated...
 Personaly, I think it's not a _failure_. I learned a lot of things about American job interviews, how they process in job applications and about myself.
 
-I know that I have to learn a lot of things today - it's ok, I'm just finishing my Master's degree and I know that I'm not very comfortable with some machine learning methods yet - and that **<TROLL>** Etherpad is a really great place to code **</TROLL>**.
+I know that I have to learn a lot of things today - it's ok, I'm just finishing my Master's degree and I know that I'm not very comfortable with some machine learning methods yet - and that **\<TROLL\>** Etherpad is a really great place to code **\</TROLL\>**.
 I'm aware with that, and it was a great and stressful experience.
 
 You know, before the last job interview, I was wondering myself about my future: to do a thesis or to work in Mozilla?

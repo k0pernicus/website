@@ -55,3 +55,5 @@ title = "A journey into a wild pointer"
 [markup]
     [markup.highlight]
         style = 'algol'
+    [markup.goldmark.renderer]
+        unsafe = true

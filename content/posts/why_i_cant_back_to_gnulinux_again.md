@@ -51,7 +51,7 @@ Using macOS, no problem (since OSX 10.9 for me)!
 
 ## The hardware support on Linux can be poor according to the distribution
 
-Sometime, you have to wait weeks or months to run _perfectly_ your last GPU and networks cards, unless install the last Ubuntu version and try to do something <TROLL>with that unnecessarily complicated distribution</TROLL>.
+Sometime, you have to wait weeks or months to run _perfectly_ your last GPU and networks cards, unless install the last Ubuntu version and try to do something \<TROLL\>with that unnecessarily complicated distribution\</TROLL\>.
 
 ## GNU/Linux communities are not as great as the macOS community
 
