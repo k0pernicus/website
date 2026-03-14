@@ -14,8 +14,6 @@ I am a senior software engineer, living in Grand-Est region (France).
 Feel free to send "hi" at [dev[at]carette[dot]xyz](mailto:dev@carette.xyz).  
 My public GPG key to contact me privately is available [here](/dev@carette.xyz.key).  
 
-Please notice I am **NOT** currently looking for a job.
-
 ## Work experience
 
 My resume, in [English](/CARETTE_EN_cv.pdf).  
