@@ -34,35 +34,47 @@
     Please follow the links above to navigate.
 </p>
 
-<!--
-{{/* Collection Section */}}
+<div class="hacker-quotes">
+    <div class="hacker-body">
+        <blockquote class="hacker-quote">
+            <p>
+                "I’d rather have questions that can’t be answered than answers that can’t be questioned.[...]<br />
+                The prize is the pleasure of finding the thing out, the kick in the discovery, the observation that
+                other
+                people use
+                it.<br />
+                Those are the real things."
+            </p>
+            <i>
+                <b>
+                    <p>Richard Feynman</p>
+                </b>
+            </i>
+        </blockquote>
+    </div>
 
-{{ if .Site.Params.homeCollection }}
-
-<div class="list-container">
-    {{ with .Site.Params.homeCollectionTitle}}
-    <h1> {{ . }} </h1>
-    {{ end }}
-
-    {{ $pages := where .Site.RegularPages "Section" .Site.Params.homeCollection
-    }}
-
-    {{ $paginationSize := 1}}
-    {{ if (gt .Site.Params.paginationSize 0) }}
-    {{ $paginationSize = .Site.Params.paginationSize }}
-    {{ end }}
-
-    {{ $paginator := .Paginate $pages $paginationSize }}
-
-    {{ range $index, $page := $paginator.Pages }}
-    {{ partial "post-entry.html" $page}}
-    {{ end }}
-
-    {{ partial "pagination-controls.html" $paginator}}
-
-    {{ end }}
+    <div class="hacker-body">
+        <blockquote class="hacker-quote">
+            <p>
+                “Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square
+                holes.
+                The ones who see things differently. They're not fond of rules. And they have no respect for the status
+                quo.
+                You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is
+                ignore
+                them. Because they change things. They push the human race forward. And while some may see them as the
+                crazy
+                ones, we see genius. Because the people who are crazy enough to think they can change the world, are the
+                ones who do.”
+            </p>
+            <i>
+                <b>
+                    <p>Steve Jobs</p>
+                </b>
+            </i>
+        </blockquote>
+    </div>
 </div>
 
--->
 
 {{ end }}
