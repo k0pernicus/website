@@ -27,6 +27,38 @@ FFIs are engineered to be completely invisible and automatic via the Clang impor
 
 This means you can directly drop your C headers in your project, the static C library, and use the power of the Swift Package Manager to tell the compiler how the project needs to be compiled.
 
+The code I want to run is very simple: initialize raylib, a window, and drawing a text.  
+This is the Swift code:
+
+```swift
+import CRaylib
+
+let screenWidth: Int32 = 800
+let screenHeight: Int32 = 600
+
+#if os(WASI)
+    InitWindow(screenWidth, screenHeight, "WASM C Raylib from Swift!")
+#else
+    InitWindow(screenWidth, screenHeight, "Raw C Raylib from Swift!")
+#endif
+SetTargetFPS(60)
+
+let rayWhite = Color(r: 245, g: 245, b: 245, a: 255)
+let darkGray = Color(r: 80, g: 80, b: 80, a: 255)
+
+while !WindowShouldClose() {
+
+    BeginDrawing()
+
+    ClearBackground(rayWhite)
+    DrawText("It's alive... ALIVE!", 300, 300, 20, darkGray)
+
+    EndDrawing()
+}
+
+CloseWindow()
+```
+
 ### The project structure
 
 Generally a Swift project is constituted like this:
