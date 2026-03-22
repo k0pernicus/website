@@ -99,10 +99,10 @@ let package = Package(
 )
 ```
 
-The interesting part of this demonstration is in how we define the `targets`.
+The interesting part of this demonstration is in how I defined the `targets`.
 This target is actually a **Clang target**, which specifies how the target is named, where is the source code, the header, and which libraries the linker needs to interact with for the linking step.
 
-In this case, we specify we have a target named `raylib` with the source code in a relative path (`Sources/CRaylib`) and different libraries depending on the OS (`macOS` or `WASM`).  
+In this case, I have a target named `raylib` with the source code in a relative path (`Sources/CRaylib`) and different libraries depending on the OS (`macOS` or `WASM`).  
 Very easy!
 
 ### Let's run it
@@ -123,7 +123,7 @@ Swift natively has **no idea** what a header (or `.h`) file is. As in, you canno
 To solve this, Apple built the Clang Importer into the Swift compiler.
 When the Swift compiler compiles Swift code, Swift silently boots up Clang, that parses the C headers, translates them into a format Swift can understand, organizes code into **modules**, and hands them back to Swift through.
 
-However we actually have to help to make the bridge between this Clang module and Swift, using a `module.modulemap` file in my CRaylib project:
+However I actually had to help the compiler making the bridge between this Clang module and Swift, using a `module.modulemap` file in my CRaylib project:
 
 ```clang
 module CRaylib [system] {
@@ -133,7 +133,7 @@ module CRaylib [system] {
 }
 ```
 
-Here, we have:
+Here, the `module.modulemap` can be explained like that:
 
 * `module CRaylib [system]`: "Create a brand new Swift module named CRaylib and treat it as a system library...",
 * `header "raylib.h"`: "Here is the exact file you need to parse to find the C functions and structs..."
@@ -227,13 +227,13 @@ Once I have my web files generated (`index.html`, `index.js` and `index.wasm`) I
 ![A WASM window using Swift and C Raylib](/images/swift_c_raylib_wasm_window.png#small)
 
 The hardest thing was using `emcc` to build our final WASM binary. 
-We did not even need to modify our source code or our project!
+I did not even need to modify our source code or our project!
 
 Mission completed!
 
 ## Conclusion
 
-Wrapping C for Swift was pretty straightforward, and we successfully spawned a window and draw some text using raylib.
-The usage of the Swift Package Manager is useful, and we did not need to dig so much into compiler issues, or build wrappers by hand, to actually interact with the C code of raylib.
+Wrapping C for Swift was pretty straightforward, and I successfully spawned a window and draw some text using raylib.
+The usage of the Swift Package Manager is useful, and I did not need to dig so much into compiler issues, or build wrappers by hand, to actually interact with the C code of raylib.
 
 So, if you want to build games using raylib, why not learn learning or use Swift for that?
