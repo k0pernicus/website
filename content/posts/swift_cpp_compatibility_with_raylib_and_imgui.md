@@ -118,8 +118,6 @@ let package = Package(
 )
 ```
 
-Cool, I think it works!
-
 ### Let's run it
 
 Ok, now, I have to change the Swift `main.swift` source to use our new dependencies.
@@ -163,7 +161,7 @@ CloseWindow()
 
 The code is very simple: I spawn a native window, setup using Raylib, and then draw some text and display the Dear ImGui demo window. 
 
-Now let's run that `make run-mac` command and...
+Let's run that `make run-mac` command and...
 
 ```sh
 [...]
@@ -183,16 +181,15 @@ make: *** [Makefile:17: run-mac] Error 1
 
 ### Upgrading the Clang Importer
 
-Swift uses a built-in tool called the [Clang Importer](https://www.swift.org/documentation/swift-compiler/) to import Clang modules and maps the **C or Objective-C** APIs for Swift. So, by default, this importer is strictly limited to C and Objective-C.
+What happened?
 
+Swift uses a built-in tool called the [Clang Importer](https://www.swift.org/documentation/swift-compiler/) to import Clang modules and maps the **C or Objective-C** APIs for Swift.
+This means that the Clang Importer looks at our files, sees C++ keywords like `namespace`, `class`, `template`, completely **panics**, and throws an error saying it doesn't recognize the syntax.
 This explains why I can easily compile C code, and not C++ code...
 
-Here, the Clang Importer looks at our files, sees C++ keywords like `namespace`, `class`, `template`, completely **panics**, and throws an error saying it doesn't recognize the syntax.
+Thankfully the Swift community managed to make the "translation" for C++ since Swift 5.9 using the `interoperabilityMode` Swift build setting. This setting [enables C++ interoperability for a given target](https://www.swift.org/documentation/cxx-interop/project-build-setup/).
 
-Thankfully the Swift community managed to make the "translation" for C++ since Swift 5.9 using the `interoperabilityMode` Swift build setting.  
-[This setting will enable C++ interoperability for a given target](https://www.swift.org/documentation/cxx-interop/project-build-setup/).
-
-This setting has to be enabled in our executable settings, so:
+`interoperabilityMode` has to be enabled in our executable settings, so:
 
 ```swift
 let package = Package(
@@ -210,7 +207,7 @@ let package = Package(
 )
 ```
 
-Does this work?
+Now, does this compile?
 
 ### Let's run it (2)
 
@@ -222,9 +219,10 @@ Mission completed!
 
 ## Conclusion
 
-Wrapping DearImgui for Swift, a C++ project, was as straightforward as wrapping Raylib.  
-The main subtle difference is simply enabling the C++ interoperability in the package configuration, which is just a matter of a simple Google search (or in your favorite LLM).
+Wrapping DearImgui for Swift, a C++ project, was as straightforward as wrapping Raylib.
+The subtle difference is simply enabling the C++ interoperability in the package configuration, which is just a matter of a simple Google search (or in your favorite LLM).
 
 I guess people will argue that this project is not complex or big enough to make assumptions.
 And they are right!
+
 But this is a start, and I don't plan on stopping there...
