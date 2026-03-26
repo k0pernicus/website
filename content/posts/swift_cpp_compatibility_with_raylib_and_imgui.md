@@ -1,6 +1,6 @@
 ---
 author: "Antonin"
-title: "Testing the Swift C++ compatibility with Raylib... and Dear ImGui"
+title: "Beyond C: Wrapping Dear ImGui in Swift with Zero FFI"
 date: 2026-03-26T14:00:00+01:00
 draft: true
 description: "Here we go again"
