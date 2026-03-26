@@ -226,3 +226,5 @@ I guess people will argue that this project is not complex or big enough to make
 And they are right!
 
 But this is a start, and I don't plan on stopping there...
+
+Link to the Github project: [https://github.com/k0pernicus/swift-c-raylib](https://github.com/k0pernicus/swift-c-raylib).
