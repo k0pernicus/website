@@ -1,8 +1,8 @@
 ---
 author: "Antonin"
 title: "Beyond C: Wrapping Dear ImGui in Swift with Zero FFI"
-date: 2026-03-26T14:00:00+01:00
-draft: true
+date: 2026-03-26T23:00:00+01:00
+draft: false
 description: "Here we go again"
 tags: ["swift", "c", "c++", "ABI", "raylib", "imgui", "dear imgui"]
 readTime: true
