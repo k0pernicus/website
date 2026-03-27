@@ -1,6 +1,6 @@
 ---
 author: "Antonin"
-title: "The Paradoxical Disconnection of Silicon Valley"
+title: "The paradoxical disconnection of Silicon Valley"
 date: "2025-02-02T16:00:00+02:00"
 tags: ["ai", "thoughts"]
 description: "Tech titans: Out of touch?"

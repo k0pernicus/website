@@ -2,7 +2,7 @@
 author: "Antonin"
 title: "Dealing everyday with anxiety, impostor syndrome, and mental depression"
 date: 2020-01-24T20:00:00+02:00
-description: "Hidden 21th Pain Century"
+description: "Hidden 21th pain century"
 tags: ["hack", "thoughts", "depression", "thoughts"]
 toc: true
 readTime: true

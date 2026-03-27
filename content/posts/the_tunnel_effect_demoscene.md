@@ -1,6 +1,6 @@
 ---
 author: "Antonin"
-title: "The Tunnel Effect"
+title: "The tunnel effect"
 date: "2023-08-28T22:45:00+02:00"
 tags: ["programming", "swift", "apple metal", "demoscene", "shader", "frame engine"]
 description: "Complex but Easy"
