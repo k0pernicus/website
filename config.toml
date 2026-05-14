@@ -35,6 +35,11 @@ title = "A journey into a wild pointer"
     url = "https://github.com/k0pernicus"
 
 [[params.social]]
+    name = "Forgejo"
+    icon = "forgejo"
+    url = "https://git.carette.xyz"
+
+[[params.social]]
     name = "LinkedIn"
     icon = "linkedin"
     url = "https://linkedin.com/in/antonin-carette-792bbb82"
