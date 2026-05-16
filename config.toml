@@ -1,5 +1,5 @@
 baseurl = "https://carette.xyz/"
-languageCode = "en-us"
+locale = "en-us"
 theme = "typo"
 title = "A journey into a wild pointer"
 
