@@ -5,17 +5,6 @@ toc: true
 readTime: true
 ---
 
-## Video games
-
-### Pico-8 cartridges
-
-{{< figure
-src="/pico_8/galactica.p8.png"
-alt="Galactica cartridge"
-title="Galactica, a (basic) space shooter"
-class="pico-8-cartridge"
->}}
-
 ## Books and research papers
 
 ### Books
@@ -47,6 +36,17 @@ class="pico-8-cartridge"
 * 2015, [Software development to study bugs propagation in Java applications](https://github.com/k0pernicus/PropL), [SequeL team](https://sequel.lille.inria.fr), INRIA (France)
 * 2015, [Serious-game development, based on distributed artificial intelligence](https://github.com/k0pernicus/PJI2015/blob/master/rapport/Rapport.pdf), [SMAC team](https://www.cristal.univ-lille.fr/?rubrique29&eid=17), CRIStAL (France)
 * 2014, [Software developer for the Vidjil project](https://github.com/k0pernicus/Rapport_Stage_S6/blob/master/Rapport_Stage_Vidjil_CARETTE_ANTONIN.pdf), [Bonsai team](http://www.lifl.fr/bonsai/), LIFL (France)
+
+## Video games
+
+### Pico-8 cartridges
+
+{{< figure
+src="/pico_8/galactica.p8.png"
+alt="Galactica cartridge"
+title="Galactica, a (basic) space shooter"
+class="pico-8-cartridge"
+>}}
 
 ## Personal projects
 
