@@ -8,7 +8,7 @@ tags: ["swift", "c", "c++", "ABI", "raylib", "imgui", "dear imgui"]
 readTime: true
 ---
 
-A few days ago I wrote and published a blog post about [how Swift interacts with C projects, using Raylib](/posts/swift_c_compatibility_with_raylib.md).
+A few days ago I wrote and published a blog post about [how Swift interacts with C projects, using Raylib](/posts/swift_c_compatibility_with_raylib).
 
 Somehow, much to my delight, it has been posted on multiple social networks, like Reddit and Hackernews.  
 Comments were interesting and constructive. 
@@ -26,7 +26,7 @@ This time I decided to integrate Dear ImGui into my (very simple) project.
 Raylib will be used to initialize the window, initialize the screen, clear it, and draw some text.
 ImGui, compared to Raylib, will be used to draw some GUI (used mainly for very useful menus to interact with the core of your program).
 
-[Last time](/posts/swift_c_compatibility_with_raylib.md) I discussed how easy integrating Raylib was: dropping the main header file of Raylib and its static library, and let the compiler and package manager do their magic.
+[Last time](/posts/swift_c_compatibility_with_raylib) I discussed how easy integrating Raylib was: dropping the main header file of Raylib and its static library, and let the compiler and package manager do their magic.
 
 But how is it different compared to Dear ImGui, a C++ project?
 
