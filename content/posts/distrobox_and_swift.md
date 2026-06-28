@@ -100,6 +100,9 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libxml2.so.16 /usr/lib/x86_64-linux-gnu/lib
 
 and it finally works!
 
+![A native linux game using Swift and Distrobox on NixOS](/images/distrobox_swift_test.png)
+
+
 ### The distrobox ini file
 
 To automate the setup, distrobox allows you to create an ini file that processes things automatically for you:
