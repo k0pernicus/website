@@ -19,7 +19,7 @@ My public GPG key to contact me privately is available [here](/dev@carette.xyz.k
 My resume, in [English](/CARETTE_EN_cv.pdf).  
 My [MobyGames profile](https://www.mobygames.com/person/1368928/antonin-carette/).
 
-Please take a look at [this page](/projects_publications) for my past projects and publications.
+Please take a look at [this page](/projects) for my past projects and publications.
 
 ## Interesting links
 
