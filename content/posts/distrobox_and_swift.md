@@ -120,7 +120,7 @@ pull=true
 ```
 
 `init_hooks` calls run as root to install system libraries and apply our symlink hack.
-`swiftly` is intentionally excluded here, as my ~/.local/share directory is shared with the NixOS host, meaning `swiftly` only needs to be installed once manually!
+`swiftly` is intentionally excluded here, as my `~/.local/share` directory is shared with the NixOS host, meaning `swiftly` only needs to be installed once manually!
 
 ## A praise to nixpkgs maintainers
 
